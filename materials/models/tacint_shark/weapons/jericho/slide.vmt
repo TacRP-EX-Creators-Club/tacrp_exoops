@@ -1,5 +1,6 @@
 VertexLitGeneric
 {
 	"$basetexture"	"models\tacint_shark\weapons\jericho\slide"
+	$nocull 1
 }
 

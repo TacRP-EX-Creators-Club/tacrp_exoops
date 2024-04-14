@@ -171,7 +171,7 @@ SWEP.FreeAimMaxAngle = 3.5
 SWEP.ClipSize = 16
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1.1
+SWEP.ReloadTimeMult = 1.2
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
 SWEP.DropMagazineImpact = "pistol"
@@ -281,7 +281,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         VMScale = 0.8,
         WMScale = 1.2,
-        Pos_VM = Vector(-1.7, 0, 5.4),
+        Pos_VM = Vector(-1.8, 0, 5.4),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 5, -3),
         Ang_WM = Angle(0, -90, 180),
