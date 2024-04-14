@@ -446,3 +446,110 @@ _workfolder/jericho/jericho.blend
 _workfolder/p99/p99_ref.smd
 _workfolder/p99/p99.blend1
 _workfolder/p99/p99.blend
+_workfolder/93r/v_vertec_reference_silencer.smd
+_workfolder/93r/v_vertec_reference_flashlight.smd
+_workfolder/93r/v_vertec_reference.smd
+_workfolder/93r/v_vertec_anims/waveover2.smd
+_workfolder/93r/v_vertec_anims/waveover.smd
+_workfolder/93r/v_vertec_anims/unholster.smd
+_workfolder/93r/v_vertec_anims/throw_grenade_underhand.smd
+_workfolder/93r/v_vertec_anims/throw_grenade.smd
+_workfolder/93r/v_vertec_anims/sshoot3.smd
+_workfolder/93r/v_vertec_anims/sshoot2.smd
+_workfolder/93r/v_vertec_anims/sshoot1.smd
+_workfolder/93r/v_vertec_anims/shoot3.smd
+_workfolder/93r/v_vertec_anims/shoot2.smd
+_workfolder/93r/v_vertec_anims/shoot1.smd
+_workfolder/93r/v_vertec_anims/sh_unholster.smd
+_workfolder/93r/v_vertec_anims/sh_sshoot3.smd
+_workfolder/93r/v_vertec_anims/sh_sshoot2.smd
+_workfolder/93r/v_vertec_anims/sh_sshoot1.smd
+_workfolder/93r/v_vertec_anims/sh_shoot3.smd
+_workfolder/93r/v_vertec_anims/sh_shoot2.smd
+_workfolder/93r/v_vertec_anims/sh_shoot1.smd
+_workfolder/93r/v_vertec_anims/sh_reload.smd
+_workfolder/93r/v_vertec_anims/sh_midreload.smd
+_workfolder/93r/v_vertec_anims/sh_lastshot.smd
+_workfolder/93r/v_vertec_anims/sh_idle.smd
+_workfolder/93r/v_vertec_anims/sh_holster.smd
+_workfolder/93r/v_vertec_anims/sh_dryfire.smd
+_workfolder/93r/v_vertec_anims/sh_draw.smd
+_workfolder/93r/v_vertec_anims/reload.smd
+_workfolder/93r/v_vertec_anims/range_attack2.smd
+_workfolder/93r/v_vertec_anims/range_attack.smd
+_workfolder/93r/v_vertec_anims/prime_grenade.smd
+_workfolder/93r/v_vertec_anims/midreload.smd
+_workfolder/93r/v_vertec_anims/melee2.smd
+_workfolder/93r/v_vertec_anims/melee1.smd
+_workfolder/93r/v_vertec_anims/lastshot.smd
+_workfolder/93r/v_vertec_anims/idle.smd
+_workfolder/93r/v_vertec_anims/holster.smd
+_workfolder/93r/v_vertec_anims/halt2.smd
+_workfolder/93r/v_vertec_anims/halt.smd
+_workfolder/93r/v_vertec_anims/dryfire.smd
+_workfolder/93r/v_vertec_anims/draw.smd
+_workfolder/93r/v_vertec_anims/blind_sshoot3.smd
+_workfolder/93r/v_vertec_anims/blind_sshoot2.smd
+_workfolder/93r/v_vertec_anims/blind_sshoot1.smd
+_workfolder/93r/v_vertec_anims/blind_shoot_lastshot.smd
+_workfolder/93r/v_vertec_anims/blind_shoot3.smd
+_workfolder/93r/v_vertec_anims/blind_shoot2.smd
+_workfolder/93r/v_vertec_anims/blind_shoot1.smd
+_workfolder/93r/v_vertec_anims/blind_idle.smd
+_workfolder/93r/v_vertec_anims/blind_dryfire.smd
+_workfolder/93r/v_vertec.qc
+_workfolder/93r/v_ak47_smoke_reference.smd
+_workfolder/93r/v_ak47_frag_reference.smd
+_workfolder/93r/v_ak47_flashbang_reference.smd
+_workfolder/93r/thing/render.jpg
+_workfolder/93r/thing/2. Textures/Ivory/materials/VGUI/gfx/VGUI/glock18.vtf
+_workfolder/93r/thing/2. Textures/Ivory/materials/models/weapons/v_models/glock/Charm.vtf
+_workfolder/93r/thing/2. Textures/Ivory/materials/models/weapons/v_models/glock/Charm.vmt
+_workfolder/93r/thing/2. Textures/Ivory/materials/models/weapons/v_models/glock/Body.vtf
+_workfolder/93r/thing/2. Textures/Ivory/materials/models/weapons/v_models/glock/Body.vmt
+_workfolder/93r/thing/2. Textures/Ebony/materials/VGUI/gfx/VGUI/glock18.vtf
+_workfolder/93r/thing/2. Textures/Ebony/materials/models/weapons/v_models/glock/Charm.vtf
+_workfolder/93r/thing/2. Textures/Ebony/materials/models/weapons/v_models/glock/Charm.vmt
+_workfolder/93r/thing/2. Textures/Ebony/materials/models/weapons/v_models/glock/Body.vtf
+_workfolder/93r/thing/2. Textures/Ebony/materials/models/weapons/v_models/glock/Body.vmt
+_workfolder/93r/thing/1. Required/sound/weapons/glock/slideforward.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/magready.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/magout.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/magin.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_spin.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_sliderelease.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_slidepull.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_slideforward.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_slideback.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_magout.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_magin.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_clipout.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock_clipin.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/glock18-1.wav
+_workfolder/93r/thing/1. Required/sound/weapons/glock/click.wav
+_workfolder/93r/thing/1. Required/scripts/weapons/glock.txt
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.xbox.vtx
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.vvd
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.sw.vtx
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.phy
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.mdl
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.dx90.vtx
+_workfolder/93r/thing/1. Required/models/weapons/w_pist_glock18.dx80.vtx
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.xbox.vtx
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.vvd
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.sw.vtx
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.mdl
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.dx90.vtx
+_workfolder/93r/thing/1. Required/models/weapons/v_pist_glock18.dx80.vtx
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/93r_v.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18.qc
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/glock_draw.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/glock_idle.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/glock_reload.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/shoot_1.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/shoot_burst01.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/shoot_burst02.smd
+_workfolder/93r/thing/1. Required/models/weapons/decompiled 0.74/v_pist_glock18_anims/shoot_last.smd
+_workfolder/93r/93r.blend
+_workfolder/93r/93r.blend1
+_workfolder/93r/93r_v.smd
