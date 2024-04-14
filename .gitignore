@@ -179,3 +179,264 @@ _workfolder/p7/v_p2000_reference.smd
 _workfolder/p7/v_p2000_reference_flashlight.smd
 _workfolder/p7/v_p2000_reference_silencer.smd
 _workfolder/sig_p210_2.zip
+_workfolder/p99/v_p2000_reference_silencer.smd
+_workfolder/p99/v_p2000_reference_flashlight.smd
+_workfolder/p99/v_p2000_reference.smd
+_workfolder/p99/v_p2000_anims/waveover2.smd
+_workfolder/p99/v_p2000_anims/waveover.smd
+_workfolder/p99/v_p2000_anims/unholster.smd
+_workfolder/p99/v_p2000_anims/throw_grenade_underhand.smd
+_workfolder/p99/v_p2000_anims/throw_grenade.smd
+_workfolder/p99/v_p2000_anims/sshoot3.smd
+_workfolder/p99/v_p2000_anims/sshoot2.smd
+_workfolder/p99/v_p2000_anims/sshoot1.smd
+_workfolder/p99/v_p2000_anims/shoot3.smd
+_workfolder/p99/v_p2000_anims/shoot2.smd
+_workfolder/p99/v_p2000_anims/shoot1.smd
+_workfolder/p99/v_p2000_anims/sh_unholster.smd
+_workfolder/p99/v_p2000_anims/sh_sshoot3.smd
+_workfolder/p99/v_p2000_anims/sh_sshoot2.smd
+_workfolder/p99/v_p2000_anims/sh_sshoot1.smd
+_workfolder/p99/v_p2000_anims/sh_shoot3.smd
+_workfolder/p99/v_p2000_anims/sh_shoot2.smd
+_workfolder/p99/v_p2000_anims/sh_shoot1.smd
+_workfolder/p99/v_p2000_anims/sh_reload.smd
+_workfolder/p99/v_p2000_anims/sh_midreload.smd
+_workfolder/p99/v_p2000_anims/sh_lastshot.smd
+_workfolder/p99/v_p2000_anims/sh_idle.smd
+_workfolder/p99/v_p2000_anims/sh_holster.smd
+_workfolder/p99/v_p2000_anims/sh_dryfire.smd
+_workfolder/p99/v_p2000_anims/sh_draw.smd
+_workfolder/p99/v_p2000_anims/reload.smd
+_workfolder/p99/v_p2000_anims/range_attack2.smd
+_workfolder/p99/v_p2000_anims/range_attack.smd
+_workfolder/p99/v_p2000_anims/prime_grenade.smd
+_workfolder/p99/v_p2000_anims/midreload.smd
+_workfolder/p99/v_p2000_anims/melee2.smd
+_workfolder/p99/v_p2000_anims/melee1.smd
+_workfolder/p99/v_p2000_anims/lastshot.smd
+_workfolder/p99/v_p2000_anims/idle.smd
+_workfolder/p99/v_p2000_anims/holster.smd
+_workfolder/p99/v_p2000_anims/halt2.smd
+_workfolder/p99/v_p2000_anims/halt.smd
+_workfolder/p99/v_p2000_anims/dryfire.smd
+_workfolder/p99/v_p2000_anims/draw.smd
+_workfolder/p99/v_p2000_anims/blind_sshoot3.smd
+_workfolder/p99/v_p2000_anims/blind_sshoot2.smd
+_workfolder/p99/v_p2000_anims/blind_sshoot1.smd
+_workfolder/p99/v_p2000_anims/blind_shoot_lastshot.smd
+_workfolder/p99/v_p2000_anims/blind_shoot3.smd
+_workfolder/p99/v_p2000_anims/blind_shoot2.smd
+_workfolder/p99/v_p2000_anims/blind_shoot1.smd
+_workfolder/p99/v_p2000_anims/blind_idle.smd
+_workfolder/p99/v_p2000_anims/blind_dryfire.smd
+_workfolder/p99/v_p2000.qc
+_workfolder/p99/v_ak47_smoke_reference.smd
+_workfolder/p99/v_ak47_frag_reference.smd
+_workfolder/p99/v_ak47_flashbang_reference.smd
+_workfolder/p99/thing/Screenshots/Render.jpg
+_workfolder/p99/thing/Screenshots/4.jpg
+_workfolder/p99/thing/Screenshots/3.jpg
+_workfolder/p99/thing/Screenshots/2.jpg
+_workfolder/p99/thing/Screenshots/1.jpg
+_workfolder/p99/thing/Credits - Readme.txt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/uspc_clipin.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/usp_silencer_on.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/usp_silencer_off.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/sliderelease.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/safety.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/magpouch.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/magout.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/uspc/magin1.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/usp/usp_unsil-1.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/sound/weapons/usp/usp1.wav
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/scripts/weapons/usp.txt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/scripts/game_sounds_manifest.txt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.vvd
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.phy
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.mdl
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp_silencer.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.vvd
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.phy
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.mdl
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/w_pist_usp.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.vvd
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.mdl
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/models/weapons/v_pist_usp.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/usp_sil.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/usp_sil.vmt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/mag_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/mag.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/mag.vmt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/lam_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/lam.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/lam.vmt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver.vmt
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_drab.vtf
+_workfolder/p99/thing/Counter Strike Source/Silver Slide/cstrike/materials/models/weapons/v_models/P99_2/gun.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/uspc_clipin.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/usp_silencer_on.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/usp_silencer_off.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/sliderelease.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/safety.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/magpouch.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/magout.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/uspc/magin1.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/usp/usp_unsil-1.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/sound/weapons/usp/usp1.wav
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/scripts/weapons/usp.txt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/scripts/game_sounds_manifest.txt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.vvd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.phy
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.mdl
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp_silencer.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.vvd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.phy
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.mdl
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/w_pist_usp.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.xbox.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.vvd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.sw.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.mdl
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.dx90.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/v_pist_usp.dx80.vtx
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/sup_on.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/sup_off.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shootlast_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shootlast_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot3_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot3_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot2_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot2_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot1_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/shoot1_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/reload_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/reload_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/idle_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/idle_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/draw_unsup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp_anims/draw_sup.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/v_pist_usp.qc
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/models/weapons/decompiled 0.74/chrisart_loom_uspt_ref.smd
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/usp_sil.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/usp_sil.vmt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/mag_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/mag.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/mag.vmt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/lam_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/lam.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/lam.vmt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver_norm.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver.vtf
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_silver.vmt
+_workfolder/p99/thing/Counter Strike Source/Black Slide/cstrike/materials/models/weapons/v_models/P99_2/gun_drab.vtf
+_workfolder/kannoe_-_p99.rar
+_workfolder/jericho_2.rar
+_workfolder/jericho/v_gsr1911_reference_silencer.smd
+_workfolder/jericho/v_gsr1911_reference_flashlight.smd
+_workfolder/jericho/v_gsr1911_reference.smd
+_workfolder/jericho/v_gsr1911_anims/waveover2.smd
+_workfolder/jericho/v_gsr1911_anims/waveover.smd
+_workfolder/jericho/v_gsr1911_anims/unholster.smd
+_workfolder/jericho/v_gsr1911_anims/throw_grenade_underhand.smd
+_workfolder/jericho/v_gsr1911_anims/throw_grenade.smd
+_workfolder/jericho/v_gsr1911_anims/sshoot3.smd
+_workfolder/jericho/v_gsr1911_anims/sshoot2.smd
+_workfolder/jericho/v_gsr1911_anims/sshoot1.smd
+_workfolder/jericho/v_gsr1911_anims/shoot3.smd
+_workfolder/jericho/v_gsr1911_anims/shoot2.smd
+_workfolder/jericho/v_gsr1911_anims/shoot1.smd
+_workfolder/jericho/v_gsr1911_anims/sh_unholster.smd
+_workfolder/jericho/v_gsr1911_anims/sh_sshoot3.smd
+_workfolder/jericho/v_gsr1911_anims/sh_sshoot2.smd
+_workfolder/jericho/v_gsr1911_anims/sh_sshoot1.smd
+_workfolder/jericho/v_gsr1911_anims/sh_shoot3.smd
+_workfolder/jericho/v_gsr1911_anims/sh_shoot2.smd
+_workfolder/jericho/v_gsr1911_anims/sh_shoot1.smd
+_workfolder/jericho/v_gsr1911_anims/sh_reload.smd
+_workfolder/jericho/v_gsr1911_anims/sh_midreload.smd
+_workfolder/jericho/v_gsr1911_anims/sh_lastshot.smd
+_workfolder/jericho/v_gsr1911_anims/sh_idle.smd
+_workfolder/jericho/v_gsr1911_anims/sh_holster.smd
+_workfolder/jericho/v_gsr1911_anims/sh_dryfire.smd
+_workfolder/jericho/v_gsr1911_anims/sh_draw.smd
+_workfolder/jericho/v_gsr1911_anims/reload.smd
+_workfolder/jericho/v_gsr1911_anims/range_attack2.smd
+_workfolder/jericho/v_gsr1911_anims/range_attack.smd
+_workfolder/jericho/v_gsr1911_anims/prime_grenade.smd
+_workfolder/jericho/v_gsr1911_anims/midreload.smd
+_workfolder/jericho/v_gsr1911_anims/melee2.smd
+_workfolder/jericho/v_gsr1911_anims/melee1.smd
+_workfolder/jericho/v_gsr1911_anims/lastshot.smd
+_workfolder/jericho/v_gsr1911_anims/idle.smd
+_workfolder/jericho/v_gsr1911_anims/holster.smd
+_workfolder/jericho/v_gsr1911_anims/halt.smd
+_workfolder/jericho/v_gsr1911_anims/hal2.smd
+_workfolder/jericho/v_gsr1911_anims/dryfire.smd
+_workfolder/jericho/v_gsr1911_anims/draw.smd
+_workfolder/jericho/v_gsr1911_anims/blind_sshoot3.smd
+_workfolder/jericho/v_gsr1911_anims/blind_sshoot2.smd
+_workfolder/jericho/v_gsr1911_anims/blind_sshoot1.smd
+_workfolder/jericho/v_gsr1911_anims/blind_shoot3.smd
+_workfolder/jericho/v_gsr1911_anims/blind_shoot2.smd
+_workfolder/jericho/v_gsr1911_anims/blind_shoot1.smd
+_workfolder/jericho/v_gsr1911_anims/blind_lastshot.smd
+_workfolder/jericho/v_gsr1911_anims/blind_idle.smd
+_workfolder/jericho/v_gsr1911_anims/blind_dryfire.smd
+_workfolder/jericho/v_gsr1911.qc
+_workfolder/jericho/v_ak47_smoke_reference.smd
+_workfolder/jericho/v_ak47_frag_reference.smd
+_workfolder/jericho/v_ak47_flashbang_reference.smd
+_workfolder/jericho/thing/sound/weapons/p228/p228_sliderelease.wav
+_workfolder/jericho/thing/sound/weapons/p228/p228_slidepull.wav
+_workfolder/jericho/thing/sound/weapons/p228/p228_slideback.wav
+_workfolder/jericho/thing/sound/weapons/p228/p228_clipout.wav
+_workfolder/jericho/thing/sound/weapons/p228/p228_clipin.wav
+_workfolder/jericho/thing/sound/weapons/p228/p228-1.wav
+_workfolder/jericho/thing/models/weapons/w_pist_p228.xbox.vtx
+_workfolder/jericho/thing/models/weapons/w_pist_p228.vvd
+_workfolder/jericho/thing/models/weapons/w_pist_p228.sw.vtx
+_workfolder/jericho/thing/models/weapons/w_pist_p228.phy
+_workfolder/jericho/thing/models/weapons/w_pist_p228.mdl
+_workfolder/jericho/thing/models/weapons/w_pist_p228.dx90.vtx
+_workfolder/jericho/thing/models/weapons/w_pist_p228.dx80.vtx
+_workfolder/jericho/thing/models/weapons/v_pist_p228.xbox.vtx
+_workfolder/jericho/thing/models/weapons/v_pist_p228.vvd
+_workfolder/jericho/thing/models/weapons/v_pist_p228.sw.vtx
+_workfolder/jericho/thing/models/weapons/v_pist_p228.mdl
+_workfolder/jericho/thing/models/weapons/v_pist_p228.dx90.vtx
+_workfolder/jericho/thing/models/weapons/v_pist_p228.dx80.vtx
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot_empty.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot3.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot2.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot1.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/reload.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/idle.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/draw.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/v_pist_p228.qc
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/p228_reference.smd
+_workfolder/jericho/thing/models/weapons/decompiled 0.74/hands_reference.smd
+_workfolder/jericho/thing/materials/models/weapons/w_models/Jericho/slide.vmt
+_workfolder/jericho/thing/materials/models/weapons/w_models/Jericho/frame.vmt
+_workfolder/jericho/thing/materials/models/weapons/v_models/Jericho/slide.vtf
+_workfolder/jericho/thing/materials/models/weapons/v_models/Jericho/slide.vmt
+_workfolder/jericho/thing/materials/models/weapons/v_models/Jericho/frame.vtf
+_workfolder/jericho/thing/materials/models/weapons/v_models/Jericho/frame.vmt
+_workfolder/beretta_93r.rar
