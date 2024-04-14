@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Compact handgun with a unique cocking lever mechanism. Excellent handling and a fast reload."
+SWEP.Description = "Compact handgun with excellent handling and a fast reload."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
