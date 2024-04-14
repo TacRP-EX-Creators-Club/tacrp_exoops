@@ -35,6 +35,7 @@ SWEP.BalanceStats = {
         Damage_Max = 22,
         Damage_Min = 12,
         RPM = 450,
+		ClipSize = 12,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -91,7 +92,7 @@ SWEP.ArmorBonus = 0.5
 SWEP.MuzzleVelocity = 11500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
