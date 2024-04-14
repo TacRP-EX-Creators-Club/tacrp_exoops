@@ -10,8 +10,8 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "All-around pistol with superior range."
-SWEP.Description_Quote = "\"Life is just a cycle of starts and stops.\""
+SWEP.Description = "Well-rounded pistol with a rapid rate of fire."
+SWEP.Description_Quote = "\"Hunt them down and kill them off, one by one.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Walther"
@@ -32,9 +32,9 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 27,
+        Damage_Max = 22,
         Damage_Min = 12,
-        RPM = 450,
+        RPM = 525,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
@@ -52,7 +52,7 @@ SWEP.BalanceStats = {
         Damage_Min = 10,
         Range_Min = 500,
         Range_Max = 2000,
-        RPM = 420,
+        RPM = 475,
         RPMMultSemi = 1,
 
         RecoilResetInstant = true,
@@ -74,19 +74,13 @@ SWEP.BalanceStats = {
 
         ReloadTimeMult = 1.2 * 1.25,
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 4,
-        RPM = 500,
-        RecoilKick = 4,
-    },
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 25
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 10
 SWEP.Range_Min = 400
 SWEP.Range_Max = 2000
@@ -111,7 +105,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 400
+SWEP.RPM = 500
 SWEP.RPMMultSemi = 0.8
 
 SWEP.Spread = 0.0055

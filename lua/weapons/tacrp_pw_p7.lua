@@ -12,6 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Compact handgun with excellent handling and a fast reload."
+SWEP.Description_Quote = "\"Who said we were terrorists?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
