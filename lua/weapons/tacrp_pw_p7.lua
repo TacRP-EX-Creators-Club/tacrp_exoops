@@ -21,6 +21,8 @@ SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: Lama
 Texture: The_Tub
+Sounds: Optical Snare & One Shot
+Animations: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_hkp7.mdl"
@@ -187,8 +189,9 @@ SWEP.DropMagazineImpact = "pistol"
 // sounds
 
 local path = "tacrp/weapons/p2000/p2000_"
+local path1 = "/weapons/tacint_shark/hkp7/hkp7_"
 
-SWEP.Sound_Shoot = "^" .. path .. "fire-1.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
@@ -336,9 +339,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_p2000.clip_in", path .. "clip_in.wav")
-addsound("tacint_p2000.clip_in-mid", path .. "clip_in-mid.wav")
-addsound("tacint_p2000.clip_out", path .. "clip_out.wav")
-addsound("tacint_p2000.slide_action", path .. "slide_action.wav")
-addsound("tacint_p2000.slide_shut", path .. "slide_shut.wav")
-addsound("tacint_p2000.cock_hammer", path .. "cockhammer.wav")
+addsound("tacint_hkp7.clip_in", path1 .. "magin.wav")
+addsound("tacint_hkp7.clip_in-mid", path1 .. "magin.wav")
+addsound("tacint_hkp7.clip_out", path1 .. "magout.wav")
+addsound("tacint_hkp7.slide_action", path .. "slide_action.wav")
+addsound("tacint_hkp7.slide_shut", path1 .. "slide.wav")
+addsound("tacint_hkp7.cock_hammer", path .. "cockhammer.wav")
