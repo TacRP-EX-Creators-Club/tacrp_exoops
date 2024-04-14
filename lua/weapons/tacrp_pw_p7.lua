@@ -36,7 +36,6 @@ SWEP.BalanceStats = {
         Damage_Max = 22,
         Damage_Min = 12,
         RPM = 450,
-		ClipSize = 12,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
