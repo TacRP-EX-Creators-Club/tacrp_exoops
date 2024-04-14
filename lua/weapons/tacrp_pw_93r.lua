@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Machine Pistol"
 
-SWEP.Description = "Premium burst-fire pistol with all-around excellent performance."
+SWEP.Description = "Premium burst-fire pistol with all-around excellent performance and non-runaway burst."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
@@ -29,7 +29,6 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 25,
         Damage_Min = 14,
-        RPM = 420,
         ArmorPenetration = 0.6,
 
         BodyDamageMultipliers = {
@@ -48,8 +47,9 @@ SWEP.BalanceStats = {
         Damage_Min = 10,
         Range_Min = 600,
         Range_Max = 1800,
-        RPM = 280,
-        RPMMultSemi = 1,
+        RPM = 850,
+        RPMMultSemi = 0.5,
+		PostBurstDelay = 0.3,
 
         RecoilSpreadPenalty = 0.0025,
         RecoilFirstShotMult = 0.75,
@@ -66,27 +66,6 @@ SWEP.BalanceStats = {
         },
 
         ReloadTimeMult = 1.15 * 1.25,
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 4,
-        RPM = 420,
-
-        HipFireSpreadPenalty = 0.015,
-
-        BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2,
-            [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1,
-            [HITGROUP_LEFTARM] = 1,
-            [HITGROUP_RIGHTARM] = 1,
-            [HITGROUP_LEFTLEG] = 0.75,
-            [HITGROUP_RIGHTLEG] = 0.75,
-            [HITGROUP_GEAR] = 0.9
-        },
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilSpreadPenalty = 0.002
     }
 }
 
@@ -124,6 +103,7 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 1100
 SWEP.RPMMultSemi = 0.4
+SWEP.PostBurstDelay = 0.3
 
 SWEP.Spread = 0.002
 
