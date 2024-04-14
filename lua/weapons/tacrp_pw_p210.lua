@@ -32,8 +32,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 35,
-        Damage_Min = 10,
+        Damage_Max = 24,
+        Damage_Min = 14,
         RPM = 450,
     },
     [TacRP.BALANCE_TTT] = {
@@ -66,28 +66,15 @@ SWEP.BalanceStats = {
 
         ReloadTimeMult = 1.05 * 1.25,
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 15,
-        Damage_Min = 6,
-        RPM = 300,
-
-        RecoilResetInstant = true,
-        HipFireSpreadPenalty = 0.015,
-        RecoilSpreadPenalty = 0.005,
-        RecoilMaximum = 3,
-        RecoilResetTime = 0.25,
-        RecoilDissipationRate = 5,
-        RecoilFirstShotMult = 0.8,
-    },
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 32
-SWEP.Damage_Min = 8
-SWEP.Range_Min = 400 // distance for which to maintain maximum damage
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 12
+SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.55
@@ -97,7 +84,7 @@ SWEP.MuzzleVelocity = 8400
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
-    [HITGROUP_CHEST] = 1,
+    [HITGROUP_CHEST] = 2,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -194,7 +181,7 @@ SWEP.DropMagazineTime = 0.2
 // sounds
 
 local path = "TacRP/weapons/gsr1911/gsr1911_"
-local path1 = "weapons/tacint_shark/p210/"
+local path1 = "tacint_shark/weapons/p210/"
 
 SWEP.Sound_Shoot = "^" .. path1 .. "Fire1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
@@ -342,6 +329,6 @@ end
 addsound("tacint_p210.clip_in", path1 .. "clipin.wav")
 addsound("tacint_p210.clip_in-mid", path1 .. "clipin.wav")
 addsound("tacint_p210.clip_out", path1 .. "magout.wav")
-addsound("tacint_p210.slide_action", path .. "slide_action.wav")
+addsound("tacint_p210.slide_action", path1 .. "slide_action.wav")
 addsound("tacint_p210.slide_shut", path1 .. "sliderelease.wav")
 addsound("tacint_p210.cock_hammer", path .. "cockhammer.wav")
