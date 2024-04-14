@@ -18,7 +18,11 @@ SWEP.Trivia_Manufacturer = "Pietro Beretta"
 SWEP.Trivia_Year = "1979"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
-SWEP.Credits = "Assets: Tactical Intervention"
+SWEP.Credits = [[
+Assets: Pete, Yamantaka, Spydr, Stab, Galen, Firegold, Thor, Supernaut, Ankalar, Schmung, Creeping Jesus & Oleund
+Sounds: Vunsunta
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_93r.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_vertec.mdl"
