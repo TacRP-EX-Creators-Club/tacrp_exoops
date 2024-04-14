@@ -259,7 +259,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
-        Category = {"silencer", "pistol_muzzle"},
+        Category = "silencer",
         Bone = "ValveBiped.barrel",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
