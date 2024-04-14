@@ -1,0 +1,181 @@
+
+_workfolder/lamatubp7p228_6.rar
+_workfolder/p210/p210.blend
+_workfolder/p210/p210.blend1
+_workfolder/p210/p210.smd
+_workfolder/p210/thing/credits.txt
+_workfolder/p210/thing/materials/models/weapons/v_models/p210/black.vtf
+_workfolder/p210/thing/materials/models/weapons/v_models/p210/sig210.vmt
+_workfolder/p210/thing/materials/models/weapons/v_models/p210/sig210.vtf
+_workfolder/p210/thing/materials/models/weapons/v_models/p210/sig210_normal.vtf
+_workfolder/p210/thing/materials/models/weapons/w_models/w_p210/sig210.vmt
+_workfolder/p210/thing/models/weapons/decompiled 0.74/p210.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven.qc
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/draw.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/idle.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/reload.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/shoot1.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/shoot2.smd
+_workfolder/p210/thing/models/weapons/decompiled 0.74/v_pist_fiveseven_anims/shoot_empty.smd
+_workfolder/p210/thing/models/weapons/v_pist_fiveseven.dx80.vtx
+_workfolder/p210/thing/models/weapons/v_pist_fiveseven.dx90.vtx
+_workfolder/p210/thing/models/weapons/v_pist_fiveseven.mdl
+_workfolder/p210/thing/models/weapons/v_pist_fiveseven.sw.vtx
+_workfolder/p210/thing/models/weapons/v_pist_fiveseven.vvd
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.dx80.vtx
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.dx90.vtx
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.mdl
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.phy
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.sw.vtx
+_workfolder/p210/thing/models/weapons/w_pist_fiveseven.vvd
+_workfolder/p210/thing/readme.txt
+_workfolder/p210/thing/scripts/game_sounds_manifest.txt
+_workfolder/p210/thing/scripts/weapons/fiveseven.txt
+_workfolder/p210/thing/sound/weapons/fiveseven/fiveseven-1.wav
+_workfolder/p210/thing/sound/weapons/kimber.57/clipin.wav
+_workfolder/p210/thing/sound/weapons/kimber.57/Fire1.wav
+_workfolder/p210/thing/sound/weapons/kimber.57/magout.wav
+_workfolder/p210/thing/sound/weapons/kimber.57/SlideBack.wav
+_workfolder/p210/thing/sound/weapons/kimber.57/sliderelease.wav
+_workfolder/p210/v_ak47_flashbang_reference.smd
+_workfolder/p210/v_ak47_frag_reference.smd
+_workfolder/p210/v_ak47_smoke_reference.smd
+_workfolder/p210/v_gsr1911.qc
+_workfolder/p210/v_gsr1911_anims/blind_dryfire.smd
+_workfolder/p210/v_gsr1911_anims/blind_idle.smd
+_workfolder/p210/v_gsr1911_anims/blind_lastshot.smd
+_workfolder/p210/v_gsr1911_anims/blind_shoot1.smd
+_workfolder/p210/v_gsr1911_anims/blind_shoot2.smd
+_workfolder/p210/v_gsr1911_anims/blind_shoot3.smd
+_workfolder/p210/v_gsr1911_anims/blind_sshoot1.smd
+_workfolder/p210/v_gsr1911_anims/blind_sshoot2.smd
+_workfolder/p210/v_gsr1911_anims/blind_sshoot3.smd
+_workfolder/p210/v_gsr1911_anims/draw.smd
+_workfolder/p210/v_gsr1911_anims/dryfire.smd
+_workfolder/p210/v_gsr1911_anims/hal2.smd
+_workfolder/p210/v_gsr1911_anims/halt.smd
+_workfolder/p210/v_gsr1911_anims/holster.smd
+_workfolder/p210/v_gsr1911_anims/idle.smd
+_workfolder/p210/v_gsr1911_anims/lastshot.smd
+_workfolder/p210/v_gsr1911_anims/melee1.smd
+_workfolder/p210/v_gsr1911_anims/melee2.smd
+_workfolder/p210/v_gsr1911_anims/midreload.smd
+_workfolder/p210/v_gsr1911_anims/prime_grenade.smd
+_workfolder/p210/v_gsr1911_anims/range_attack.smd
+_workfolder/p210/v_gsr1911_anims/range_attack2.smd
+_workfolder/p210/v_gsr1911_anims/reload.smd
+_workfolder/p210/v_gsr1911_anims/sh_draw.smd
+_workfolder/p210/v_gsr1911_anims/sh_dryfire.smd
+_workfolder/p210/v_gsr1911_anims/sh_holster.smd
+_workfolder/p210/v_gsr1911_anims/sh_idle.smd
+_workfolder/p210/v_gsr1911_anims/sh_lastshot.smd
+_workfolder/p210/v_gsr1911_anims/sh_midreload.smd
+_workfolder/p210/v_gsr1911_anims/sh_reload.smd
+_workfolder/p210/v_gsr1911_anims/sh_shoot1.smd
+_workfolder/p210/v_gsr1911_anims/sh_shoot2.smd
+_workfolder/p210/v_gsr1911_anims/sh_shoot3.smd
+_workfolder/p210/v_gsr1911_anims/sh_sshoot1.smd
+_workfolder/p210/v_gsr1911_anims/sh_sshoot2.smd
+_workfolder/p210/v_gsr1911_anims/sh_sshoot3.smd
+_workfolder/p210/v_gsr1911_anims/sh_unholster.smd
+_workfolder/p210/v_gsr1911_anims/shoot1.smd
+_workfolder/p210/v_gsr1911_anims/shoot2.smd
+_workfolder/p210/v_gsr1911_anims/shoot3.smd
+_workfolder/p210/v_gsr1911_anims/sshoot1.smd
+_workfolder/p210/v_gsr1911_anims/sshoot2.smd
+_workfolder/p210/v_gsr1911_anims/sshoot3.smd
+_workfolder/p210/v_gsr1911_anims/throw_grenade.smd
+_workfolder/p210/v_gsr1911_anims/throw_grenade_underhand.smd
+_workfolder/p210/v_gsr1911_anims/unholster.smd
+_workfolder/p210/v_gsr1911_anims/waveover.smd
+_workfolder/p210/v_gsr1911_anims/waveover2.smd
+_workfolder/p210/v_gsr1911_reference.smd
+_workfolder/p210/v_gsr1911_reference_flashlight.smd
+_workfolder/p210/v_gsr1911_reference_silencer.smd
+_workfolder/p7/anims/reload_new.smd
+_workfolder/p7/p7.blend
+_workfolder/p7/p7.blend1
+_workfolder/p7/p7_ref.smd
+_workfolder/p7/thing/materials/models/weapons/v_models/lama.tub.p7/tub_P7M7.vmt
+_workfolder/p7/thing/materials/models/weapons/v_models/lama.tub.p7/tub_P7M7.vtf
+_workfolder/p7/thing/materials/models/weapons/v_models/lama.tub.p7/tub_P7M7_ref.vtf
+_workfolder/p7/thing/materials/models/weapons/w_models/lama.tub.p7/tub_P7M7.vmt
+_workfolder/p7/thing/materials/models/weapons/w_models/lama.tub.p7/tub_P7M7.vtf
+_workfolder/p7/thing/models/weapons/decompiled 0.74/ref.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228.qc
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/draw.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/idle.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/reload.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot1.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot2.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot3.smd
+_workfolder/p7/thing/models/weapons/decompiled 0.74/v_pist_p228_anims/shoot_last.smd
+_workfolder/p7/thing/models/weapons/v_pist_p228.dx80.vtx
+_workfolder/p7/thing/models/weapons/v_pist_p228.dx90.vtx
+_workfolder/p7/thing/models/weapons/v_pist_p228.mdl
+_workfolder/p7/thing/models/weapons/v_pist_p228.sw.vtx
+_workfolder/p7/thing/models/weapons/v_pist_p228.vvd
+_workfolder/p7/thing/models/weapons/w_pist_p228.dx80.vtx
+_workfolder/p7/thing/models/weapons/w_pist_p228.dx90.vtx
+_workfolder/p7/thing/models/weapons/w_pist_p228.mdl
+_workfolder/p7/thing/models/weapons/w_pist_p228.sw.vtx
+_workfolder/p7/thing/models/weapons/w_pist_p228.vvd
+_workfolder/p7/thing/sound/weapons/p228/p228_clipin.wav
+_workfolder/p7/thing/sound/weapons/p228/p228_clipout.wav
+_workfolder/p7/thing/sound/weapons/p228/p228_sliderelease.wav
+_workfolder/p7/v_ak47_flashbang_reference.smd
+_workfolder/p7/v_ak47_frag_reference.smd
+_workfolder/p7/v_ak47_smoke_reference.smd
+_workfolder/p7/v_p2000.qc
+_workfolder/p7/v_p2000_anims/blind_dryfire.smd
+_workfolder/p7/v_p2000_anims/blind_idle.smd
+_workfolder/p7/v_p2000_anims/blind_shoot1.smd
+_workfolder/p7/v_p2000_anims/blind_shoot2.smd
+_workfolder/p7/v_p2000_anims/blind_shoot3.smd
+_workfolder/p7/v_p2000_anims/blind_shoot_lastshot.smd
+_workfolder/p7/v_p2000_anims/blind_sshoot1.smd
+_workfolder/p7/v_p2000_anims/blind_sshoot2.smd
+_workfolder/p7/v_p2000_anims/blind_sshoot3.smd
+_workfolder/p7/v_p2000_anims/draw.smd
+_workfolder/p7/v_p2000_anims/dryfire.smd
+_workfolder/p7/v_p2000_anims/halt.smd
+_workfolder/p7/v_p2000_anims/halt2.smd
+_workfolder/p7/v_p2000_anims/holster.smd
+_workfolder/p7/v_p2000_anims/idle.smd
+_workfolder/p7/v_p2000_anims/lastshot.smd
+_workfolder/p7/v_p2000_anims/melee1.smd
+_workfolder/p7/v_p2000_anims/melee2.smd
+_workfolder/p7/v_p2000_anims/midreload.smd
+_workfolder/p7/v_p2000_anims/prime_grenade.smd
+_workfolder/p7/v_p2000_anims/range_attack.smd
+_workfolder/p7/v_p2000_anims/range_attack2.smd
+_workfolder/p7/v_p2000_anims/reload.smd
+_workfolder/p7/v_p2000_anims/sh_draw.smd
+_workfolder/p7/v_p2000_anims/sh_dryfire.smd
+_workfolder/p7/v_p2000_anims/sh_holster.smd
+_workfolder/p7/v_p2000_anims/sh_idle.smd
+_workfolder/p7/v_p2000_anims/sh_lastshot.smd
+_workfolder/p7/v_p2000_anims/sh_midreload.smd
+_workfolder/p7/v_p2000_anims/sh_reload.smd
+_workfolder/p7/v_p2000_anims/sh_shoot1.smd
+_workfolder/p7/v_p2000_anims/sh_shoot2.smd
+_workfolder/p7/v_p2000_anims/sh_shoot3.smd
+_workfolder/p7/v_p2000_anims/sh_sshoot1.smd
+_workfolder/p7/v_p2000_anims/sh_sshoot2.smd
+_workfolder/p7/v_p2000_anims/sh_sshoot3.smd
+_workfolder/p7/v_p2000_anims/sh_unholster.smd
+_workfolder/p7/v_p2000_anims/shoot1.smd
+_workfolder/p7/v_p2000_anims/shoot2.smd
+_workfolder/p7/v_p2000_anims/shoot3.smd
+_workfolder/p7/v_p2000_anims/sshoot1.smd
+_workfolder/p7/v_p2000_anims/sshoot2.smd
+_workfolder/p7/v_p2000_anims/sshoot3.smd
+_workfolder/p7/v_p2000_anims/throw_grenade.smd
+_workfolder/p7/v_p2000_anims/throw_grenade_underhand.smd
+_workfolder/p7/v_p2000_anims/unholster.smd
+_workfolder/p7/v_p2000_anims/waveover.smd
+_workfolder/p7/v_p2000_anims/waveover2.smd
+_workfolder/p7/v_p2000_reference.smd
+_workfolder/p7/v_p2000_reference_flashlight.smd
+_workfolder/p7/v_p2000_reference_silencer.smd
+_workfolder/sig_p210_2.zip
