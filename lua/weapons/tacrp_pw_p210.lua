@@ -170,7 +170,7 @@ SWEP.FreeAimMaxAngle = 3.5
 SWEP.ClipSize = 8
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1.05
+SWEP.ReloadTimeMult = 1
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
 SWEP.DropMagazineImpact = "pistol"
