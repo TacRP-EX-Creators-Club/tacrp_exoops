@@ -190,7 +190,7 @@ SWEP.DropMagazineImpact = "pistol"
 // sounds
 
 local path = "tacrp/weapons/p2000/p2000_"
-local path1 = "/weapons/tacint_shark/hkp7/hkp7_"
+local path1 = "tacint_shark/weapons/hkp7/hkp7_"
 
 SWEP.Sound_Shoot = "^" .. path1 .. "1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
@@ -343,6 +343,6 @@ end
 addsound("tacint_hkp7.clip_in", path1 .. "magin.wav")
 addsound("tacint_hkp7.clip_in-mid", path1 .. "magin.wav")
 addsound("tacint_hkp7.clip_out", path1 .. "magout.wav")
-addsound("tacint_hkp7.slide_action", path .. "slide_action.wav")
+addsound("tacint_hkp7.slide_action", path1 .. "slide_action.wav")
 addsound("tacint_hkp7.slide_shut", path1 .. "slide.wav")
 addsound("tacint_hkp7.cock_hammer", path .. "cockhammer.wav")
