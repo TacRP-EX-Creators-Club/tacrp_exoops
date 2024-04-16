@@ -189,10 +189,10 @@ SWEP.DropMagazineImpact = "pistol"
 // sounds
 
 local path = "tacrp/weapons/p2000/p2000_"
-local path1 = "tacint_shark/weapons/p99/"
+local path1 = "tacint_shark/weapons/p99/p99_"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "usp_unsil-1.wav"
-SWEP.Sound_Shoot_Silenced = path1 .. "usp1.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "unsil-1.wav"
+SWEP.Sound_Shoot_Silenced = path1 .. "sil-1.wav"
 
 SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -342,6 +342,6 @@ end
 addsound("tacint_p99.clip_in", path1 .. "magin.wav")
 addsound("tacint_p99.clip_in-mid", path1 .. "magin.wav")
 addsound("tacint_p99.clip_out", path1 .. "magout.wav")
-addsound("tacint_p99.slide_action", path .. "slide_action.wav")
+addsound("tacint_p99.slide_action", path1 .. "slideaction.wav")
 addsound("tacint_p99.slide_shut", path1 .. "sliderelease.wav")
 addsound("tacint_p99.cock_hammer", path .. "cockhammer.wav")
