@@ -73,7 +73,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 19
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 12
 SWEP.Range_Min = 800 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
@@ -101,9 +101,9 @@ SWEP.Firemode = 1
 SWEP.RPM = 450
 SWEP.RPMMultSemi = 0.9
 
-SWEP.Spread = 0.0075
+SWEP.Spread = 0.008
 SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.01
+SWEP.HipFireSpreadPenalty = 0.008
 
 SWEP.ShootTimeMult = 0.5
 
@@ -124,13 +124,13 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.8
+SWEP.ShootingSpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.8
 
 SWEP.AimDownSightsTime = 0.25
-SWEP.SprintToFireTime = 0.25
+SWEP.SprintToFireTime = 0.2
 
 // hold types
 
