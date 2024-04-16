@@ -15,7 +15,7 @@ SWEP.Description = "Sleek and sturdy pistol. Great in all fields, but hampered b
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
-SWEP.Trivia_Year = "1966"
+SWEP.Trivia_Year = "1949"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
