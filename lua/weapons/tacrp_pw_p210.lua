@@ -8,7 +8,7 @@ SWEP.PrintName = "SIG P210" // P210-2
 SWEP.AbbrevName = "P210"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Sleek 9mm pistol. Great all-round, but hampered by a low magazine capacity."

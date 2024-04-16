@@ -8,7 +8,7 @@ SWEP.PrintName = "HK P7" // P7M13
 SWEP.AbbrevName = "P7"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "1Elite"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Compact handgun with swift handling but poor stability."
