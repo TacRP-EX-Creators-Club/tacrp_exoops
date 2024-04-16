@@ -25,7 +25,7 @@ Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_93r.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_vertec.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_93r.mdl"
 
 SWEP.Slot = 1
 
@@ -258,29 +258,29 @@ SWEP.Attachments = {
         PrintName = "Optic",
         Category = "optic_pistol",
         Bone = "ValveBiped.slide",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
         Pos_VM = Vector(0, 0, -0.35),
         Ang_VM = Angle(0, 90, 180),
-        Pos_WM = Vector(0, -1, -1),
-        Ang_WM = Angle(0, -90, 0),
+        Pos_WM = Vector(4.5, 1.3, -4.6),
+        Ang_WM = Angle(180, 180, 0),
     },
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
         Bone = "ValveBiped.barrel",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.5,
         WMScale = 0.5,
         Pos_VM = Vector(-0.3, 0, 7.3),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 8.5, -1.5),
-        Ang_WM = Angle(0, -90, 0),
+        Pos_WM = Vector(14.9, 1.3, -4.3),
+        Ang_WM = Angle(0, -0, 0),
     },
     --[3] = {
         --PrintName = "Tactical",
