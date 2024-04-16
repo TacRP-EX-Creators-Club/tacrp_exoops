@@ -184,7 +184,7 @@ SWEP.DropMagazineTime = 0.2
 
 SWEP.ReloadTimeMult = 1.025
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/hkp7.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
