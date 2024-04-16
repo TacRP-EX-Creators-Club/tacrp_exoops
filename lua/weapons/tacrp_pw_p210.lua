@@ -181,9 +181,9 @@ SWEP.DropMagazineTime = 0.2
 // sounds
 
 local path = "TacRP/weapons/gsr1911/gsr1911_"
-local path1 = "tacint_shark/weapons/p210/"
+local path1 = "tacint_shark/weapons/p210/p210"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "Fire1.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "-1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
@@ -326,9 +326,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_p210.clip_in", path1 .. "clipin.wav")
-addsound("tacint_p210.clip_in-mid", path1 .. "clipin.wav")
-addsound("tacint_p210.clip_out", path1 .. "magout.wav")
-addsound("tacint_p210.slide_action", path1 .. "slide_action.wav")
-addsound("tacint_p210.slide_shut", path1 .. "sliderelease.wav")
+addsound("tacint_p210.clip_in", path1 .. "_magin.wav")
+addsound("tacint_p210.clip_in-mid", path1 .. "_magin.wav")
+addsound("tacint_p210.clip_out", path1 .. "_magout.wav")
+addsound("tacint_p210.slide_action", path1 .. "_slideaction.wav")
+addsound("tacint_p210.slide_shut", path1 .. "_sliderelease.wav")
 addsound("tacint_p210.cock_hammer", path .. "cockhammer.wav")
