@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Sturdy 9mm pistol, marketed as the \"Baby Eagle\" for its superficial resemblance to the Desert Eagle."
+SWEP.Description = "Sturdy 9mm pistol with great mobility. \nMarketed as the \"Baby Eagle\" for its superficial resemblance to the Desert Eagle."
 SWEP.Description_Quote = "\"See you, space cowboy...\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -33,16 +33,16 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 24,
+        Damage_Max = 22,
         Damage_Min = 14,
         RPM = 450,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 30,
+        Damage_Max = 18,
         Damage_Min = 10,
-        Range_Min = 400,
+        Range_Min = 600,
         Range_Max = 1800,
-        RPM = 200,
+        RPM = 380,
         RPMMultSemi = 1,
 
         Spread = 0.007,
@@ -52,11 +52,11 @@ SWEP.BalanceStats = {
         RecoilResetTime = 0.24,
         RecoilDissipationRate = 6,
         RecoilFirstShotMult = 1,
-        RecoilSpreadPenalty = 0.008,
+        RecoilSpreadPenalty = 0.006,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -73,10 +73,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 19
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 700 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
+SWEP.Range_Min = 800 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.55
 SWEP.ArmorBonus = 0.25
@@ -98,11 +98,11 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 425
-SWEP.RPMMultSemi = 0.8
+SWEP.RPM = 450
+SWEP.RPMMultSemi = 0.9
 
-SWEP.Spread = 0.005
-SWEP.RecoilSpreadPenalty = 0.006
+SWEP.Spread = 0.0075
+SWEP.RecoilSpreadPenalty = 0.005
 SWEP.HipFireSpreadPenalty = 0.01
 
 SWEP.ShootTimeMult = 0.5
@@ -112,22 +112,22 @@ SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 4
 SWEP.RecoilResetTime = 0.01
 SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 0.8
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
 
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.8
+SWEP.RecoilStability = 0.75
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.975
+SWEP.MoveSpeedMult = 1
 SWEP.ShootingSpeedMult = 0.8
 SWEP.SightedSpeedMult = 0.8
 
-SWEP.ReloadSpeedMult = 0.75
+SWEP.ReloadSpeedMult = 0.8
 
 SWEP.AimDownSightsTime = 0.25
 SWEP.SprintToFireTime = 0.25
