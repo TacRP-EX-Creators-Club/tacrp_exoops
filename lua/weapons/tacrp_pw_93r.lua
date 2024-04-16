@@ -190,9 +190,9 @@ SWEP.DropMagazineImpact = "pistol"
 // sounds
 
 local path = "TacRP/weapons/vertec/vertec_"
-local path1 = "Tacint_shark/weapons/93r/"
+local path1 = "Tacint_shark/weapons/93r/93r"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "glock18-1.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "-1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
@@ -337,9 +337,9 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_93r.clip_in", path1 .. "magin.wav")
-addsound("tacint_93r.clip_in-mid", path1 .. "magin.wav")
-addsound("tacint_93r.clip_out", path1 .. "magout.wav")
-addsound("tacint_93r.slide_action", path1 .. "glock_slidepull.wav")
-addsound("tacint_93r.slide_shut", path1 .. "slideforward.wav")
+addsound("tacint_93r.clip_in", path1 .. "_magin.wav")
+addsound("tacint_93r.clip_in-mid", path1 .. "_magin.wav")
+addsound("tacint_93r.clip_out", path1 .. "_magout.wav")
+addsound("tacint_93r.slide_action", path1 .. "_slidepull.wav")
+addsound("tacint_93r.slide_shut", path1 .. "_slideforward.wav")
 addsound("tacint_93r.cock_hammer", path .. "cockhammer.wav")
