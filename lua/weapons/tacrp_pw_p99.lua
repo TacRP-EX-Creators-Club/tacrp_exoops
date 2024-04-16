@@ -21,7 +21,7 @@ SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: Afterburner
 Texture: NCFurious
-Sounds: KingFriday & Vunsunta
+Sounds: KingFriday, Vunsunta & speedonerd
 Animation: Tactical Intervention
 ]]
 

@@ -20,7 +20,7 @@ SWEP.Trivia_Year = "1979"
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Assets: Pete, Yamantaka, Spydr, Stab, Galen, Firegold, Thor, Supernaut, Ankalar, Schmung, Creeping Jesus & Oleund
-Sounds: Vunsunta
+Sounds: Vunsunta & speedonerd
 Animation: Tactical Intervention
 ]]
 
