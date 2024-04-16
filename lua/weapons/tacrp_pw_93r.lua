@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Machine Pistol"
 
-SWEP.Description = "Premium burst-fire pistol with all-around excellent performance and non-runaway burst."
+SWEP.Description = "Premium burst-fire pistol with a non-runaway burst."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
@@ -31,29 +31,30 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 25,
-        Damage_Min = 14,
-        ArmorPenetration = 0.6,
+        Damage_Max = 19,
+        Damage_Min = 15,
+        ArmorPenetration = 0.2,
+		ClipSize = 18,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3.75,
+            [HITGROUP_HEAD] = 2,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
             [HITGROUP_RIGHTARM] = 1,
-            [HITGROUP_LEFTLEG] = 0.75,
-            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_LEFTLEG] = 1,
+            [HITGROUP_RIGHTLEG] = 1,
             [HITGROUP_GEAR] = 0.9
         },
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 18,
+        Damage_Max = 13,
         Damage_Min = 10,
         Range_Min = 600,
-        Range_Max = 1800,
-        RPM = 850,
-        RPMMultSemi = 0.5,
-		PostBurstDelay = 0.3,
+        Range_Max = 1100,
+        RPM = 800,
+        RPMMultSemi = 0.45,
+		PostBurstDelay = 0.25,
 
         RecoilSpreadPenalty = 0.0025,
         RecoilFirstShotMult = 0.75,
@@ -77,20 +78,20 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
+SWEP.Damage_Max = 17
 SWEP.Damage_Min = 11
 SWEP.Range_Min = 750
-SWEP.Range_Max = 1800
+SWEP.Range_Max = 1400
 SWEP.Penetration = 3
-SWEP.ArmorPenetration = 0.575
+SWEP.ArmorPenetration = 0.35
 SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 12000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 2,
+    [HITGROUP_CHEST] = 1.5,
+    [HITGROUP_STOMACH] = 1.5,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -107,22 +108,22 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 1100
 SWEP.RPMMultSemi = 0.4
-SWEP.PostBurstDelay = 0.3
+SWEP.PostBurstDelay = 0.35
 
-SWEP.Spread = 0.002
+SWEP.Spread = 0.007
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
+SWEP.RecoilMaximum = 15
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 1
+SWEP.RecoilFirstShotMult = 1.5
 
-SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 4
-SWEP.RecoilStability = 0.25
+SWEP.RecoilVisualKick = 2
+SWEP.RecoilKick = 10
+SWEP.RecoilStability = 0.75
 
 SWEP.RecoilSpreadPenalty = 0.003
 

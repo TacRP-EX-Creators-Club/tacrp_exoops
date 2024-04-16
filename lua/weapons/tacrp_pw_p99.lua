@@ -32,13 +32,12 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
+        Damage_Max = 20,
         Damage_Min = 12,
-        RPM = 525,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
-            [HITGROUP_CHEST] = 1,
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1.5,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
             [HITGROUP_RIGHTARM] = 1,
@@ -48,11 +47,11 @@ SWEP.BalanceStats = {
         },
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 15,
+        Damage_Max = 14,
         Damage_Min = 10,
         Range_Min = 500,
-        Range_Max = 2000,
-        RPM = 475,
+        Range_Max = 1600,
+        RPM = 450,
         RPMMultSemi = 1,
 
         RecoilResetInstant = true,
@@ -72,7 +71,7 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
 
-        ReloadTimeMult = 1.2 * 1.25,
+        ReloadTimeMult = 1.2 * 1.3,
     },
 }
 
@@ -80,10 +79,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
-SWEP.Range_Min = 400
-SWEP.Range_Max = 2000
+SWEP.Range_Min = 600
+SWEP.Range_Max = 1700
 SWEP.Penetration = 3
 SWEP.ArmorPenetration = 0.55
 SWEP.ArmorBonus = 0.5
@@ -91,9 +90,9 @@ SWEP.ArmorBonus = 0.5
 SWEP.MuzzleVelocity = 11500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 3,
+    [HITGROUP_CHEST] = 2,
+    [HITGROUP_STOMACH] = 1.5,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -105,8 +104,8 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 500
-SWEP.RPMMultSemi = 0.8
+SWEP.RPM = 480
+SWEP.RPMMultSemi = 1
 
 SWEP.Spread = 0.0055
 
@@ -121,19 +120,19 @@ SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 4
 SWEP.RecoilStability = 0.4
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.0035
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.5
+SWEP.ShootingSpeedMult = 0.45
 SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.25
+SWEP.AimDownSightsTime = 0.3
 SWEP.SprintToFireTime = 0.25
 
 SWEP.Sway = 1

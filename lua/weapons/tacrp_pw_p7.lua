@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Compact handgun with excellent handling and a fast reload."
+SWEP.Description = "Compact handgun with swift handling but poor stability."
 SWEP.Description_Quote = "\"Who said we were terrorists?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -120,22 +120,22 @@ SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.5
+SWEP.RecoilStability = 0.4
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.0035
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.5
-SWEP.SightedSpeedMult = 0.5
+SWEP.ShootingSpeedMult = 0.65
+SWEP.SightedSpeedMult = 0.65
 
-SWEP.ReloadSpeedMult = 0.75
+SWEP.ReloadSpeedMult = 0.8
 
-SWEP.AimDownSightsTime = 0.25
-SWEP.SprintToFireTime = 0.25
+SWEP.AimDownSightsTime = 0.2
+SWEP.SprintToFireTime = 0.2
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.5

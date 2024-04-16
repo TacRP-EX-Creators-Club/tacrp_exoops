@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Sleek and sturdy pistol. Great in all fields, but hampered by a low magazine capacity."
+SWEP.Description = "Sleek 9mm pistol. Great all-round, but hampered by a low magazine capacity."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
@@ -35,6 +35,17 @@ SWEP.BalanceStats = {
         Damage_Max = 24,
         Damage_Min = 14,
         RPM = 450,
+		
+		BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1.5,
+            [HITGROUP_STOMACH] = 1.5,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 30,
@@ -72,7 +83,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 22
 SWEP.Damage_Min = 12
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
@@ -83,9 +94,9 @@ SWEP.ArmorBonus = 0.25
 SWEP.MuzzleVelocity = 8400
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 2,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 2,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -98,9 +109,9 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 425
-SWEP.RPMMultSemi = 0.8
+SWEP.RPMMultSemi = 0.85
 
-SWEP.Spread = 0.005
+SWEP.Spread = 0.004
 SWEP.RecoilSpreadPenalty = 0.006
 SWEP.HipFireSpreadPenalty = 0.01
 
@@ -115,8 +126,8 @@ SWEP.RecoilFirstShotMult = 0.8
 
 SWEP.RecoilVisualKick = 1
 
-SWEP.RecoilKick = 4
-SWEP.RecoilStability = 0.8
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.75
 
 SWEP.CanBlindFire = true
 
@@ -124,12 +135,12 @@ SWEP.CanBlindFire = true
 
 SWEP.MoveSpeedMult = 0.975
 SWEP.ShootingSpeedMult = 0.8
-SWEP.SightedSpeedMult = 0.8
+SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
 SWEP.AimDownSightsTime = 0.25
-SWEP.SprintToFireTime = 0.25
+SWEP.SprintToFireTime = 0.3
 
 // hold types
 
@@ -170,12 +181,12 @@ SWEP.FreeAimMaxAngle = 3.5
 SWEP.ClipSize = 8
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 0.95
 
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/p210.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
-SWEP.ReloadUpInTime = 1
+SWEP.ReloadUpInTime = 0.9
 SWEP.DropMagazineTime = 0.2
 
 // sounds
