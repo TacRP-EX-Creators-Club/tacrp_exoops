@@ -185,7 +185,7 @@ local path = "TacRP/weapons/gsr1911/gsr1911_"
 local path1 = "tacint_shark/weapons/jericho/p228"
 
 SWEP.Sound_Shoot = "^" .. path1 .. "-1.wav"
-SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
+SWEP.Sound_Shoot_Silenced = path1 .. "_sil-1.wav"
 
 SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
