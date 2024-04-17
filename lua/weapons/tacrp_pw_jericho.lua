@@ -18,7 +18,7 @@ SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Israel Military Industries"
 SWEP.Trivia_Year = "1990"
 
-SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: philibuster
 Texture: oyman
