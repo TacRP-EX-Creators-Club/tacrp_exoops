@@ -12,6 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Premium burst-fire pistol with a non-runaway burst."
+SWEP.Description_Quote = "\"Faith, the train! Take the train!\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
