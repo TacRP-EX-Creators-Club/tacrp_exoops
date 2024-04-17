@@ -11,13 +11,13 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Sleek 9mm pistol. Great all-round, but hampered by a low magazine capacity."
+SWEP.Description = "Sleek pistol with great damage over range but hampered by a single stack magazine."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Year = "1949"
 
-SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Model: Silvio Dante
 Texture: Twinke Masta
@@ -33,7 +33,7 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 24,
-        Damage_Min = 14,
+        Damage_Min = 20,
         RPM = 450,
 		
 		BodyDamageMultipliers = {
@@ -84,17 +84,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 // "ballistics"
 
 SWEP.Damage_Max = 22
-SWEP.Damage_Min = 12
+SWEP.Damage_Min = 19
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.55
 SWEP.ArmorBonus = 0.25
 
-SWEP.MuzzleVelocity = 8400
+SWEP.MuzzleVelocity = 10200
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 2,
     [HITGROUP_STOMACH] = 2,
     [HITGROUP_LEFTARM] = 1,
@@ -109,10 +109,10 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 425
-SWEP.RPMMultSemi = 0.85
+SWEP.RPMMultSemi = 0.9
 
-SWEP.Spread = 0.004
-SWEP.RecoilSpreadPenalty = 0.006
+SWEP.Spread = 0.003
+SWEP.RecoilSpreadPenalty = 0.005
 SWEP.HipFireSpreadPenalty = 0.01
 
 SWEP.ShootTimeMult = 0.5
