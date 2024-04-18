@@ -20,8 +20,9 @@ SWEP.Trivia_Year = "1979"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Assets: Pete, Yamantaka, Spydr, Stab, Galen, Firegold, Thor, Supernaut, Ankalar, Schmung, Creeping Jesus & Oleund
-Sounds: Vunsunta & speedonerd
+Assets: Alliance of Valiant Arms
+Originally made for CS 1.6 by GR_Lucia
+Sounds: Vunsunta, Infinity Ward & speedonerd
 Animation: Tactical Intervention
 ]]
 
@@ -279,10 +280,10 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.5,
         WMScale = 0.5,
-        Pos_VM = Vector(-0.3, 0, 7.3),
+        Pos_VM = Vector(-0.2, 0, 7),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(14.9, 1.3, -4.3),
-        Ang_WM = Angle(0, -0, 0),
+        Pos_WM = Vector(14, 1.3, -4.3),
+        Ang_WM = Angle(0, -0, 180),
     },
     --[3] = {
         --PrintName = "Tactical",
