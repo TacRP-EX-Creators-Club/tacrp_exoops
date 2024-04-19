@@ -42,7 +42,7 @@ SWEP.BalanceStats = {
         Damage_Max = 9,
         Damage_Min = 5,
         Range_Min = 500,
-        Range_Max = 2500,
+        Range_Max = 1200,
         RPM = 900,
 		ClipSize = 20,
 
@@ -66,7 +66,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 SWEP.Damage_Max = 13
 SWEP.Damage_Min = 9
 SWEP.Range_Min = 400
-SWEP.Range_Max = 2000
+SWEP.Range_Max = 1100
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.4
 SWEP.ArmorBonus = 0.75
@@ -107,7 +107,7 @@ SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 1.25
 
 SWEP.RecoilVisualKick = 0.5
-SWEP.RecoilKick = 4
+SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.1
 
 SWEP.CanBlindFire = true
