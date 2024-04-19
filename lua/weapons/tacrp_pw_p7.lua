@@ -33,8 +33,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
-        Damage_Min = 12,
+        Damage_Max = 24,
+        Damage_Min = 10,
         RPM = 450,
 
         BodyDamageMultipliers = {
@@ -81,10 +81,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 10
+SWEP.Damage_Max = 22
+SWEP.Damage_Min = 8
 SWEP.Range_Min = 400
-SWEP.Range_Max = 1800
+SWEP.Range_Max = 1200
 SWEP.Penetration = 2
 SWEP.ArmorPenetration = 0.45
 SWEP.ArmorBonus = 0.5
@@ -129,8 +129,8 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.65
-SWEP.SightedSpeedMult = 0.65
+SWEP.ShootingSpeedMult = 1
+SWEP.SightedSpeedMult = 0.85
 
 SWEP.ReloadSpeedMult = 0.8
 
@@ -183,6 +183,8 @@ SWEP.ReloadUpInTime = 0.85
 SWEP.DropMagazineTime = 0.2
 
 SWEP.ReloadTimeMult = 1.025
+
+SWEP.DeployTimeMult = 0.7
 
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/hkp7.mdl"
 SWEP.DropMagazineImpact = "pistol"

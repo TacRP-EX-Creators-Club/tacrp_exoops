@@ -4,14 +4,14 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Beretta 93R"
+SWEP.PrintName = "Beretta 93 Raffica"
 SWEP.AbbrevName = "Raffica"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Machine Pistol"
 
-SWEP.Description = "Premium burst-fire pistol with a non-runaway burst."
+SWEP.Description = "Premium burst-fire pistol with a non-runaway burst and great hip-fire performance."
 SWEP.Description_Quote = "\"Faith, the train! Take the train!\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -33,10 +33,10 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 19,
-        Damage_Min = 15,
-        ArmorPenetration = 0.2,
-		ClipSize = 18,
+        Damage_Max = 18,
+        Damage_Min = 11,
+        ArmorPenetration = 0.575,
+        ClipSize = 18,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -56,7 +56,7 @@ SWEP.BalanceStats = {
         Range_Max = 1100,
         RPM = 800,
         RPMMultSemi = 0.45,
-		PostBurstDelay = 0.25,
+        PostBurstDelay = 0.25,
 
         RecoilSpreadPenalty = 0.0025,
         RecoilFirstShotMult = 0.75,
@@ -80,20 +80,20 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 17
-SWEP.Damage_Min = 11
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 12
 SWEP.Range_Min = 750
-SWEP.Range_Max = 1400
+SWEP.Range_Max = 1500
 SWEP.Penetration = 3
-SWEP.ArmorPenetration = 0.35
+SWEP.ArmorPenetration = 0.525
 SWEP.ArmorBonus = 0.5
 
-SWEP.MuzzleVelocity = 12000
+SWEP.MuzzleVelocity = 13000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.5,
-    [HITGROUP_STOMACH] = 1.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -108,9 +108,9 @@ SWEP.Firemodes = {
 1
 }
 
-SWEP.RPM = 1100
-SWEP.RPMMultSemi = 0.4
-SWEP.PostBurstDelay = 0.35
+SWEP.RPM = 720
+SWEP.RPMMultSemi = 0.6
+SWEP.PostBurstDelay = 0.1
 
 SWEP.Spread = 0.007
 
@@ -118,23 +118,24 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 15
+SWEP.RecoilMaximum = 12
 SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 1.5
+SWEP.RecoilDissipationRate = 15
+SWEP.RecoilFirstShotMult = 2
 
-SWEP.RecoilVisualKick = 2
-SWEP.RecoilKick = 10
-SWEP.RecoilStability = 0.75
+SWEP.RecoilVisualKick = 1.5
+SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.7
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.0015
+SWEP.HipFireSpreadPenalty = 0.0035
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 0.975
-SWEP.ShootingSpeedMult = 0.9
+SWEP.ShootingSpeedMult = 0.75
 SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
@@ -145,7 +146,7 @@ SWEP.SprintToFireTime = 0.25
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.5
 
-SWEP.FreeAimMaxAngle = 3
+SWEP.FreeAimMaxAngle = 3.5
 
 // hold types
 

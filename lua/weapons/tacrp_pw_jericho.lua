@@ -73,10 +73,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 22
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1500 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.55
 SWEP.ArmorBonus = 0.25
@@ -85,7 +85,7 @@ SWEP.MuzzleVelocity = 8400
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
-    [HITGROUP_CHEST] = 2,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -109,7 +109,7 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 4
+SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0.01
 SWEP.RecoilDissipationRate = 18
 SWEP.RecoilFirstShotMult = 1
@@ -129,8 +129,8 @@ SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.8
 
-SWEP.AimDownSightsTime = 0.25
-SWEP.SprintToFireTime = 0.2
+SWEP.AimDownSightsTime = 0.23
+SWEP.SprintToFireTime = 0.21
 
 // hold types
 
