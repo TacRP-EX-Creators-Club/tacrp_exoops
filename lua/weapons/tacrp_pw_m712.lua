@@ -34,9 +34,6 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 17,
         Damage_Min = 10,
-        ArmorPenetration = 0.3,
-		ClipSize = 20,
-
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 9,
@@ -44,7 +41,6 @@ SWEP.BalanceStats = {
         Range_Min = 500,
         Range_Max = 1200,
         RPM = 900,
-		ClipSize = 20,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
@@ -63,12 +59,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 13
-SWEP.Damage_Min = 9
-SWEP.Range_Min = 400
-SWEP.Range_Max = 1100
+SWEP.Damage_Max = 18
+SWEP.Damage_Min = 10
+SWEP.Range_Min = 500
+SWEP.Range_Max = 1500
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.4
+SWEP.ArmorPenetration = 0.725
 SWEP.ArmorBonus = 0.75
 
 SWEP.MuzzleVelocity = 12500
@@ -92,19 +88,21 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 1000
+SWEP.RPMMultSemi = 0.65
+SWEP.PostBurstDelay = 0.03
 
-SWEP.Spread = 0.0035
-SWEP.RecoilSpreadPenalty = 0.003
-SWEP.HipFireSpreadPenalty = 0.011
+SWEP.Spread = 0.005
+SWEP.RecoilSpreadPenalty = 0.006
+SWEP.HipFireSpreadPenalty = 0.02
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.01
 SWEP.RecoilDissipationRate = 40
-SWEP.RecoilFirstShotMult = 1.25
+SWEP.RecoilFirstShotMult = 1.5
 
 SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 6
@@ -162,10 +160,10 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 24
+SWEP.ClipSize = 20
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1.1
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/m712.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
