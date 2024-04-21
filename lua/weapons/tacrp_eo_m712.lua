@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "2Machine Pistol"
 
-SWEP.Description = "Vintage machine pistol with great accuracy but poor recoil control. Effective in short bursts."
+SWEP.Description = "Antique machine pistol with great accuracy but poor recoil control. Effective in short bursts."
 SWEP.Description_Quote = "The bolt might smack you in the face."
 
 SWEP.Trivia_Caliber = "7.63x25mm Mauser"
