@@ -27,7 +27,7 @@ Animations: Tactical Intervention
 -- dead space 510 is now real
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_sg510.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_sg510.mdl"
 
 SWEP.Slot = 2
 
@@ -102,7 +102,7 @@ SWEP.MuzzleVelocity = 24000
 
 // misc. shooting
 
-SWEP.Firemodes = {1, 2}
+SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 500
 
@@ -177,7 +177,7 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.15
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/sg551.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/sg510.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.7
@@ -189,7 +189,7 @@ local path = "tacrp/weapons/sg551/sg551_"
 local path1 = "tacint_shark/weapons/sg510/"
 
 SWEP.Sound_Shoot = "^" .. path1 .. "ak47-1.wav"
-SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
+SWEP.Sound_Shoot_Silenced = "^tacrp/weapons/dsa58/dsa58_fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -234,40 +234,40 @@ SWEP.Attachments = {
         Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         InstalledElements = {"sights"},
         Bone = "ValveBiped.sg551_rootbone",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.75,
         Pos_VM = Vector(-5, 0.05, 3),
-        Pos_WM = Vector(-0.1, 5, 1.15),
+        Pos_WM = Vector(7, 1.25, -6.25),
         Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -90, 0),
+        Ang_WM = Angle(0, 0, 180),
     },
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
         Bone = "ValveBiped.sg551_rootbone",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
 		VMScale = 0.75,
         Pos_VM = Vector(-3.7, 0.1, 25),
-        Pos_WM = Vector(-0.1, 25, -0.9),
+        Pos_WM = Vector(32, 1.25, -5.1),
         Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -90, 0),
+        Ang_WM = Angle(0, 0, 180),
     },
     [3] = {
         PrintName = "Tactical",
         Category = "tactical",
         InstalledElements = {"tactical"},
         Bone = "ValveBiped.sg551_rootbone",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         Pos_VM = Vector(-3.7, -0.9, 12.5),
-        Pos_WM = Vector(2, 13, -0.5),
+        Pos_WM = Vector(17.5, 2.4, -5),
         Ang_VM = Angle(90, 0, -90),
-        Ang_WM = Angle(-90, -90 + 3.5, 0),
+        Ang_WM = Angle(0, 0, 90),
     },
     [4] = {
         PrintName = "Accessory",
