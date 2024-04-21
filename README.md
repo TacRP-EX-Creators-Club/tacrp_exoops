@@ -31,9 +31,13 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Magpul Masada (5.56x45mm)
 - Colt Model 733 (CAR-15)
 - Enfield L85A2
+- FAMAS G2
+- HK G36C
 
 ## Shotguns
 - Benelli M3 Super 90
+- Kel-Tec KSG
+- Winchester M1897
 
 ## Machine Guns
 - MG3
@@ -47,8 +51,9 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SIG Stgw 57 (SG 510)
 - Howa Type 64
 - FN FAL (StG 58)
+- Kel-Tec RFB
 
 ## Sniper Rifles
 - Steyr Scout
 - Enfield L42A1
-
+- HK PSG-1
