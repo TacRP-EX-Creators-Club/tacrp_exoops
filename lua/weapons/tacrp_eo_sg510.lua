@@ -17,7 +17,7 @@ SWEP.Trivia_Caliber = "7.5x55mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1957"
 
-SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Assets: Sledgehammer Games
 Originally ported to CS 1.6 by GR_Lucia

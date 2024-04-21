@@ -18,7 +18,7 @@ SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
 SWEP.Trivia_Year = "1979"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Assets: Alliance of Valiant Arms
 Originally made for CS 1.6 by GR_Lucia

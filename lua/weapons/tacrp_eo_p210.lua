@@ -17,7 +17,7 @@ SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Year = "1949"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: Silvio Dante
 Texture: Twinke Masta
