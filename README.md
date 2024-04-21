@@ -9,6 +9,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SIG P210
 - Beretta PX4
 - S&W Mk 22 Mod. 0 "Hush Puppy"
+- Star Megastar
 
 ## Machine Pistols
 - Mauser M712 Schnellfeuer
