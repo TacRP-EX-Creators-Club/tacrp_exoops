@@ -8,7 +8,7 @@ SWEP.PrintName = "HK PSG-1"
 SWEP.AbbrevName = "PSG-1"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Elegant semi-auto sniper with unmatched precision but a lower-than-average range. \nEquipped with an 8x scope by default."

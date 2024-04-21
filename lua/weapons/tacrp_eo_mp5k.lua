@@ -33,14 +33,14 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
-        Damage_Min = 14,
+        Damage_Min = 11,
 
         Range_Min = 1500,
-        Range_Max = 4000,
+        Range_Max = 2900,
 
         HipFireSpreadPenalty = 0.025,
 
-        RecoilKick = 3.5,
+        RecoilKick = 5,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -61,21 +61,6 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 8,
-        Damage_Min = 4,
-
-        Range_Min = 1500,
-        Range_Max = 4000,
-
-        HipFireSpreadPenalty = 0.02,
-
-        RecoilKick = 2,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 20,
-        RecoilDissipationRate = 25
-    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
@@ -85,12 +70,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
 SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
+SWEP.Range_Max = 2200 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4.5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -120,13 +105,13 @@ SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 12
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 40
-SWEP.RecoilFirstShotMult = 0.9
+SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 0.5
-SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.4
+SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilKick = 5
+SWEP.RecoilStability = 0.25
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.004
 SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true
@@ -139,11 +124,11 @@ SWEP.SightedSpeedMult = 0.85
 
 SWEP.ReloadSpeedMult = 0.7
 
-SWEP.AimDownSightsTime = 0.27
-SWEP.SprintToFireTime = 0.3
+SWEP.AimDownSightsTime = 0.25
+SWEP.SprintToFireTime = 0.27
 
-SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.25
+SWEP.Sway = 0.85
+SWEP.ScopedSway = 0.3
 
 SWEP.FreeAimMaxAngle = 3.5
 
@@ -219,6 +204,8 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = "melee1",
 }
 
+SWEP.DeployTimeMult = 0.9
+
 // attachments
 
 SWEP.AttachmentElements = {
@@ -272,7 +259,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_smg"},
+        Category = {"acc", "acc_holster", "acc_duffle", "acc_extmag_smg"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
