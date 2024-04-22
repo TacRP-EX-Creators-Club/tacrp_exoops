@@ -3,21 +3,21 @@
 Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Pistols
-- Jericho 941
-- HK P7
-- Walther P99
-- SIG P210
+- Jericho 941 (done)
+- HK P7 (done)
+- Walther P99 (done)
+- SIG P210 (done)
 - Beretta PX4
 - S&W Mk 22 Mod. 0 "Hush Puppy"
 - Star Megastar
-- Browning Hi-Power
+- Browning Hi-Power (done)
 
 ## Magnum Pistols
 - S&W M29 "Satan"
 
 ## Machine Pistols
-- Mauser M712 Schnellfeuer
-- Beretta 93R
+- Mauser M712 Schnellfeuer (done)
+- Beretta 93R (done)
 - Calico M950A
 
 ## Sub-Machine Guns
@@ -25,8 +25,8 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Walther MPL
 - FB PM-63
 - SIG MPX
-- HK MP5SD
-- HK MP5K
+- HK MP5SD (done)
+- HK MP5K (done)
 
 ## Assault Rifles
 - Magpul Masada (5.56x45mm)
@@ -47,10 +47,10 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Sporter Carbines
 - Bushmaster ACR (6.5 Grendel)
-- Winchester M1873
+- Winchester M1873 (done)
 
 ## Precision Rifles
-- SIG Stgw 57 (SG 510)
+- SIG Stgw 57 (SG 510) (done)
 - Howa Type 64
 - FN FAL (StG 58)
 - Kel-Tec RFB
@@ -58,4 +58,4 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 ## Sniper Rifles
 - Steyr Scout
 - Enfield L42A1
-- HK PSG-1
+- HK PSG-1 (done)
