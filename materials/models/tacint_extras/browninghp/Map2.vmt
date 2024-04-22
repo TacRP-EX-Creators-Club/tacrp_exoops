@@ -1,0 +1,7 @@
+Vertexlitgeneric
+{
+
+	// MAIN SETTINGS
+	$basetexture                "models\tacint_extras\browninghp\Map2"      // Diffuse Map
+
+}
