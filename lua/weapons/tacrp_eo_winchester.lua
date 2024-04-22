@@ -59,16 +59,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 // "ballistics"
 
 SWEP.Damage_Max = 32
-SWEP.Damage_Min = 18
-SWEP.Range_Min = 1250 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 1450 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.47
 SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 1
 
-SWEP.MuzzleVelocity = 14000
+SWEP.MuzzleVelocity = 15000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
@@ -91,8 +91,8 @@ SWEP.RPM = 75
 
 SWEP.Spread = 0.002
 
-SWEP.HipFireSpreadPenalty = 0.01
-SWEP.MidAirSpreadPenalty = 0
+SWEP.HipFireSpreadPenalty = 0.04
+SWEP.MidAirSpreadPenalty = 0.04
 
 SWEP.ScopedSpreadPenalty = 0
 
@@ -143,7 +143,7 @@ SWEP.BlindFireAng = Angle(5, 5, -35)
 SWEP.BlindFirePos = Vector(6, -2, -1)
 
 SWEP.BlindFireLeftAng = Angle(85, 0, -50)
-SWEP.BlindFireLeftPos = Vector(13, 15, -5)
+SWEP.BlindFireLeftPos = Vector(12, 12, -6)
 
 SWEP.BlindFireRightAng = Angle(-85, 0, -50)
 SWEP.BlindFireRightPos = Vector(-10, 12, -8)
@@ -164,7 +164,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 15
+SWEP.ClipSize = 12
 SWEP.Ammo = "ar2"
 SWEP.ShotgunReload = true
 
