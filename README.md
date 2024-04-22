@@ -10,6 +10,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Beretta PX4
 - S&W Mk 22 Mod. 0 "Hush Puppy"
 - Star Megastar
+- Browning Hi-Power
 
 ## Magnum Pistols
 - S&W M29 "Satan"
@@ -46,6 +47,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Sporter Carbines
 - Bushmaster ACR (6.5 Grendel)
+- Winchester M1873
 
 ## Precision Rifles
 - SIG Stgw 57 (SG 510)
