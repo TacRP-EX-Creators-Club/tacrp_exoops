@@ -50,7 +50,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SPAS-15
 
 ## Machine Guns
-- MG3
+- MG42
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
