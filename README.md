@@ -29,7 +29,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - HK MP5K (done)
 
 ## Assault Rifles
-- Magpul Masada (5.56x45mm)
+- Magpul Masada (5.56x45mm) (done)
 - Colt Model 733 (CAR-15)
 - Enfield L85A2
 - FAMAS G2
