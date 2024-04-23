@@ -19,7 +19,12 @@ SWEP.Trivia_Manufacturer = "FN Herstal"
 SWEP.Trivia_Year = "1935"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
-SWEP.Credits = "Assets: Tactical Intervention"
+SWEP.Credits = [[
+Model: Silvio Dante
+Texture: WangChung
+Sounds: Vunsunta
+Animations: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_browninghp.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_browninghp.mdl"
@@ -152,7 +157,7 @@ SWEP.SprintPos = Vector(2, 0, -12)
 SWEP.SightAng = Angle(-0.01, 0.14, 0)
 SWEP.SightPos = Vector(-3.47, 0, -3.35)
 
-SWEP.CorrectivePos = Vector(0, 0, 0)
+SWEP.CorrectivePos = Vector(-0.04, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterVisible = true
@@ -170,7 +175,7 @@ SWEP.DropMagazineTime = 0.2
 
 SWEP.ReloadTimeMult = 1.25
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/browninghp.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -251,9 +256,9 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(0.04, 0, -0.15),
+        Pos_VM = Vector(0.05, 0, -0.1),
         Ang_VM = Angle(0, 90, 180),
-        Pos_WM = Vector(0, -1, -1),
+        Pos_WM = Vector(0.1, -1.2, -1),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -267,7 +272,7 @@ SWEP.Attachments = {
         WMScale = 0.5,
         Pos_VM = Vector(-3.1, -0.04, 9.5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 8, -1.5),
+        Pos_WM = Vector(0.1, 9, -1.5),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
@@ -278,10 +283,10 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.1,
-        WMScale = 1.3,
-        Pos_VM = Vector(-2.5, 0, 6.5),
+        WMScale = 1.1,
+        Pos_VM = Vector(-2, 0, 6),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5, -2.75),
+        Pos_WM = Vector(0.1, 6, -2.7),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {
