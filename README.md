@@ -14,12 +14,12 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Magnum Pistols
 - Colt Anaconda
+- Dueling Demons (Dual M29 Satan)
 
 ## Machine Pistols
 - Mauser M712 Schnellfeuer (done)
 - Beretta 93R (done)
 - Calico M950A
-- Dual Calicos
 
 ## Sub-Machine Guns
 - Beretta PM-12S
@@ -36,6 +36,10 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - FAMAS G2
 - HK G36C
 - Beretta AR70 (AR70/223)
+- HK XM8 (Full size)
+- SCAR-L
+- FN F2000
+- StG 44
 
 ## Shotguns
 - Benelli M3 Super 90
@@ -43,14 +47,13 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Winchester M1897
 - HK CAWS
 - USAS-12
+- SPAS-15
 
 ## Machine Guns
-- MG42
-- Enfield L86 LSW
-- M249
+- MG3
 
 ## Sporter Carbines
-- Bushmaster ACR (6.5 Grendel)
+- Bushmaster ACR (Multicaliber)
 - Winchester M1873 (done)
 - FN FAL (G-Series)
 
