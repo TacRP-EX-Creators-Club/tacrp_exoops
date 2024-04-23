@@ -17,9 +17,11 @@ SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Großfuß AG"
 SWEP.Trivia_Year = "1942"
 
-SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Assets: Red Orchestra 2
+Sounds: Red Orechesta 2 & rzen1th
+Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mg42.mdl"
