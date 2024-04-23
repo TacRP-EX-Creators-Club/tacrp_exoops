@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "Advanced SMG uhh something cool yeah."
+SWEP.Description = "Advanced SMG with stable recoil and extended magazine."
 SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -25,7 +25,7 @@ Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mpx.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_masada.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_mpx.mdl"
 
 SWEP.Slot = 2
 
@@ -176,7 +176,7 @@ SWEP.ClipSize = 35
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/masada.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mpx.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
 SWEP.ReloadUpInTime = 1.3
@@ -245,9 +245,9 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 0.85,
         Pos_VM = Vector(-5.4, -0.15, 6),
-        Pos_WM = Vector(-0.4, 3, 1.15),
+        Pos_WM = Vector(0.5, 6, 1.5),
         Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -92, 0),
+        Ang_WM = Angle(0, -87, 0),
     },
     [2] = {
         PrintName = "Muzzle",
@@ -258,9 +258,9 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/silencer_off.wav",
 		VMScale = 0.85,
         Pos_VM = Vector(-3.7, -0.1, 17.5),
-        Pos_WM = Vector(-1.3, 23, -1),
+        Pos_WM = Vector(1.1, 18.5, -0.5),
         Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -92, 0),
+        Ang_WM = Angle(0, -87, 0),
     },
     [3] = {
         PrintName = "Tactical",
@@ -271,9 +271,9 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
 		VMScale = 0.85,
         Pos_VM = Vector(-4.5, -0.6, 9),
-        Pos_WM = Vector(-0.3, 13, -0.5),
+        Pos_WM = Vector(1.5, 10, 0),
         Ang_VM = Angle(90, 0, -70),
-        Ang_WM = Angle(-85, -90, 3),
+        Ang_WM = Angle(-75, -90, 3),
     },
     [4] = {
         PrintName = "Accessory",
