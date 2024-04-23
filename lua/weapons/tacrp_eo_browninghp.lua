@@ -22,20 +22,22 @@ SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = "Assets: Tactical Intervention"
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_browninghp.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_browninghp.mdl"
 
 SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-
+        Damage_Max = 25,
+        Damage_Min = 15,
+        RPM = 380,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 15,
-        Damage_Min = 10,
+        Damage_Max = 18,
+        Damage_Min = 12,
         Range_Min = 500,
         Range_Max = 2000,
-        RPM = 420,
+        RPM = 360,
         RPMMultSemi = 1,
 
         RecoilResetInstant = true,
@@ -113,8 +115,8 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.5
-SWEP.SightedSpeedMult = 0.5
+SWEP.ShootingSpeedMult = 0.9
+SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
 
@@ -249,7 +251,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(0.05, 0, 0),
+        Pos_VM = Vector(0.04, 0, -0.15),
         Ang_VM = Angle(0, 90, 180),
         Pos_WM = Vector(0, -1, -1),
         Ang_WM = Angle(0, -90, 0),
@@ -257,13 +259,13 @@ SWEP.Attachments = {
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
-        Bone = "ValveBiped.barrel_assembly",
+        Bone = "ValveBiped.p2000_rootbone",
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.5,
         WMScale = 0.5,
-        Pos_VM = Vector(-0.5, 0.39, 6),
+        Pos_VM = Vector(-3.1, -0.04, 9.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 8, -1.5),
         Ang_WM = Angle(0, -90, 0),
@@ -277,7 +279,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.1,
         WMScale = 1.3,
-        Pos_VM = Vector(-2, 0, 6),
+        Pos_VM = Vector(-2.5, 0, 6.5),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 5, -2.75),
         Ang_WM = Angle(0, -90, 180),
