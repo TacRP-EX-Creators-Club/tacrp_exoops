@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\tacint_shark\weapons\mg42\Ger_mg42_lmg_D"
+    "$bumpmap"	"models\tacint_shark\weapons\mg42\Ger_mg42_lmg_n"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" 0.25
+	"$envmapsaturation" 0.5
+	"$envmaptint" "[ 0.75 0.8 0.75 ]"
+
+        "$phong" 1
+	"$phongboost"				1
+	"$phongexponent"				50
+        "$phongfresnelranges"		"[1 8 6]"
+        "$phongalbedotint" "1"
+
+        "$halflambert" "1"
+        "$ambientocclusion" "1"
+}

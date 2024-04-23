@@ -45,7 +45,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - USAS-12
 
 ## Machine Guns
-- MG3
+- MG42
 - Enfield L86 LSW
 - M249
 
