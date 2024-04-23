@@ -23,7 +23,7 @@ Assets: Red Orchestra 2
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mg42.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_mg4.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_mg42.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -165,7 +165,7 @@ SWEP.ClipSize = 100
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.25
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/mg4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mg42.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 3.5
@@ -212,8 +212,11 @@ SWEP.AnimationTranslationTable = {
     ["fire3"] = "fire3_L",
     ["fire4"] = "fire4_L",
     ["fire5"] = "fire5_L",
-    ["melee"] = {"melee1", "melee2"}
+    ["melee"] = {"melee1", "melee2"},
+	["deploy"] = "unholster",
 }
+
+SWEP.DeployTimeMult = 2.5
 
 // attachments
 
@@ -262,7 +265,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
         Pos_VM = Vector(-4.7, -0.9, 19),
-        Pos_WM = Vector(21.5, 2, -5.25),
+        Pos_WM = Vector(25, 2, -5),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, 0, 90),
     },
