@@ -39,6 +39,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Benelli M3 Super 90
 - Kel-Tec KSG
 - Winchester M1897
+- HK CAWS
 
 ## Machine Guns
 - MG3

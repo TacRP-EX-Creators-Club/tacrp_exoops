@@ -4,19 +4,19 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Magpul Masada"
-SWEP.AbbrevName = "Masada"
+SWEP.PrintName = "Bushmaster ACR"
+SWEP.AbbrevName = "ACR"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "4Assault Rifle"
+SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Advanced rifle with lightweight polymer construction and high-capacity mag."
-SWEP.Description_Quote = "\"Stay frosty.\""
+SWEP.Description = "Advanced rifle with lightweight polymer construction, able to easily swap to a variety of calibers."
+SWEP.Description_Quote = nil
 
-SWEP.Trivia_Caliber = "5.56x45mm"
-SWEP.Trivia_Manufacturer = "Magpul Indutries"
-SWEP.Trivia_Year = "2006"
+SWEP.Trivia_Caliber = "6.5 Grendel"
+SWEP.Trivia_Manufacturer = "Bushmaster Firearms LLC"
+SWEP.Trivia_Year = "2010"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
@@ -98,12 +98,9 @@ SWEP.MuzzleVelocity = 25000
 
 // misc. shooting
 
-SWEP.Firemodes = {
-    2,
-    1
-}
+SWEP.Firemode = 1
 
-SWEP.RPM = 700
+SWEP.RPM = 500
 
 SWEP.Spread = 0.003
 SWEP.RecoilSpreadPenalty = 0.0017
