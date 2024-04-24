@@ -8,7 +8,7 @@ SWEP.PrintName = "Winchester M1873"
 SWEP.AbbrevName = "W1873"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
 SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. Great accuracy and high capacity but attachment options are virtually non-existent."
@@ -58,12 +58,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 
 // "ballistics"
 
-SWEP.Damage_Max = 32
+SWEP.Damage_Max = 38
 SWEP.Damage_Min = 20
-SWEP.Range_Min = 1450 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
-SWEP.Penetration = 1 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.47
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
+SWEP.Penetration = 12 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.75
 SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 1
@@ -72,8 +72,8 @@ SWEP.MuzzleVelocity = 15000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
-    [HITGROUP_CHEST] = 2,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -89,36 +89,36 @@ SWEP.FiremodeName = "Lever-Action" // only used externally for firemode name dis
 
 SWEP.RPM = 75
 
-SWEP.Spread = 0.002
+SWEP.Spread = 0.0025
 
 SWEP.HipFireSpreadPenalty = 0.04
-SWEP.MidAirSpreadPenalty = 0.04
-
-SWEP.ScopedSpreadPenalty = 0
+SWEP.MidAirSpreadPenalty = 0.05
+SWEP.PeekPenaltyFraction = 0.25
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 2
-SWEP.RecoilResetTime = 0.25 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 1
-SWEP.RecoilFirstShotMult = 1.1
+SWEP.RecoilMaximum = 2.5
+SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilDissipationRate = 1.25
+SWEP.RecoilFirstShotMult = 1.25
 
 SWEP.RecoilVisualKick = 1.25
-SWEP.RecoilKick = 10
-SWEP.RecoilStability = 0.7
+SWEP.RecoilKick = 12
+SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.09
+SWEP.RecoilSpreadPenalty = 0.015
+SWEP.RecoilAltMultiplier = 500
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.7
+SWEP.MoveSpeedMult = 0.9
+SWEP.ShootingSpeedMult = 0.5
+SWEP.SightedSpeedMult = 0.65
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.4
 
-SWEP.AimDownSightsTime = 0.34
+SWEP.AimDownSightsTime = 0.39
 SWEP.SprintToFireTime = 0.38
 
 SWEP.Sway = 1
@@ -195,10 +195,10 @@ SWEP.EjectDelay = 0.5
 
 SWEP.AnimationTranslationTable = {
     ["fire"] = "shoot1",
-	["deploy"] = "unholster",
-	["blind_idle"] = "idle",
+    ["deploy"] = "unholster",
+    ["blind_idle"] = "idle",
     ["blind_fire"] = "shoot1",
-	["blind_dryfire"] = "dryfire",
+    ["blind_dryfire"] = "dryfire",
     ["melee"] = {"melee1", "melee2"},
     ["reload"] = {"reload", "reload2"},
     ["jam"] = "reload_finish"
@@ -224,7 +224,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Trigger",
-        Category = {"trigger_manual", "trigger_pump2"},
+        Category = {"trigger_manual"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
