@@ -105,7 +105,8 @@ SWEP.RecoilKick = 15
 SWEP.RecoilAltMultiplier = 500
 SWEP.RecoilStability = 0.15
 
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.HipFireSpreadPenalty = 0.025
+SWEP.MoveSpreadPenalty = 0.025
 SWEP.RecoilSpreadPenalty = 0.0015
 SWEP.PeekPenaltyFraction = 0.2
 
@@ -123,14 +124,14 @@ SWEP.ReloadSpeedMultTime = 1
 SWEP.AimDownSightsTime = 0.65
 SWEP.SprintToFireTime = 0.65
 
-SWEP.Sway = 2
+SWEP.Sway = 3
 SWEP.ScopedSway = 0.75
 
 SWEP.FreeAimMaxAngle = 9
 
 SWEP.Bipod = true
 SWEP.BipodRecoil = 0.25
-SWEP.BipodKick = 0.2
+SWEP.BipodKick = 0.125
 
 // hold types
 
@@ -166,7 +167,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.3
+SWEP.ReloadTimeMult = 1.2
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mg42.mdl"
 SWEP.DropMagazineImpact = "metal"
 
