@@ -303,5 +303,7 @@ end
 addsound("tacint_spas15.remove_clip", path1 .. "clipout.wav")
 addsound("tacint_spas15.insert_clip", path1 .. "clipin.wav")
 addsound("tacint_spas15.bolt_action", path1 .. "boltaction.wav")
+addsound("tacint_spas15.bolt_back", path1 .. "boltpull.wav")
+addsound("tacint_spas15.bolt_forward", path1 .. "boltrelease.wav")
 addsound("tacint_spas15.fire_select", path .. "fire_selector.wav")
 addsound("tacint_spas15.Buttstock_Back", path .. "buttstock_back.wav")
