@@ -18,7 +18,11 @@ SWEP.Trivia_Manufacturer = "Luigi Franchi S.p.A."
 SWEP.Trivia_Year = "1986"
 
 SWEP.Faction = TacRP.FACTION_COALITION
-SWEP.Credits = "Assets: Tactical Intervention"
+SWEP.Credits = [[
+Assets: filosoma, ported from Fallout: New Vegas by Kindred Flame
+Sounds: Navaro, SevenZero & Magmacow
+Animation: Tactical Intervention & speedonerd
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_spas15.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_spas15.mdl"
