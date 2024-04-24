@@ -28,6 +28,7 @@ Animation: Tactical Intervention
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_masada.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_masada.mdl"
+SWEP.DefaultSkin = 1
 
 SWEP.Slot = 2
 

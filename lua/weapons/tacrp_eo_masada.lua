@@ -8,7 +8,7 @@ SWEP.PrintName = "Magpul Masada"
 SWEP.AbbrevName = "Masada"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "1Elite"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Advanced rifle with lightweight polymer construction."
