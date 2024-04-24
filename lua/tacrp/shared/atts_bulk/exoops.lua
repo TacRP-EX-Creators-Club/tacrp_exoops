@@ -2,9 +2,7 @@
 
 local ATT = {}
 
-------------------------------
--- ammo_modular_300blk
-------------------------------
+-- MCX .300 Blackout conversion
 ATT = {}
 
 ATT.PrintName = ".300 BLK"
@@ -30,7 +28,6 @@ ATT.Mult_Penetration = 0.75
 ATT.Add_ArmorPenetration = -0.15
 ATT.Mult_ArmorBonus = 0.5
 
--- forgive me for fudging the dist sounds
 ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire-03.ogg"
 ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_300blk-supp.ogg"
 
@@ -39,9 +36,8 @@ ATT.Override_DropMagazineImpact = "plastic"
 
 TacRP.LoadAtt(ATT, "ammo_modular_300blk")
 
-------------------------------
--- ammo_modular_68spc
-------------------------------
+
+-- ACR 6.8 SPC conversion
 ATT = {}
 
 ATT.PrintName = "6.8 SPC"
@@ -80,3 +76,45 @@ ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire_beo.ogg"
 ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_beo-supp.ogg"
 
 TacRP.LoadAtt(ATT, "ammo_modular_68spc")
+
+--SPAS-15 pump-action mode
+ATT = {}
+
+ATT.PrintName = "Pump"
+ATT.FullName = "Pump-Action"
+ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
+ATT.Description = "Switch to pump-action operation, sacrficing fire-rate for improved control."
+ATT.Pros = {"stat.spread", "stat.muzzlevelocity"}
+ATT.Cons = {"stat.rpm"}
+ATT.Ignore = false
+
+ATT.Category = "bolt_pump"
+
+ATT.SortOrder = 0
+
+ATT.Mult_RPM = 0.35
+ATT.Mult_ShootTimeMult = 1
+
+ATT.Mult_MuzzleVelocity = 1.1
+ATT.Mult_Spread = 0.8
+
+ATT.Override_EjectDelay = 0.5
+ATT.Override_Sound_Shoot = "^tacint_shark/weapons/spas15/fire_pump.wav"
+
+ATT.Hook_TranslateSequence = function(self, seq)
+    if seq == "fire1" then
+        return {"fire_pump"}
+    elseif seq == "blind_fire1" then
+        return {"fire_pump"}
+	elseif seq == "fire_iron" then
+		return {"fire_pump"}
+	elseif seq == "lastshot" then
+		return {"fire_pump"}
+	elseif seq == "dryfire_empty" then
+		return {"dryfire"}
+    end
+end
+
+ATT.Free = true
+
+TacRP.LoadAtt(ATT, "bolt_spas15_pump")
