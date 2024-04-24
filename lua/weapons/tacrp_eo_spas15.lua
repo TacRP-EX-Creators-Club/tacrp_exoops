@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Magazine-fed successor to the iconic dual-mode shotgun. Extreme heft allows for excellent control but poor handling."
+SWEP.Description = "Magazine-fed successor to the iconic dual-mode shotgun. Heavy weight allows for decent semi-auto control."
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Luigi Franchi S.p.A."
@@ -34,16 +34,16 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 18,
-        Damage_Min = 13,
-        Range_Min = 1200,
-        Range_Max = 2800,
+        Damage_Max = 10,
+        Damage_Min = 5,
+        Range_Min = 800,
+        Range_Max = 1500,
 
-        RPM = 550,
+        RPM = 175,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -59,16 +59,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 // "ballistics"
 
 SWEP.Damage_Max = 12
-SWEP.Damage_Min = 5
+SWEP.Damage_Min = 6
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 9 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.4,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -78,7 +78,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.MuzzleVelocity = 30000
 
-SWEP.Num = 6
+SWEP.Num = 8
 
 // misc. shooting
 
@@ -87,9 +87,9 @@ SWEP.Firemode = 1
 SWEP.RPM = 190
 
 SWEP.Spread = 0.04
-SWEP.ShotgunSpread = 0.02
+SWEP.ShotgunPelletSpread = 0.02
 
-SWEP.ShootTimeMult = 0.5
+SWEP.ShootTimeMult = 0.55
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -98,28 +98,28 @@ SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 0.8
-SWEP.RecoilKick = 4
+SWEP.RecoilVisualKick = 2
+SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.0015
-SWEP.HipFireSpreadPenalty = 0.035
+SWEP.RecoilSpreadPenalty = 0.005
+SWEP.HipFireSpreadPenalty = 0.04
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.8
 SWEP.ShootingSpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.6
+SWEP.SightedSpeedMult = 0.45
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.4
-SWEP.SprintToFireTime = 0.38
+SWEP.AimDownSightsTime = 0.45
+SWEP.SprintToFireTime = 0.55
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.15
+SWEP.Sway = 1.5
+SWEP.ScopedSway = 0.4
 
 SWEP.FreeAimMaxAngle = 4.25
 
@@ -234,18 +234,18 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
-    [2] = {
-        PrintName = "Muzzle",
-        Category = "barrel",
-        Bone = "ValveBiped.g36k_rootbone",
-        WMBone = "Box01",
-        AttachSound = "TacRP/weapons/silencer_on.wav",
-        DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.45, 0.075, 24.5),
-        Pos_WM = Vector(-0.25, 24, -1),
-        Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -90, 0),
-    },
+    --[2] = {
+        --PrintName = "Muzzle",
+        --Category = "barrel",
+        --Bone = "ValveBiped.g36k_rootbone",
+        --WMBone = "Box01",
+        --AttachSound = "TacRP/weapons/silencer_on.wav",
+        --DetachSound = "TacRP/weapons/silencer_off.wav",
+        --Pos_VM = Vector(-3.45, 0.075, 24.5),
+        --Pos_WM = Vector(-0.25, 24, -1),
+        --Ang_VM = Angle(90, 0, 0),
+        --Ang_WM = Angle(0, -90, 0),
+    --},
     [3] = {
         PrintName = "Tactical",
         Category = "tactical",
