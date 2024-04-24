@@ -11,7 +11,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Ultra-light assault rifle with a modular receiver."
-SWEP.Description_Quote = "Bravo-Six, going dark."
+SWEP.Description_Quote = "\"Bravo Six, going dark.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
