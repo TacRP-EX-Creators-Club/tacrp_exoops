@@ -12,7 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Antique pistol with great overall performance but low fire rate."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "\"What in the goddamn...?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"
