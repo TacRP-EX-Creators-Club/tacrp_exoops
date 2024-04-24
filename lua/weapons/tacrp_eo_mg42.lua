@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Machine Gun"
 
-SWEP.Description = "Antique machine gun with a blazing fast rate of fire. Capable of cutting people in half like a buzzsaw."
+SWEP.Description = "Antique machine gun with a blazing fast rate of fire. Capable of cutting people in half like a buzzsaw.\nFiring from the shoulder is not recommended."
 
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Großfuß AG"
@@ -32,10 +32,9 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 28,
-        Damage_Min = 22,
-
-        ClipSize = 75,
+        Damage_Max = 40,
+        Damage_Min = 28,
+        RecoilKick = 12,
     },
     [TacRP.BALANCE_TTT] = {
 
@@ -45,7 +44,7 @@ SWEP.BalanceStats = {
         Damage_Min = 12,
         Range_Min = 750,
         Range_Max = 3000,
-		RPM = 950,
+        RPM = 950,
         ClipSize = 75,
 
         BodyDamageMultipliers = {
@@ -64,7 +63,7 @@ SWEP.BalanceStats = {
 SWEP.TTTReplace = TacRP.TTTReplacePreset.MachineGun
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
@@ -76,8 +75,8 @@ SWEP.BodyDamageMultipliers = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 35
-SWEP.Damage_Min = 25
+SWEP.Damage_Max = 38
+SWEP.Damage_Min = 28
 SWEP.Range_Min = 1200
 SWEP.Range_Max = 4000
 SWEP.Penetration = 10
@@ -91,46 +90,47 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 1200
 
-SWEP.Spread = 0.01
+SWEP.Spread = 0.009
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 25
+SWEP.RecoilMaximum = 12
 SWEP.RecoilResetTime = 0.15
-SWEP.RecoilDissipationRate = 40
+SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 2
 
 SWEP.RecoilVisualKick = 2
+SWEP.RecoilKick = 15
+SWEP.RecoilAltMultiplier = 500
+SWEP.RecoilStability = 0.15
 
-SWEP.RecoilKick = 10
-
-SWEP.HipFireSpreadPenalty = 0.025
-SWEP.RecoilSpreadPenalty = 0.001
-SWEP.PeekPenaltyFraction = 0.125
+SWEP.HipFireSpreadPenalty = 0.04
+SWEP.RecoilSpreadPenalty = 0.0015
+SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.85
-SWEP.ShootingSpeedMult = 0.4
-SWEP.SightedSpeedMult = 0.5
+SWEP.MoveSpeedMult = 0.82
+SWEP.ShootingSpeedMult = 0.25
+SWEP.SightedSpeedMult = 0.25
 
 SWEP.ReloadSpeedMult = 0.1
 SWEP.ReloadSpeedMultTime = 1
 
-SWEP.AimDownSightsTime = 0.5
-SWEP.SprintToFireTime = 0.5
+SWEP.AimDownSightsTime = 0.65
+SWEP.SprintToFireTime = 0.65
 
 SWEP.Sway = 2
 SWEP.ScopedSway = 0.75
 
-SWEP.FreeAimMaxAngle = 7
+SWEP.FreeAimMaxAngle = 9
 
 SWEP.Bipod = true
-SWEP.BipodRecoil = 0.3
-SWEP.BipodKick = 0.25
+SWEP.BipodRecoil = 0.25
+SWEP.BipodKick = 0.2
 
 // hold types
 
@@ -163,10 +163,10 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 100
+SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.25
+SWEP.ReloadTimeMult = 1.3
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mg42.mdl"
 SWEP.DropMagazineImpact = "metal"
 
@@ -215,7 +215,7 @@ SWEP.AnimationTranslationTable = {
     ["fire4"] = "fire4_M",
     ["fire5"] = "fire5_M",
     ["melee"] = {"melee1", "melee2"},
-	["deploy"] = "unholster",
+    ["deploy"] = "unholster",
 }
 
 SWEP.DeployTimeMult = 2.5
