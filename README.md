@@ -39,6 +39,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - HK XM8 (Full size)
 - SCAR-L
 - FN F2000
+- SIG MCX
 - StG 44
 
 ## Shotguns
