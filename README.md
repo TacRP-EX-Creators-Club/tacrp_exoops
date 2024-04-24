@@ -13,7 +13,8 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Browning Hi-Power (done)
 
 ## Magnum Pistols
-- S&W M29 "Satan"
+- Colt Anaconda
+- Dueling Demons (Dual M29 Satan)
 
 ## Machine Pistols
 - Mauser M712 Schnellfeuer (done)
@@ -24,7 +25,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Beretta PM-12S
 - Walther MPL
 - FB PM-63
-- SIG MPX
+- SIG MPX (done)
 - HK MP5SD (done)
 - HK MP5K (done)
 
@@ -34,29 +35,38 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Enfield L85A2
 - FAMAS G2
 - HK G36C
+- Beretta AR70 (AR70/223)
+- HK XM8 (Full size)
+- SCAR-L
+- FN F2000
+- SIG MCX
+- StG 44
 
 ## Shotguns
 - Benelli M3 Super 90
 - Kel-Tec KSG
 - Winchester M1897
 - HK CAWS
+- USAS-12
+- SPAS-15
 
 ## Machine Guns
-- MG3
-- Enfield L86 LSW
-- M249
+- MG42
 
 ## Sporter Carbines
-- Bushmaster ACR (6.5 Grendel)
+- Bushmaster ACR (Multicaliber)
 - Winchester M1873 (done)
+- FN FAL (G-Series)
 
 ## Precision Rifles
 - SIG Stgw 57 (SG 510) (done)
 - Howa Type 64
 - FN FAL (StG 58)
-- Kel-Tec RFB
 
 ## Sniper Rifles
 - Steyr Scout
 - Enfield L42A1
 - HK PSG-1 (done)
+
+## Anti-Material Rifles
+- Barrett M82A1

@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Advanced rifle with lightweight polymer construction and high-capacity mag."
+SWEP.Description = "Advanced rifle with lightweight polymer construction."
 SWEP.Description_Quote = "\"Stay frosty.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -174,7 +174,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 35
+SWEP.ClipSize = 32
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
