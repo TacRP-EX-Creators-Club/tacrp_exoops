@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Ultra-light assault rifle with a modular receiver."
+SWEP.Description = "Light assault rifle with a modular receiver, allowing it to accept a variety of calibers."
 SWEP.Description_Quote = "\"Bravo Six, going dark.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -19,8 +19,9 @@ SWEP.Trivia_Year = "2015"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Assets: Alliance of Valiant Arms
-Originally ported to CS 1.6 by GR_Lucia
+Assets: A.V.A., originally for CS 1.6 by GR_Lucia
+20-Round Magazine: ImBrokeRU & Bull
+Sounds: A.V.A., speedonerd
 Animation: Tactical Intervention
 ]]
 
@@ -172,11 +173,11 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 32
+SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/masada.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
 SWEP.ReloadUpInTime = 1.3
@@ -186,10 +187,10 @@ SWEP.DropMagazineTime = 0.4
 
 local path = "TacRP/weapons/m4/m4_"
 local path1 = "Tacint_shark/weapons/masada/"
-local path2 = "Tacint_shark/weapons/mcx/"
+local path2 = "Tacint_shark/weapons/mcx/mcx_"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "masada_unsil.wav"
-SWEP.Sound_Shoot_Silenced = path2 .. "sg552-1.wav"
+SWEP.Sound_Shoot = "^" .. path2 .. "556.wav"
+SWEP.Sound_Shoot_Silenced = path2 .. "556_supp.wav"
 
 SWEP.Vol_Shoot = 120
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -232,20 +233,28 @@ SWEP.AttachmentElements = {
             {2, 1},
         },
     },
+	["277fury"] = {
+		BGs_VM = {
+			{3, 1}
+		},
+		BGs_WM = {
+			{2, 1}
+		},
+	},
 }
 
 
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb", "optic_medium"},
+        Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         InstalledElements = {"sights"},
         Bone = "ValveBiped.m4_rootbone",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
-        Pos_VM = Vector(-5.8, -0.05, 6),
+        Pos_VM = Vector(-5.8, -0.05, 8.5),
         Pos_WM = Vector(0.35, 5, 1.3),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),

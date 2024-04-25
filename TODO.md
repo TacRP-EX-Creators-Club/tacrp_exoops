@@ -44,7 +44,6 @@
 - Everything
 
 ## MCX
-- Unsuppressed sound
 - Foley sounds
 - Caliber conversion stats + icons + sounds
 
