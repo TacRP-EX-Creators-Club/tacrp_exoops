@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "Intergrally suppressed variant of the iconic SMG. Features a 3-round burst and produces no visible tracer."
+SWEP.Description = "Intergrally suppressed variant of the iconic SMG. Reduced range, but has low recoil and no visible tracer."
 SWEP.Description_Quote = "\"Weapons free.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -22,7 +22,7 @@ SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: Twinke Masta
 Texture: Geno & Mr. Brightside
-Sounds: Redrum
+Sounds: Lakedown, Teh Sterlok
 Animation: Tactical Intervention, edited by speedonerd
 ]]
 
@@ -37,11 +37,11 @@ SWEP.BalanceStats = {
         Damage_Min = 11,
 
         Range_Min = 1500,
-        Range_Max = 2900,
+        Range_Max = 2400,
 
         HipFireSpreadPenalty = 0.025,
 
-        RecoilKick = 5,
+        RecoilKick = 2,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -70,9 +70,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
-SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2200 // distance at which we drop to minimum damage
-SWEP.Penetration = 6 // units of metal this weapon can penetrate
+SWEP.Range_Min = 500 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
+SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
@@ -86,19 +86,20 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 10000
+SWEP.MuzzleVelocity = 9000
 
 // misc. shooting
 
 SWEP.Firemodes = {
     2,
-	-3,
+    -3,
     1
 }
 
 SWEP.RPM = 725
 SWEP.RPMMultBurst = 1.1
 SWEP.RunawayBurst = true
+SWEP.PostBurstDelay = 0.075
 
 SWEP.Spread = 0.001
 
@@ -112,8 +113,8 @@ SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 0.9
 
 SWEP.RecoilVisualKick = 0.5
-SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.4
+SWEP.RecoilKick = 2
+SWEP.RecoilStability = 0.5
 
 SWEP.RecoilSpreadPenalty = 0.002
 SWEP.HipFireSpreadPenalty = 0.025
@@ -182,9 +183,10 @@ SWEP.DropMagazineTime = 1
 local path = "TacRP/weapons/mp5/mp5_"
 
 SWEP.Sound_Shoot = "^" .. path .. "fire-1.wav"
-SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
+SWEP.Sound_Shoot_Silenced = "tacint_shark/weapons/mp5/mp5sd-1.wav"
 
-SWEP.Vol_Shoot = 110
+SWEP.Vol_Shoot = 75
+SWEP.Pitch_Shoot = 95
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
