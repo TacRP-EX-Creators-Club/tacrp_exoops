@@ -46,7 +46,7 @@
 ## MCX
 - Unsuppressed sound
 - Foley sounds
-- .300 BLK sound
+- Caliber conversion stats + icons + sounds
 
 ## M3S90
 - Everything
@@ -65,8 +65,8 @@
 
 ## ACR
 - Fire sounds
-- 6.8 SPC sounds
 - Model edits (maybe) for smaller magazine
+- Caliber conversion stats + icon + sound 
 
 ## FAL Civ
 - Everything

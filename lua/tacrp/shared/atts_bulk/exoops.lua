@@ -36,6 +36,41 @@ ATT.Override_DropMagazineImpact = "plastic"
 
 TacRP.LoadAtt(ATT, "ammo_modular_300blk")
 
+-- MCX .277 Fury conversion
+ATT = {}
+
+ATT.PrintName = ".277 FURY"
+ATT.FullName = ".277 SIG Fury Mod Kit"
+ATT.Icon = Material("entities/tacrp_att_ammo_star15_300blk.png", "mips smooth")
+ATT.Description = "Modification to load military ammo with better range."
+ATT.Pros = {"stat.damage_min", "stat.muzzlevelocity", "att.procon.armor"}
+ATT.Cons = {"stat.damage_max"}
+
+ATT.Category = "ammo_mcx"
+ATT.SortOrder = 0
+
+ATT.InstalledElements = {"300blk"}
+
+ATT.Mult_Damage_Max = 0.9
+ATT.Mult_Damage_Min = 1.25
+ATT.Mult_Range_Min = 1.15
+ATT.Mult_Range_Max = 1.25
+ATT.Mult_MuzzleVelocity = 1.05
+ATT.Add_Spread = 0.002
+ATT.Mult_RecoilSpreadPenalty = 1.4
+
+ATT.Mult_Penetration = 0.75
+ATT.Add_ArmorPenetration = -0.15
+ATT.Mult_ArmorBonus = 0.5
+
+ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire-03.ogg"
+ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_300blk-supp.ogg"
+
+ATT.Override_DropMagazineModel = "models/weapons/tacint_extras/magazines/star15_pmag.mdl"
+ATT.Override_DropMagazineImpact = "plastic"
+
+TacRP.LoadAtt(ATT, "ammo_modular_277fury")
+
 
 -- ACR 6.8 SPC conversion
 ATT = {}
