@@ -77,7 +77,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 30000
+SWEP.MuzzleVelocity = 24000
 
 SWEP.Num = 8
 
@@ -136,8 +136,14 @@ SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 SWEP.PassiveAng = Angle(2, 0, 0)
 SWEP.PassivePos = Vector(0, -2, -5)
 
-SWEP.BlindFireAng = Angle(0, 5, 0)
-SWEP.BlindFirePos = Vector(3, -2, -5)
+SWEP.BlindFireAng = Angle(0, 5, -60)
+SWEP.BlindFirePos = Vector(4, -2, -1)
+
+SWEP.BlindFireLeftAng = Angle(80, 2, -20)
+SWEP.BlindFireLeftPos = Vector(10, 6, -6)
+
+SWEP.BlindFireRightAng = Angle(-80, 2, 0)
+SWEP.BlindFireRightPos = Vector(-7, 15, -6)
 
 SWEP.SprintAng = Angle(40, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -4)
@@ -197,7 +203,11 @@ SWEP.AnimationTranslationTable = {
     ["fire4"] = "fire3_M",
     ["fire5"] = "fire3_M",
     ["melee"] = "melee2",
-	["dryfire"] = "dryfire_empty"
+	["dryfire"] = "dryfire_empty",
+	["blind_idle"] = "idle",
+	["blind_fire1"] = "fire3_M",
+	["blind_dryfire"] = "dryfire",
+	["blind_lastshot"] = "fire3_M"
 }
 
 SWEP.LastShot = true
