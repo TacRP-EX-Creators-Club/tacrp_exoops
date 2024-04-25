@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Magazine-fed successor to the iconic dual-mode shotgun. Heavy weight allows for decent semi-auto control."
+SWEP.Description_Quote = "\"We will wait. We will wait and see what he can discover.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Luigi Franchi S.p.A."

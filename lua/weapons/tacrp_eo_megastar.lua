@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Lare pistol firing an extremely powerful round. Accurate but recoil is intense."
+SWEP.Description = "Large pistol with hefty construction. Great accuracy but intense recoil."
 SWEP.Description_Quote = "\"You wanna f*ck with me?\""
 
 SWEP.Trivia_Caliber = "10mm Auto" -- ignore the .45 markings shhh
