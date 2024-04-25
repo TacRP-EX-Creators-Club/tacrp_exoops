@@ -19,8 +19,8 @@ SWEP.Trivia_Year = "2015"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Assets: A.V.A., originally for CS 1.6 by GR_Lucia
-20-Round Magazine: ImBrokeRU & Bull
+Assets: Alliance of Valiant Arms
+Originally ported to CS 1.6 by GR_Lucia
 Sounds: A.V.A., speedonerd
 Animation: Tactical Intervention
 ]]
@@ -238,7 +238,7 @@ SWEP.AttachmentElements = {
 			{3, 1}
 		},
 		BGs_WM = {
-			{2, 1}
+			{3, 1}
 		},
 	},
 }
