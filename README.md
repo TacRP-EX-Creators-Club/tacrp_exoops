@@ -9,7 +9,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SIG P210 (done)
 - Beretta PX4
 - S&W Mk 22 Mod. 0 "Hush Puppy"
-- Star Megastar
+- Star Megastar (done)
 - Browning Hi-Power (done)
 
 ## Magnum Pistols
@@ -48,10 +48,10 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Winchester M1897
 - HK CAWS
 - USAS-12
-- SPAS-15
+- SPAS-15 (done)
 
 ## Machine Guns
-- MG42
+- MG42 (done)
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
