@@ -35,7 +35,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 45,
         Damage_Min = 30,
-		ClipSize = 10
+		ClipSize = 20
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 38,
@@ -164,7 +164,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 10
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.25
