@@ -56,12 +56,12 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
 - Winchester M1873 (done)
-- FN FAL (G-Series)
+- FN FAL (Israeli Pattern) (Done)
 
 ## Precision Rifles
 - SIG Stgw 57 (SG 510) (done)
 - Howa Type 64
-- FN FAL (StG 58)
+- FN FAL (StG 58) (done)
 
 ## Sniper Rifles
 - Steyr Scout

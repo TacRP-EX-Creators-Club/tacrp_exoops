@@ -19,6 +19,9 @@
 ## MPL
 - Everything
 
+## MPX
+- Suppressed sound
+
 ## PM-63
 - Everything
 
@@ -45,7 +48,7 @@
 
 ## MCX
 - Foley sounds
-- Caliber conversion stats + icons + sounds
+- Caliber conversion stats
 
 ## M3S90
 - Everything
@@ -67,13 +70,7 @@
 - Model edits (maybe) for smaller magazine
 - Caliber conversion stats + icon + sound 
 
-## FAL Civ
-- Everything
-
 ## Howa
-- Everything
-
-## FAL StG 58
 - Everything
 
 ## Scout
