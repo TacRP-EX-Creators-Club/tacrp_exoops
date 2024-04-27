@@ -195,7 +195,7 @@ SWEP.EjectDelay = 0.5
 
 SWEP.AnimationTranslationTable = {
     ["fire"] = "shoot1",
-    ["deploy"] = "unholster",
+    ["deploy"] = "deploy",
     ["blind_idle"] = "idle",
     ["blind_fire"] = "shoot1",
     ["blind_dryfire"] = "dryfire",
@@ -205,7 +205,7 @@ SWEP.AnimationTranslationTable = {
 }
 
 SWEP.ShootTimeMult = 1.25
-SWEP.DeployTimeMult = 2.25
+SWEP.DeployTimeMult = 1.15
 
 // attachments
 
