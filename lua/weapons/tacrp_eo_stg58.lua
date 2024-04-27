@@ -41,7 +41,7 @@ SWEP.BalanceStats = {
         Damage_Min = 22,
         Range_Min = 1000,
         Range_Max = 3000,
-        RPM = 240,
+        RPM = 400,
 
         RecoilResetInstant = true,
         RecoilResetTime = 0.1,
@@ -60,25 +60,6 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.5
         },
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 16,
-        Damage_Min = 9,
-        RPM = 300,
-
-        RecoilResetTime = 0.1,
-        RecoilDissipationRate = 3,
-        RecoilMaximum = 3,
-        RecoilSpreadPenalty = 0.01,
-
-        RecoilKick = 6,
-
-        HipFireSpreadPenalty = 0.055,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilDissipationRate = 30,
-        RecoilSpreadPenalty = 0.006,
-        HipFireSpreadPenalty = 0.009,
-    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
@@ -86,16 +67,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
 // "ballistics"
 
 SWEP.Damage_Max = 40
-SWEP.Damage_Min = 32
-SWEP.Range_Min = 1500
-SWEP.Range_Max = 5000
+SWEP.Damage_Min = 29
+SWEP.Range_Min = 1000
+SWEP.Range_Max = 3900
 SWEP.Penetration = 15
 SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3.5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.2,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -103,7 +84,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 28000
+SWEP.MuzzleVelocity = 30000
 
 // misc. shooting
 
@@ -114,19 +95,19 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 600
 
-SWEP.Spread = 0.002
+SWEP.Spread = 0.0025
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 20
-SWEP.RecoilFirstShotMult = 0.85
+SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1.5
+SWEP.RecoilVisualKick = 1.75
 
 SWEP.RecoilKick = 10
-SWEP.RecoilStability = 0.75
+SWEP.RecoilStability = 0.45
 
 SWEP.RecoilSpreadPenalty = 0.005
 SWEP.HipFireSpreadPenalty = 0.05
@@ -142,7 +123,7 @@ SWEP.SightedSpeedMult = 0.6
 
 SWEP.ReloadSpeedMult = 0.4
 
-SWEP.AimDownSightsTime = 0.42
+SWEP.AimDownSightsTime = 0.45
 SWEP.SprintToFireTime = 0.45
 
 SWEP.Sway = 1.5
