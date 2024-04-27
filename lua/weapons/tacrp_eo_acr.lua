@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Advanced rifle with lightweight polymer construction, able to easily swap to a variety of calibers."
+SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Modular receiver allows for a variety of different calibers to be used."
 SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = "6.5 Grendel"
@@ -187,8 +187,8 @@ SWEP.DropMagazineTime = 0.4
 local path = "TacRP/weapons/m4/m4_"
 local path1 = "Tacint_shark/weapons/masada/"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "masada_unsil.wav"
-SWEP.Sound_Shoot_Silenced = path1 .. "masada_sil.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "65_unsil.wav"
+SWEP.Sound_Shoot_Silenced = path1 .. "65_sil.wav"
 
 SWEP.Vol_Shoot = 120
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
