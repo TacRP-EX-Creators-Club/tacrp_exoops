@@ -2,6 +2,7 @@
 
 Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
+# This list is not final.
 ## Pistols
 - Jericho 941 (done)
 - HK P7 (done)
@@ -35,11 +36,9 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Enfield L85A2
 - FAMAS G2
 - HK G36C
-- Beretta AR70 (AR70/223)
-- HK XM8 (Full size)
-- SCAR-L
+- Beretta AR70 (AR70/223) (done)
 - FN F2000
-- SIG MCX
+- SIG MCX (done)
 - StG 44
 
 ## Shotguns
