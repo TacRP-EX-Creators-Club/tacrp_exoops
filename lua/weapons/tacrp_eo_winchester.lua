@@ -9,7 +9,7 @@ SWEP.AbbrevName = "W1873"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "5Sporter Carbine"
+SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. Great accuracy and high capacity but attachment options are virtually non-existent."
 

@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Elegant semi-auto sniper with unmatched precision but a lower-than-average range. \nEquipped with an 8x scope by default."
+SWEP.Description = "Elegant semi-auto sniper with unmatched precision and recoil control but a lower-than-average range. \nEquipped with an 8x scope by default."
 SWEP.Description_Quote = "\"I was born on a battlefield. Raised on a battlefield.\""
 
 SWEP.Trivia_Caliber = "7.62x51mm"
@@ -64,18 +64,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 // "ballistics"
 
-SWEP.Damage_Max = 33
-SWEP.Damage_Min = 26
-SWEP.Range_Min = 1100
+SWEP.Damage_Max = 54
+SWEP.Damage_Min = 32
+SWEP.Range_Min = 1200
 SWEP.Range_Max = 4000
 SWEP.Penetration = 15
 SWEP.ArmorPenetration = 0.775
 SWEP.ArmorBonus = 2
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 2,
-    [HITGROUP_STOMACH] = 1.5,
+    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -89,7 +89,8 @@ SWEP.MuzzleVelocity = 24000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 375
+SWEP.RPM = 300
+SWEP.RPMMultSemi = 0.7
 
 SWEP.Spread = 0.0005
 
@@ -97,18 +98,18 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 4
-SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 20
+SWEP.RecoilMaximum = 3
+SWEP.RecoilResetTime = 0.2
+SWEP.RecoilDissipationRate = 15
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1.25
+SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 4.5
-SWEP.RecoilStability = 0.8
-SWEP.RecoilAltMultiplier = 300
+SWEP.RecoilStability = 0.65
+SWEP.RecoilAltMultiplier = 200
 
 SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.HipFireSpreadPenalty = 0.06
 
 SWEP.CanBlindFire = true
 

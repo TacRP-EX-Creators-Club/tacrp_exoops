@@ -9,7 +9,7 @@ SWEP.AbbrevName = "FAL Izzy"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "5Sporter Carbine"
+SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Civilian variant of the iconic battle rifle, mimicing a rare light-barreled design."
 SWEP.Description_Quote = ""
@@ -35,7 +35,6 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 45,
         Damage_Min = 30,
-		ClipSize = 20
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 38,
@@ -67,8 +66,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 40
-SWEP.Damage_Min = 32
+SWEP.Damage_Max = 38
+SWEP.Damage_Min = 30
 SWEP.Range_Min = 1500
 SWEP.Range_Max = 5000
 SWEP.Penetration = 15
@@ -77,7 +76,7 @@ SWEP.ArmorPenetration = 0.9
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3.5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.2,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -85,29 +84,30 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 28000
+SWEP.MuzzleVelocity = 29000
 
 // misc. shooting
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 380
+SWEP.RPM = 450
+SWEP.RPMMultSemi = 0.6
 
-SWEP.Spread = 0.002
+SWEP.Spread = 0.0012
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 0.85
 
 SWEP.RecoilVisualKick = 1.5
 
-SWEP.RecoilKick = 10
+SWEP.RecoilKick = 7
 SWEP.RecoilStability = 0.75
 
-SWEP.RecoilSpreadPenalty = 0.005
+SWEP.RecoilSpreadPenalty = 0.004
 SWEP.HipFireSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 
@@ -124,7 +124,7 @@ SWEP.ReloadSpeedMult = 0.4
 SWEP.AimDownSightsTime = 0.42
 SWEP.SprintToFireTime = 0.45
 
-SWEP.Sway = 1.5
+SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.1
 
 SWEP.FreeAimMaxAngle = 6
@@ -164,7 +164,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 20
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.25
@@ -199,11 +199,11 @@ SWEP.EjectEffect = 2
 
 SWEP.AnimationTranslationTable = {
     ["fire_iron"] = "dryfire",
-    ["fire1"] = "fire1_M",
-    ["fire2"] = "fire2_M",
-    ["fire3"] = "fire3_M",
-    ["fire4"] = "fire3_M",
-    ["fire5"] = "fire3_M",
+    ["fire1"] = "fire3_M",
+    ["fire2"] = "fire4_M",
+    ["fire3"] = "fire5_M",
+    ["fire4"] = "fire5_M",
+    ["fire5"] = "fire5_M",
     ["melee"] = {"melee1", "melee2"}
 }
 
