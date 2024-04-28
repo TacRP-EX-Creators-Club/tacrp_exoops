@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Compact handgun with swift handling but poor stability."
+SWEP.Description = "Compact handgun with swift handling but poor range."
 SWEP.Description_Quote = "\"Who said we were terrorists?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -81,10 +81,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 23
+SWEP.Damage_Max = 24
 SWEP.Damage_Min = 8
-SWEP.Range_Min = 500
-SWEP.Range_Max = 1200
+SWEP.Range_Min = 300
+SWEP.Range_Max = 1600
 SWEP.Penetration = 3
 SWEP.ArmorPenetration = 0.575
 SWEP.ArmorBonus = 0.5

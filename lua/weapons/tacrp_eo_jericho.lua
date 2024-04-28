@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Sturdy 9mm pistol with great mobility. \nMarketed as the \"Baby Eagle\" for its superficial resemblance to the Desert Eagle."
+SWEP.Description = "Sturdy 9mm pistol with great mobility and high firerate. \nMarketed as the \"Baby Eagle\" for its superficial resemblance to the Desert Eagle."
 SWEP.Description_Quote = "\"See you, space cowboy...\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -73,10 +73,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
+SWEP.Damage_Max = 24
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 600 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1500 // distance at which we drop to minimum damage
+SWEP.Range_Min = 300 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.55
 SWEP.ArmorBonus = 0.25
@@ -99,11 +99,11 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 450
-SWEP.RPMMultSemi = 0.9
+SWEP.RPMMultSemi = 0.85
 
 SWEP.Spread = 0.008
 SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.008
+SWEP.HipFireSpreadPenalty = 0.015
 
 SWEP.ShootTimeMult = 0.5
 
@@ -116,7 +116,7 @@ SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
 
-SWEP.RecoilKick = 3
+SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.75
 
 SWEP.CanBlindFire = true

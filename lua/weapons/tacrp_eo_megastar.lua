@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Large pistol with hefty construction. Great accuracy but intense recoil."
+SWEP.Description = "Large pistol with hefty construction. Great capacity and firepower but has intense recoil."
 SWEP.Description_Quote = "\"You wanna f*ck with me?\""
 
 SWEP.Trivia_Caliber = "10mm Auto" -- ignore the .45 markings shhh
@@ -73,18 +73,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 30
-SWEP.Damage_Min = 13
+SWEP.Damage_Max = 28
+SWEP.Damage_Min = 14
 SWEP.Range_Min = 500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.55
+SWEP.ArmorPenetration = 0.675
 SWEP.ArmorBonus = 0.25
 
 SWEP.MuzzleVelocity = 8400
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -98,26 +98,27 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 420
+SWEP.RPM = 350
 SWEP.RPMMultSemi = 0.8
 
 SWEP.Spread = 0.0035
-SWEP.RecoilSpreadPenalty = 0.007
-SWEP.HipFireSpreadPenalty = 0.008
+SWEP.RecoilSpreadPenalty = 0.005
+SWEP.HipFireSpreadPenalty = 0.02
 
 SWEP.ShootTimeMult = 0.7
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 4
-SWEP.RecoilResetTime = 0.01
-SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 0.8
+SWEP.RecoilMaximum = 6
+SWEP.RecoilResetTime = 0.035
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 3
 
-SWEP.RecoilKick = 8
-SWEP.RecoilStability = 0.6
+SWEP.RecoilKick = 8.5
+SWEP.RecoilStability = 0.35
+SWEP.RecoilAltMultiplier = 400
 
 SWEP.CanBlindFire = true
 
