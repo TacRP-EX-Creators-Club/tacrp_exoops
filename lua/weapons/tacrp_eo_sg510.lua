@@ -8,7 +8,7 @@ SWEP.PrintName = "SIG SG 510"
 SWEP.AbbrevName = "SG 510"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Vintage battle rifle with excellent long range performance. Recoil is harsh but stable."
@@ -33,6 +33,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 35,
         Damage_Min = 23,
 
         BodyDamageMultipliers = {
@@ -80,21 +81,21 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 33
+SWEP.Damage_Max = 35
 SWEP.Damage_Min = 20
-SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4200 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 1.25,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
-    [HITGROUP_LEFTLEG] = 1,
-    [HITGROUP_RIGHTLEG] = 1,
+    [HITGROUP_LEFTLEG] = 0.9,
+    [HITGROUP_RIGHTLEG] = 0.9,
     [HITGROUP_GEAR] = 0.9
 }
 
@@ -104,7 +105,7 @@ SWEP.MuzzleVelocity = 24000
 
 SWEP.Firemodes = {2, 1}
 
-SWEP.RPM = 500
+SWEP.RPM = 480
 
 SWEP.PostBurstDelay = 0.1
 
@@ -118,7 +119,7 @@ SWEP.RecoilDissipationRate = 32
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1.75
-SWEP.RecoilKick = 10
+SWEP.RecoilKick = 12
 SWEP.RecoilStability = 0.8
 
 SWEP.RecoilSpreadPenalty = 0.0025

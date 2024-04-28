@@ -8,7 +8,7 @@ SWEP.PrintName = "FN FAL" -- not an actual stg58 :c
 SWEP.AbbrevName = "FAL"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Vintage battle rifle with great accuracy and suppressing power but violent recoil."
@@ -66,17 +66,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 38
+SWEP.Damage_Max = 35
 SWEP.Damage_Min = 30
-SWEP.Range_Min = 1500
-SWEP.Range_Max = 5000
-SWEP.Penetration = 15
+SWEP.Range_Min = 1400
+SWEP.Range_Max = 3800
+SWEP.Penetration = 14
 SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.15,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
