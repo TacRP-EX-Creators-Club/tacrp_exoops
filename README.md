@@ -12,9 +12,10 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - S&W Mk 22 Mod. 0 "Hush Puppy"
 - Star Megastar (done)
 - Browning Hi-Power (done)
+- Chiappa Rhino 20DS (9mm)
 
 ## Magnum Pistols
-- Colt Anaconda
+- S&W Model 29 "Satan"
 - Dueling Demons (Dual M29 Satan)
 
 ## Machine Pistols
@@ -42,7 +43,6 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - StG 44
 
 ## Shotguns
-- Benelli M3 Super 90
 - Kel-Tec KSG
 - Winchester M1897
 - HK CAWS

@@ -4,10 +4,10 @@
 ## Hush Puppy
 - Everything
 
-## Anaconda
+## Rhino
 - Everything
 
-## Dual M29
+## M29
 - Everything
 
 ## M950A
@@ -46,9 +46,6 @@
 ## MCX
 - Foley sounds
 - Caliber conversion stats
-
-## M3S90
-- Everything
 
 ## KSG
 - Everything
