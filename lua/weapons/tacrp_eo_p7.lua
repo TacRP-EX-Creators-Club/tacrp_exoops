@@ -9,7 +9,7 @@ SWEP.AbbrevName = "P7"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Compact handgun with swift handling but poor stability."
 SWEP.Description_Quote = "\"Who said we were terrorists?\""

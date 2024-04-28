@@ -9,7 +9,7 @@ SWEP.AbbrevName = "P210"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Sleek pistol with great damage over range but hampered by a single stack magazine."
 

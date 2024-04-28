@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Browning HP"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Antique pistol with great overall performance but low fire rate."
 SWEP.Description_Quote = "\"What in the goddamn...?\""

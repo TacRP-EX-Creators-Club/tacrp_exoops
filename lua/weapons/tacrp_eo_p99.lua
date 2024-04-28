@@ -8,7 +8,7 @@ SWEP.PrintName = "Walther P99"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Well-rounded pistol with a rapid rate of fire."
 SWEP.Description_Quote = "\"Hunt them down and kill them off, one by one.\""

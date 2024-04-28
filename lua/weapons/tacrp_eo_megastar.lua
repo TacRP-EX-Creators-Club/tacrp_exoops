@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Megastar"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Large pistol with hefty construction. Great accuracy but intense recoil."
 SWEP.Description_Quote = "\"You wanna f*ck with me?\""

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Jericho"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Sturdy 9mm pistol with great mobility. \nMarketed as the \"Baby Eagle\" for its superficial resemblance to the Desert Eagle."
 SWEP.Description_Quote = "\"See you, space cowboy...\""
