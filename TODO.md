@@ -34,9 +34,6 @@
 ## G2 FAMAS
 - Everything
 
-## AR70
-- Everything
-
 ## XM8
 - Everything
 
@@ -66,9 +63,7 @@
 - Everything
 
 ## ACR
-- Fire sounds
-- Model edits (maybe) for smaller magazine
-- Caliber conversion stats + icon + sound 
+- Caliber conversion stats + icon
 
 ## Howa
 - Everything

@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Civilian variant of the iconic battle rifle, mimicing a rare light-barreled design."
+SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but excellent stopping power and range."
 SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = ".308 Winchester"
@@ -272,7 +272,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_auto"},
+        Category = {"trigger_semi"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
