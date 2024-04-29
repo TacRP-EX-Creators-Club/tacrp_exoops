@@ -43,7 +43,6 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - StG 44
 
 ## Shotguns
-- Kel-Tec KSG
 - Winchester M1897
 - HK CAWS
 - USAS-12

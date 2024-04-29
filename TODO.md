@@ -7,9 +7,6 @@
 ## Rhino
 - Everything
 
-## M29
-- Everything
-
 ## M950A
 - Everything
 
@@ -34,21 +31,12 @@
 ## G2 FAMAS
 - Everything
 
-## XM8
-- Everything
-
-## SCAR
-- Everything
-
 ## F2000
 - Everything
 
 ## MCX
 - Foley sounds
 - Caliber conversion stats
-
-## KSG
-- Everything
 
 ## 1897
 - Everything
