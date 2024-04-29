@@ -35,6 +35,8 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 45,
         Damage_Min = 30,
+        ClipSize = 20,
+        RPM = 450,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 38,
@@ -90,10 +92,10 @@ SWEP.MuzzleVelocity = 29000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 450
-SWEP.RPMMultSemi = 0.6
+SWEP.RPM = 420
+SWEP.RPMMultSemi = 0.55
 
-SWEP.Spread = 0.0012
+SWEP.Spread = 0.0028
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -104,7 +106,7 @@ SWEP.RecoilFirstShotMult = 0.85
 
 SWEP.RecoilVisualKick = 1.5
 
-SWEP.RecoilKick = 7
+SWEP.RecoilKick = 8
 SWEP.RecoilStability = 0.75
 
 SWEP.RecoilSpreadPenalty = 0.004
@@ -164,7 +166,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 10
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.25

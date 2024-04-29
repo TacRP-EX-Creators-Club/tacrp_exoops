@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Vintage battle rifle with great accuracy and suppressing power but violent recoil."
+SWEP.Description = "Vintage battle rifle with great suppressing power but violent recoil."
 SWEP.Description_Quote = "The right arm of the free world."
 
 SWEP.Trivia_Caliber = "7.62x51mm"
@@ -95,11 +95,11 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 600
 
-SWEP.Spread = 0.0025
+SWEP.Spread = 0.0035
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
+SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1
@@ -109,7 +109,7 @@ SWEP.RecoilVisualKick = 1.75
 SWEP.RecoilKick = 10
 SWEP.RecoilStability = 0.6
 
-SWEP.RecoilSpreadPenalty = 0.005
+SWEP.RecoilSpreadPenalty = 0.0075
 SWEP.HipFireSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 
