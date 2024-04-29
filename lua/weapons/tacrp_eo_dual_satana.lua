@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Dueling Demons"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "1Elite"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "3Akimbo"
 
 SWEP.Description = "Pair of customized revolvers. Great accuracy for akimbos but slow to fire and reload."
@@ -69,42 +69,30 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 65,
-        Damage_Min = 30,
-
-        Spread = 0.015,
-        RecoilKick = 8,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilKick = 10,
-        Spread = 0.015
-    }
 }
 
 SWEP.TTTReplace = {["weapon_zm_pistol"] = 0.5, ["weapon_ttt_glock"] = 0.5}
 
 // "ballistics"
 
-SWEP.Damage_Max = 80
-SWEP.Damage_Min = 50
-SWEP.Range_Min = 450
-SWEP.Range_Max = 1450
-SWEP.Penetration = 10 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.85
-SWEP.ArmorBonus = 5
+SWEP.Damage_Max = 58 // damage at minimum range
+SWEP.Damage_Min = 34 // damage at maximum range
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
+SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.9
 
-SWEP.MuzzleVelocity = 10000
+SWEP.MuzzleVelocity = 12500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
     [HITGROUP_LEFTLEG] = 0.75,
     [HITGROUP_RIGHTLEG] = 0.75,
-    [HITGROUP_GEAR] = 0.9
+    [HITGROUP_GEAR] = 0.75
 }
 
 // misc. shooting
@@ -113,7 +101,7 @@ SWEP.Firemodes = {1, 2}
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 SWEP.Firemode = false
 
-SWEP.RPM = 180
+SWEP.RPM = 160
 SWEP.RPMMultBurst = 1.1
 SWEP.RPMMultSemi = 1.1
 
@@ -124,7 +112,7 @@ SWEP.MidAirSpreadPenalty = 0.075
 SWEP.HipFireSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
+SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.175
 SWEP.RecoilDissipationRate = 12
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
@@ -140,7 +128,7 @@ SWEP.Sway = 0.5
 SWEP.CanBlindFire = false
 SWEP.CanSuicide = true
 
-SWEP.ShootTimeMult = 0.6
+SWEP.ShootTimeMult = 1
 
 // handling
 

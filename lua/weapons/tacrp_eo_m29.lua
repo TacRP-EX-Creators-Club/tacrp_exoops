@@ -8,7 +8,7 @@ SWEP.PrintName = "SW Model 29 \"Satan\""
 SWEP.AbbrevName = "M29"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "1Elite"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Customized magnum revolver with a slow rate of fire but great recoil control."
@@ -57,31 +57,23 @@ SWEP.BalanceStats = {
         RecoilMaximum = 2,
         RecoilDissipationRate = 2.5,
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 55,
-        Damage_Min = 24,
-        RPM = 120,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilDissipationRate = 4
-    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
 
 // "ballistics"
 
-SWEP.Damage_Max = 54 // damage at minimum range
-SWEP.Damage_Min = 28 // damage at maximum range
-SWEP.Range_Min = 300 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
-SWEP.Penetration = 6 // units of metal this weapon can penetrate
+SWEP.Damage_Max = 58 // damage at minimum range
+SWEP.Damage_Min = 34 // damage at maximum range
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
+SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.9
 
 SWEP.MuzzleVelocity = 12500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,
@@ -97,7 +89,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 95
+SWEP.RPM = 85
 
 SWEP.Spread = 0.001
 
@@ -111,8 +103,8 @@ SWEP.RecoilDissipationRate = 9
 SWEP.RecoilFirstShotMult = 0.9
 
 SWEP.RecoilVisualKick = 3
-SWEP.RecoilKick = 8
-SWEP.RecoilStability = 0.55
+SWEP.RecoilKick = 10
+SWEP.RecoilStability = 0.6
 
 SWEP.RecoilSpreadPenalty = 0.01
 
@@ -126,7 +118,7 @@ SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.22
+SWEP.AimDownSightsTime = 0.32
 SWEP.SprintToFireTime = 0.3
 
 SWEP.FreeAimMaxAngle = 4.5
@@ -163,14 +155,14 @@ SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
 
 SWEP.Sway = 1.5
-SWEP.ScopedSway = 0.6
+SWEP.ScopedSway = 0.5
 
 // reload
 
 SWEP.ClipSize = 6
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 1.1
+SWEP.ReloadTimeMult = 1.2
 
 SWEP.ReloadUpInTime = 1.35
 
