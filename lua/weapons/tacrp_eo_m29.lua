@@ -12,13 +12,19 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Customized magnum revolver with a slow rate of fire but great recoil control."
+SWEP.Description_Quote = "\"Do ya feel lucky, punk?\""
 
 SWEP.Trivia_Caliber = ".44 Magnum"
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
 SWEP.Trivia_Year = "1955"
 
 SWEP.Faction = TacRP.FACTION_COALITION
-SWEP.Credits = "Assets: Tactical Intervention"
+SWEP.Credits = [[
+Model: Soul_Slayer
+Texture: Kimono
+Sounds: Vunsunta
+Animations: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_m29.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_m29.mdl"
