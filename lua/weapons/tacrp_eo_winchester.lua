@@ -210,31 +210,31 @@ SWEP.DeployTimeMult = 1.15
 // attachments
 
 SWEP.Attachments = {
-    [3] = {
+    [1] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_sling", "acc_duffle"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [2] = {
         PrintName = "Bolt",
         Category = {"bolt_manual"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [3] = {
         PrintName = "Trigger",
         Category = {"trigger_manual"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [4] = {
         PrintName = "Ammo",
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [5] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
