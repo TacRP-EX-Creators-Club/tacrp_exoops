@@ -11,7 +11,8 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Sub-carbine-length AR-15 with a fast rate of fire. Fixed carry handle limits optic options"
+SWEP.Description = "Sub-carbine-length AR-15 with a fast rate of fire. Fixed carry handle limits optic options."
+SWEP.Description_Quote = "\"I do what I do best; I take scores.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Colt"
