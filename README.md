@@ -21,7 +21,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 ## Machine Pistols
 - Mauser M712 Schnellfeuer (done)
 - Beretta 93R (done)
-- Calico M950A
+- Calico M950A (done)
 
 ## Sub-Machine Guns
 - Beretta PM-12S
@@ -52,7 +52,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Machine Guns
 - MG42 (done)
-- M249
+- M249 (or an M60 idk yet)
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)

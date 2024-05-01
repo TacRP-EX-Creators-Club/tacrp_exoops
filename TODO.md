@@ -7,9 +7,6 @@
 ## Rhino
 - Everything
 
-## M950A
-- Everything
-
 ## PM-12
 - Everything
 
