@@ -15,8 +15,8 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Chiappa Rhino 20DS (9mm)
 
 ## Magnum Pistols
-- S&W Model 29 "Satan"
-- Dueling Demons (Dual M29 Satan)
+- S&W Model 29 "Satan" (doneish)
+- Dueling Demons (Dual M29 Satan) (doneish)
 
 ## Machine Pistols
 - Mauser M712 Schnellfeuer (done)
@@ -33,12 +33,14 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Assault Rifles
 - Magpul Masada (5.56x45mm) (done)
-- Colt Model 733 (CAR-15)
+- Colt Model 733 (done)
 - Enfield L85A2
 - FAMAS G2
 - HK G36C
 - Beretta AR70 (AR70/223) (done)
 - FN F2000
+- SCAR-L
+- H&K XM8 (full size)
 - SIG MCX (done)
 - StG 44
 
@@ -50,6 +52,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Machine Guns
 - MG42 (done)
+- M249
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
