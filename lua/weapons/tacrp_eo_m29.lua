@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "Customized magnum revolver with a slow rate of fire but great recoil control."
+SWEP.Description = "Customized magnum revolver with a heavy trigger but great recoil control."
 SWEP.Description_Quote = "\"Do ya feel lucky, punk?\""
 
 SWEP.Trivia_Caliber = ".44 Magnum"
