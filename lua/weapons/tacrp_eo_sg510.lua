@@ -19,12 +19,10 @@ SWEP.Trivia_Year = "1957"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Assets: Sledgehammer Games
-Originally ported to CS 1.6 by GR_Lucia
+Assets: World of Guns: Disassembly
+Sounds: Sledgehammer Games
 Animations: Tactical Intervention
 ]]
--- the original credits claim visceral made the model (???) idk
--- dead space 510 is now real
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_sg510.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_sg510.mdl"
@@ -159,7 +157,7 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
 SWEP.SightAng = Angle(0.05, 0.1, 0)
-SWEP.SightPos = Vector(-4.16, -6, -4)
+SWEP.SightPos = Vector(-4.13, -6, -5.43)
 
 SWEP.CorrectivePos = Vector(0, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
@@ -172,12 +170,16 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.Sway = 1.4
 SWEP.ScopedSway = 0.2
 
+SWEP.Bipod = true
+SWEP.BipodRecoil = 0.3
+SWEP.BipodKick = 0.25
+
 // reload
 
 SWEP.ClipSize = 20
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.15
+SWEP.ReloadTimeMult = 1.3
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/sg510.mdl"
 SWEP.DropMagazineImpact = "metal"
 
@@ -220,12 +222,20 @@ SWEP.AnimationTranslationTable = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["sights"] = {
+    ["bipod"] = {
         BGs_VM = {
             {1, 1},
-			{2, 1}
         },
+		BGs_WM = {
+			{1, 1},
+		},
     },
+	["sights"] = {
+		BGs_VM = {
+			{2, 1},
+			{3, 1},
+		},
+	},
 }
 
 
@@ -238,8 +248,8 @@ SWEP.Attachments = {
         WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
-        VMScale = 0.75,
-        Pos_VM = Vector(-5, 0.05, 3),
+        VMScale = 0.85,
+        Pos_VM = Vector(-5.5, -0.06, 4),
         Pos_WM = Vector(7, 1.25, -6.25),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
@@ -251,50 +261,50 @@ SWEP.Attachments = {
         WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-		VMScale = 0.75,
-        Pos_VM = Vector(-3.7, 0.1, 25),
+		VMScale = 0.85,
+        Pos_VM = Vector(-3.7, 0.05, 30),
         Pos_WM = Vector(32, 1.25, -5.1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
+    --[3] = {
+       --PrintName = "Tactical",
+        --Category = "tactical",
+        --InstalledElements = {"tactical"},
+        --Bone = "ValveBiped.sg551_rootbone",
+        --WMBone = "ValveBiped.Bip01_R_Hand",
+        --AttachSound = "tacrp/weapons/flashlight_on.wav",
+        --DetachSound = "tacrp/weapons/flashlight_off.wav",
+        --Pos_VM = Vector(-3.9, -0.6, 22),
+        --Pos_WM = Vector(17.5, 2.4, -5),
+        --Ang_VM = Angle(90, 0, -75),
+        --Ang_WM = Angle(0, 0, 90),
+    --},
     [3] = {
-        PrintName = "Tactical",
-        Category = "tactical",
-        InstalledElements = {"tactical"},
-        Bone = "ValveBiped.sg551_rootbone",
-        WMBone = "ValveBiped.Bip01_R_Hand",
-        AttachSound = "tacrp/weapons/flashlight_on.wav",
-        DetachSound = "tacrp/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-3.7, -0.9, 12.5),
-        Pos_WM = Vector(17.5, 2.4, -5),
-        Ang_VM = Angle(90, 0, -90),
-        Ang_WM = Angle(0, 0, 90),
-    },
-    [4] = {
         PrintName = "Accessory",
         Category = {"acc", "perk_extendedmag", "acc_sling", "acc_duffle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [4] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [5] = {
         PrintName = "Trigger",
-        Category = {"trigger_4pos"},
+        Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [6] = {
         PrintName = "Ammo",
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [8] = {
+    [7] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
