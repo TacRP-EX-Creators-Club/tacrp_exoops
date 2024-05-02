@@ -237,19 +237,7 @@ SWEP.AttachmentElements = {
 //ValveBiped.MG4_root
 
 SWEP.Attachments = {
-    --[1] = {
-       --PrintName = "Optic",
-       -- Category = {"optic_cqb", "optic_medium"},
-        --Bone = "ValveBiped.feed_cover",
-        --AttachSound = "TacRP/weapons/optic_on.wav",
-        --DetachSound = "TacRP/weapons/optic_off.wav",
-        --VMScale = 1.1,
-        --Pos_VM = Vector(-0.75, 0, -3),
-        --Pos_WM = Vector(8, 1.15, -7),
-        --Ang_VM = Angle(90, 0, 0),
-        --Ang_WM = Angle(0, 0, 180),
-    --},
-    [2] = {
+    [1] = {
         PrintName = "Muzzle",
         Category = "barrel",
         Bone = "ValveBiped.MG4_root",
@@ -260,7 +248,7 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
-    [3] = {
+    [2] = {
         PrintName = "Tactical",
         Category = "tactical",
         Bone = "ValveBiped.MG4_root",
@@ -272,17 +260,11 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, 0, 90),
     },
-    [4] = {
+    [3] = {
         PrintName = "Accessory",
         Category = {"acc", "extendedbelt", "acc_duffle", "acc_bipod", "acc_sling"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-    },
-    [8] = {
-        PrintName = "Perk",
-        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
-        AttachSound = "tacrp/weapons/flashlight_on.wav",
-        DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
     [5] = {
         PrintName = "Bolt",
@@ -301,7 +283,13 @@ SWEP.Attachments = {
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-    }
+    },
+	[8] = {
+        PrintName = "Perk",
+        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
+        AttachSound = "tacrp/weapons/flashlight_on.wav",
+        DetachSound = "tacrp/weapons/flashlight_off.wav",
+    },
 }
 
 local function addsound(name, spath)
