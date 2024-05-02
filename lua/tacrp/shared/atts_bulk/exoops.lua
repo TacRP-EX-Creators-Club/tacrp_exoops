@@ -77,7 +77,7 @@ ATT = {}
 ATT.PrintName = "6.8 SPC"
 ATT.FullName = "6.8 Remington SPC Mod Kit"
 ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
-ATT.Description = "Modification to load in a lower power sporting round with better range."
+ATT.Description = "Modification to load in a sporting round with better range."
 ATT.Pros = {"rating.range", "rating.control"}
 ATT.Cons = {"rating.lethality", "att.procon.armor"}
 
@@ -96,7 +96,7 @@ ATT.Add_ArmorPenetration = -0.1
 ATT.Mult_ArmorBonus = 0.75
 
 ATT.Mult_RPM = 1
-ATT.Mult_ClipSize = 1 * 1.25
+ATT.Mult_ClipSize = 1
 
 ATT.Add_RecoilKick = -1
 ATT.Mult_RecoilSpreadPenalty = 0.85
@@ -108,6 +108,44 @@ ATT.Override_Sound_Shoot = "^tacint_shark/weapons/masada/68_unsil.wav"
 ATT.Override_Sound_Shoot_Silenced = "Tacint_shark/weapons/mcx/mcx_556_supp.wav"
 
 TacRP.LoadAtt(ATT, "ammo_modular_68spc")
+
+-- ACR 6.5 Grendel conversion
+ATT = {}
+
+ATT.PrintName = "GRENDEL"
+ATT.FullName = "6.5 Grendel Mod Kit"
+ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
+ATT.Description = "Modification to load a high power round with better stopping power."
+ATT.Pros = {"rating.range", "rating.control"}
+ATT.Cons = {"rating.lethality", "att.procon.armor"}
+
+ATT.Category = "ammo_masada"
+ATT.SortOrder = 0.5
+
+ATT.InstalledElements = {"50beo"}
+
+ATT.Mult_Damage_Max = 0.85
+ATT.Mult_Damage_Min = 1
+ATT.Mult_Range_Min = 1.5
+ATT.Mult_Range_Max = 1.25
+
+ATT.Mult_Penetration = 0.5
+ATT.Add_ArmorPenetration = -0.1
+ATT.Mult_ArmorBonus = 0.75
+
+ATT.Mult_RPM = 1
+ATT.Mult_ClipSize = 1 * 0.75
+
+ATT.Add_RecoilKick = -1
+ATT.Mult_RecoilSpreadPenalty = 0.85
+ATT.Mult_MuzzleVelocity = 1.2
+
+ATT.Mult_ShootTimeMult = 1.5
+
+ATT.Override_Sound_Shoot = "^tacint_shark/weapons/masada/65_unsil.wav"
+ATT.Override_Sound_Shoot_Silenced = "tacint_shark/weapons/masada/65_sil.wav"
+
+TacRP.LoadAtt(ATT, "ammo_modular_65gren")
 
 --SPAS-15 pump-action mode
 ATT = {}

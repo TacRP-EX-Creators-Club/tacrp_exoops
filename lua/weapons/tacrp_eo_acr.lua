@@ -14,7 +14,7 @@ SWEP.SubCatType = "5Sporter"
 SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Modular receiver allows for a variety of different calibers to be used."
 SWEP.Description_Quote = nil
 
-SWEP.Trivia_Caliber = "6.5 Grendel"
+SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Bushmaster Firearms LLC"
 SWEP.Trivia_Year = "2010"
 
@@ -34,6 +34,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+		ClipSize = 30
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -187,8 +188,8 @@ SWEP.DropMagazineTime = 0.4
 local path = "TacRP/weapons/m4/m4_"
 local path1 = "Tacint_shark/weapons/masada/"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "65_unsil.wav"
-SWEP.Sound_Shoot_Silenced = path1 .. "65_sil.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "masada_unsil.wav"
+SWEP.Sound_Shoot_Silenced = path1 .. "masada_sil.wav"
 
 SWEP.Vol_Shoot = 120
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
