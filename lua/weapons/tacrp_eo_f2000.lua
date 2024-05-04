@@ -11,6 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Futuristic bullpup AR with excellent ergonomics."
+SWEP.Description_Quote = "\"Did you just say I have to win one for the Gipper?\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"
