@@ -187,6 +187,47 @@ ATT.Free = true
 
 TacRP.LoadAtt(ATT, "bolt_spas15_pump")
 
+--Mk 22 Slide Lock
+ATT = {}
+
+ATT.PrintName = "Lock"
+ATT.FullName = "Slide Lock."
+ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
+ATT.Description = "Locks the slide in place when firing to further reduce noise."
+ATT.Pros = {"stat.muzzlevelocity", "Invisible tracer"}
+ATT.Cons = {"stat.rpm"}
+ATT.Ignore = true
+
+ATT.Category = "trigger_mk22"
+
+ATT.SortOrder = 0
+
+ATT.Mult_RPM = 0.2
+ATT.Mult_ShootTimeMult = 1
+
+ATT.Mult_MuzzleVelocity = 1.1
+
+ATT.Override_EjectDelay = 0.6
+
+ATT.Override_TracerNum = 0
+ATT.Mult_Vol_Shoot = 0.5
+
+ATT.Hook_TranslateSequence = function(self, seq)
+    if seq == "fire" then
+        return {"shoot_locked"}
+	elseif seq == "lastshot" then
+		return {"shoot_locked_lastshot"}
+	elseif seq == "blind_fire" then
+		return {"blind_shoot_locked"}
+	elseif seq == "blind_lastshot" then
+		return {"blind_shoot_locked_last"}
+    end
+end
+
+ATT.Free = true
+
+TacRP.LoadAtt(ATT, "trigger_mk22_locked")
+
 -- F2000 fish scop
 ATT = {}
 
