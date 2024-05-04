@@ -17,7 +17,7 @@ SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"
 SWEP.Trivia_Year = "2004"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = "Assets: Counter-Strike: Online 2"
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_scarl.mdl"
