@@ -1,3 +1,5 @@
+##Everything still needs stats
+
 ## PX4
 - Everything
 
@@ -19,16 +21,10 @@
 ## PM-63
 - Everything
 
-## CAR15
-- Maybe new foley sounds
-
 ## L85
 - Everything
 
 ## G2 FAMAS
-- Everything
-
-## F2000
 - Everything
 
 ## MCX

@@ -38,8 +38,8 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - FAMAS G2
 - HK G36C
 - Beretta AR70 (AR70/223) (done)
-- FN F2000
-- SCAR-L
+- FN F2000 (done)
+- SCAR-L (done)
 - H&K XM8 (full size)
 - SIG MCX (done)
 - StG 44
