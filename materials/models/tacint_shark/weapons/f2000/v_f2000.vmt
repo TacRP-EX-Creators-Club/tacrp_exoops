@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models\tacint_shark\weapons\f2000\v_f2000"
+	$bumpmap 		"models\tacint_shark\weapons\f2000\v_f2000_normal"
+
+	$phong "1"
+	$phongboost "32"
+	$phongexponent "24"
+	$phongfresnelranges "[0.05 0.15 1.0]"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.1 0.1 0.1]"
+	$normalmapalphaenvmapmask "1"
+	$envmapfresnel "0.4"
+}

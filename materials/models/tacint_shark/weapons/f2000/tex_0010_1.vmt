@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\tacint_shark\weapons\f2000\tex_0010_1"
+	$phongexponenttexture "models\tacint_shark\weapons\f2000\tex_0010_1_exp"
+	$basemapalphaphongmask 1
+
+	"$envmapfresnel"	"1"
+	"$envmapFresnelMinMaxExp"	"[0 5 .4]"
+	"$nocull" "1"
+
+	"$phong"     "1"
+	"$phongboost"   "0.3"
+	"$phongfresnelranges"      "[1 3 6]"
+	"$phongalbedotint"		"1"
+	"$phongalbedoboost" 	"44"
+	//"$halflambert" 		"1"
+}
