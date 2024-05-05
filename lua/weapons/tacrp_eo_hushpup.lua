@@ -101,7 +101,7 @@ SWEP.Firemode = 1
 SWEP.RPM = 350
 SWEP.RPMMultSemi = 0.8
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.005
 SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.01
 

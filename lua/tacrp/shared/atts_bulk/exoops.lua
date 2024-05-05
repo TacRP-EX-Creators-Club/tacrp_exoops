@@ -178,8 +178,8 @@ ATT.Hook_TranslateSequence = function(self, seq)
         return {"fire_pump"}
     elseif seq == "blind_fire1" then
         return {"fire_pump"}
-	elseif seq == "fire_iron" then
-		return {"fire_pump"}
+    elseif seq == "fire_iron" then
+        return {"fire_pump"}
     end
 end
 
@@ -190,37 +190,45 @@ TacRP.LoadAtt(ATT, "bolt_spas15_pump")
 --Mk 22 Slide Lock
 ATT = {}
 
-ATT.PrintName = "Lock"
-ATT.FullName = "Slide Lock."
+ATT.PrintName = "S. Lock"
+ATT.FullName = "Mk 22 Slide Lock"
 ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
 ATT.Description = "Locks the slide in place when firing to further reduce noise."
-ATT.Pros = {"stat.muzzlevelocity", "Invisible tracer"}
+ATT.Pros = {"rating.precision", "stat.muzzlevelocity", "stat.range"}
 ATT.Cons = {"stat.rpm"}
-ATT.Ignore = true
+ATT.Ignore = false
 
 ATT.Category = "trigger_mk22"
 
 ATT.SortOrder = 0
 
-ATT.Mult_RPM = 0.2
-ATT.Mult_ShootTimeMult = 1
+ATT.Mult_Spread = 0.5
+ATT.Mult_HipFireSpreadPenalty = 0.75
+ATT.Mult_MoveSpreadPenalty = 0.25
+ATT.Mult_RPM = 0.25
+ATT.Mult_ShootTimeMult = 0.85
 
-ATT.Mult_MuzzleVelocity = 1.1
+ATT.Add_Range_Min = 250
+ATT.Add_Range_Max = 500
+
+ATT.Mult_MuzzleVelocity = 1.2
 
 ATT.Override_EjectDelay = 0.6
 
 ATT.Override_TracerNum = 0
 ATT.Mult_Vol_Shoot = 0.5
 
+ATT.Override_ProceduralIronFire = false
+
 ATT.Hook_TranslateSequence = function(self, seq)
     if seq == "fire" then
         return {"shoot_locked"}
-	elseif seq == "lastshot" then
-		return {"shoot_locked_lastshot"}
-	elseif seq == "blind_fire" then
-		return {"blind_shoot_locked"}
-	elseif seq == "blind_lastshot" then
-		return {"blind_shoot_locked_last"}
+    elseif seq == "lastshot" then
+        return {"shoot_locked_lastshot"}
+    elseif seq == "blind_fire" then
+        return {"blind_shoot_locked"}
+    elseif seq == "blind_lastshot" then
+        return {"blind_shoot_locked_last"}
     end
 end
 
