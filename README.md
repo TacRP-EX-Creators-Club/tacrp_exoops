@@ -9,7 +9,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Walther P99 (done)
 - SIG P210 (done)
 - Beretta PX4
-- S&W Mk 22 Mod. 0 "Hush Puppy"
+- S&W Mk 22 Mod. 0 "Hush Puppy" (done)
 - Star Megastar (done)
 - Browning Hi-Power (done)
 - Chiappa Rhino 20DS (9mm)
@@ -61,7 +61,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 ## Precision Rifles
 - SIG Stgw 57 (SG 510) (done)
-- Howa Type 64
+- Howa Type 64 (done)
 - FN FAL (StG 58) (done)
 
 ## Sniper Rifles

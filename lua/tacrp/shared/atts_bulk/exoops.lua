@@ -263,3 +263,31 @@ if engine.ActiveGamemode() == "terrortown" then
 end
 
 TacRP.LoadAtt(ATT, "optic_f2000_scope")
+
+-- Howa Scope
+ATT = {}
+
+ATT.PrintName = "Scope"
+ATT.FullName = "Howa 2.2x DMR Scope"
+ATT.Icon = Material("entities/tacrp_att_optic_howa.png", "mips smooth")
+ATT.Description = "Proprietary marksman scope for the Type 64."
+ATT.Pros = {"2.2x Zoom"}
+
+ATT.Category = "optic_howa"
+
+ATT.SortOrder = 0
+
+ATT.Override_Scope = true
+ATT.Override_ScopeHideWeapon = true
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/shortdot.png", "mips smooth")
+ATT.Override_ScopeFOV = 90 / 2.2
+
+ATT.Add_AimDownSightsTime = 0
+
+ATT.InstalledElements = {"scope"}
+
+if engine.ActiveGamemode() == "terrortown" then
+    ATT.Free = true
+end
+
+TacRP.LoadAtt(ATT, "optic_howa_scope")

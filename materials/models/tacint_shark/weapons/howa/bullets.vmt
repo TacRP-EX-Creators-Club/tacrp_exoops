@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+
+	"$basetexture" "models\tacint_shark\weapons\howa\Bullets_C"
+	"$bumpmap" "models\tacint_shark\weapons\howa\Bullets_N"
+	"$halflambert" "1"				
+	"$nocull" 1		
+	"$color2"         "{206 190 168}" 
+
+	"$normalmapalphaenvmapmask" 1				
+	"$envmap" "env_cubemap"					
+	"$envmaptint" "[0.2  0.08 0.01]"				
+ 	"$envmapFresnel" "0.2"					
+
+	"$phong" "0"						
+	"$phongexponenttexture" "models\tacint_shark\weapons\howa\Bullets_Exp"
+	"$phongboost" "10"						
+	"$phongfresnelranges"	"[2 2 4]"	
+	"$phongtint"            "[6 2.8 0.51]"	
+
+	"$PhongAlbedoTint" "1"		
+
+}
+
+
+
+

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\tacint_shark\weapons\howa\bipod"
+	"$bumpmap" "models\tacint_shark\weapons\howa\normal"
+	"$halflambert" "1"				
+	"$nocull" 1		
+	"$color2" "[0.5 0.5 0.5]"	
+	
+	"$normalmapalphaenvmapmask" 1				
+	"$envmap" "env_cubemap"					
+	"$envmaptint" "[ .012 .012 .012 ]"					
+	"$envmapFresnel" "0.2"	
+	
+	"$phong" "0"	
+	"$phongexponent"        "40"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[1 3 5]"	
+	"$phongtint"            "[.8 .8 0.8]"	
+
+	"$PhongAlbedoTint" "1"		
+}

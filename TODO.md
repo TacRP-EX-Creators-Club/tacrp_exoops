@@ -3,9 +3,6 @@
 ## PX4
 - Everything
 
-## Hush Puppy
-- Everything
-
 ## Rhino
 - Everything
 
@@ -42,9 +39,6 @@
 
 ## ACR
 - Caliber conversion stats + icon
-
-## Howa
-- Everything
 
 ## Scout
 - Everything
