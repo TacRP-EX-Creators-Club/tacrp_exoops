@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Futuristic bullpup AR with excellent ergonomics."
+SWEP.Description = "Futuristic bullpup AR with excellent ergonomics. \nEquipped with a 1.6x scope by default."
 SWEP.Description_Quote = "\"Did you just say I have to win one for the Gipper?\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -168,16 +168,24 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
 SWEP.HolsterPos = Vector(5, 4, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
+// scope
+
+SWEP.Scope = true
+SWEP.ScopeOverlay = Material("tacrp/scopes/f2kscope.png", "mips smooth") // Material("path/to/overlay")
+SWEP.ScopeFOV = 90 / 1.6
+SWEP.ScopeLevels = 1 // 2 = like CS:S
+SWEP.ScopeHideWeapon = true
+
 // reload
 
-SWEP.ClipSize = 25
+SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.25
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
 SWEP.DropMagazineImpact = "metal"
 
-SWEP.ReloadUpInTime = 1.7
+SWEP.ReloadUpInTime = 1.6
 SWEP.DropMagazineTime = 0.5
 
 // sounds
@@ -234,7 +242,7 @@ SWEP.ProceduralIronFire = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["scope"] = {
+    ["irons"] = {
         BGs_VM = {
 			{1, 1},
             {2, 1}
@@ -250,10 +258,11 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_medium", "optic_sniper", "optic_f2k"},
+        Category = {"ironsights", "optic_medium", "optic_sniper"},
         Bone = "ValveBiped.AUG_rootbone",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
+		InstalledElements = {"irons"},
         VMScale = 1,
         Pos_VM = Vector(-6.2, 0, 3),
         Ang_VM = Angle(90, 0, 0),
