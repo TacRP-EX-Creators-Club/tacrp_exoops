@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+"$basetexture"		     	     "models/tacint_shark/weapons/m950/calico"
+"$bumpmap" 			             "models/tacint_shark/weapons/m950/calico_normal"
+"$phongexponenttexture"		     "models/tacint_shark/weapons/m950/calico_exponent"
+	
+"$normalmapalphaenvmapmask"      "1"
+"$envmaptint"                    "[ 0.8 0.8 0.8 ]"
+
+"$phong"                         "1"
+"$phongexponent"                 "35"
+"$phongboost"                    "1"
+"$phongfresnelranges"            "[0.1 0.1 0.1]"
+"$phongtint"                     "[0.8 0.8 0.8]" 
+
+"$phongalbedotint"               "1"
+"$halflambert"                   "1"
+}

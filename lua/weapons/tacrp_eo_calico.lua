@@ -20,8 +20,8 @@ SWEP.Trivia_Year = "1987"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Assets: Warface
-Originally ported to CS 1.6 by GR_Lucia
+Assets: A.V.A.
+Rail and foregrip from Warface
 Sound: A.V.A. & speedonerd
 Animation: Tactical Intervention
 ]]
@@ -150,11 +150,13 @@ SWEP.BlindFirePos = Vector(0, -4, -3)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(6, -2, -1)
 
-SWEP.SightAng = Angle(0.18, -0.06, 0)
-SWEP.SightPos = Vector(-3.5, -15, -3.3)
+SWEP.SightAng = Angle(0.165, -0.14, 0)
+SWEP.SightPos = Vector(-3.46, -12, -3.9)
 
 SWEP.CorrectivePos = Vector(0.03, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
+
+SWEP.CustomizePos = Vector(8, 0, -7)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -225,8 +227,8 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.85,
         WMScale = 0.85,
-        Pos_VM = Vector(-4.8, -0.15, 5),
-        Pos_WM = Vector(7, 1.7, -6.5),
+        Pos_VM = Vector(-5.55, -0.2, 4),
+        Pos_WM = Vector(6, 1.8, -6.8),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
     },
@@ -236,10 +238,10 @@ SWEP.Attachments = {
         Bone = "p90_ROOT",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-		VMScale = 0.55,
+		VMScale = 0.7,
 		WMScale = 0.65,
-        Pos_VM = Vector(-1.6, -0.06, 17),
-        Pos_WM = Vector(19, 2.2, -3.3),
+        Pos_VM = Vector(-2.1, -0.08, 17),
+        Pos_WM = Vector(19, 2.2, -3.8),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
     },
@@ -250,8 +252,8 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 0.85,
-        Pos_VM = Vector(-2.3, 0, 11),
-        Pos_WM = Vector(13, 1.7, -4),
+        Pos_VM = Vector(-3, -0.08, 11),
+        Pos_WM = Vector(13, 2, -4.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, -180),
     },
