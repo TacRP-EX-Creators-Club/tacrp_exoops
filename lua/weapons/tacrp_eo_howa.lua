@@ -70,17 +70,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
-SWEP.Damage_Min = 12
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 18
+SWEP.Range_Min = 700 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2800 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.725
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.85,
@@ -88,7 +88,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 25000
+SWEP.MuzzleVelocity = 18000
 
 // misc. shooting
 
@@ -105,31 +105,31 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 11
+SWEP.RecoilMaximum = 9
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 44
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 2
 
-SWEP.RecoilKick = 6
-SWEP.RecoilStability = 0.4
+SWEP.RecoilKick = 4.5
+SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.0024
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.002
+SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.65
 SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.38
+SWEP.AimDownSightsTime = 0.39
+SWEP.SprintToFireTime = 0.42
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.175
@@ -230,15 +230,15 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 1}
         },
-		BGs_WM = {
+        BGs_WM = {
             {2, 1}
         },
     },
 }
 
 SWEP.ProceduralIronFire = {
-    vm_pos = Vector(0, -0.4, -0.3),
-    vm_ang = Angle(0, 0.5, 0),
+    vm_pos = Vector(0, -0.4, -0.08),
+    vm_ang = Angle(0, 0.2, 0),
     t = 0.2,
     tmax = 0.2,
     bones = {
@@ -291,7 +291,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag"},
+        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_rifle2"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },

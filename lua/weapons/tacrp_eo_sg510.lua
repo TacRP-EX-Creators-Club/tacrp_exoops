@@ -103,11 +103,11 @@ SWEP.MuzzleVelocity = 24000
 
 SWEP.Firemodes = {2, 1}
 
-SWEP.RPM = 480
+SWEP.RPM = 460
 
 SWEP.PostBurstDelay = 0.1
 
-SWEP.Spread = 0.0015
+SWEP.Spread = 0.003
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -226,16 +226,16 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1},
         },
-		BGs_WM = {
-			{1, 1},
-		},
+        BGs_WM = {
+            {1, 1},
+        },
     },
-	["sights"] = {
-		BGs_VM = {
-			{2, 1},
-			{3, 1},
-		},
-	},
+    ["sights"] = {
+        BGs_VM = {
+            {2, 1},
+            {3, 1},
+        },
+    },
 }
 
 
@@ -261,7 +261,7 @@ SWEP.Attachments = {
         WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-		VMScale = 0.85,
+        VMScale = 0.85,
         Pos_VM = Vector(-3.7, 0.05, 30),
         Pos_WM = Vector(32, 1.25, -5.1),
         Ang_VM = Angle(90, 0, 0),
@@ -282,7 +282,7 @@ SWEP.Attachments = {
     --},
     [3] = {
         PrintName = "Accessory",
-        Category = {"acc", "perk_extendedmag", "acc_sling", "acc_duffle"},
+        Category = {"acc", "acc_extmag_rifle2", "acc_sling", "acc_duffle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
