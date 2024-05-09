@@ -42,23 +42,25 @@ ATT = {}
 ATT.PrintName = ".277 FURY"
 ATT.FullName = ".277 SIG Fury Mod Kit"
 ATT.Icon = Material("entities/tacrp_att_ammo_277fury.png", "mips smooth")
-ATT.Description = "Modification to load high-pressure ammunition with better range."
-ATT.Pros = {"stat.damage_min", "stat.muzzlevelocity"}
-ATT.Cons = {"stat.damage_max", "stat.rpm"}
+ATT.Description = "Cutting-edge ammo boasts amazing performance, but kicks hard."
+
+ATT.Pros = {"stat.damage_min", "stat.damage_max", "stat.rpm", "stat.muzzlevelocity"}
+ATT.Cons = {"stat.recoil"}
 
 ATT.Category = "ammo_mcx"
 ATT.SortOrder = 0
 
 ATT.InstalledElements = {"277fury"}
 
-ATT.Mult_Damage_Max = 0.9
-ATT.Mult_Damage_Min = 1.25
+ATT.Mult_Damage_Max = 2
+ATT.Mult_Damage_Min = 2
 ATT.Mult_Range_Min = 1.15
 ATT.Mult_Range_Max = 1.25
-ATT.Mult_MuzzleVelocity = 1.1
+ATT.Mult_MuzzleVelocity = 1.4
 ATT.Add_Spread = 0.00004
 ATT.Mult_RecoilSpreadPenalty = 1.1
-ATT.Mult_RPM = 0.95
+ATT.Mult_RecoilKick = 3
+ATT.Mult_RPM = 1.05
 
 ATT.Mult_ClipSize = 1 / 1.5
 
