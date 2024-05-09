@@ -12,7 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Advanced rifle with lightweight polymer construction."
-SWEP.Description_Quote = "\"Stay frosty.\""
+SWEP.Description_Quote = "\"You could rid the world of iron and I'd sell wooden clubs.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Magpul Indutries"
@@ -259,7 +259,7 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.7, 0, 24.2),
+        Pos_VM = Vector(-3.7, 0, 27.5),
         Pos_WM = Vector(-1.3, 23, -1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -92, 0),
