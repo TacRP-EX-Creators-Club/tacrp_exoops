@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Modular receiver allows for a variety of different calibers to be used."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "\"To slay a dragon is the greatest of honors.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Bushmaster Firearms LLC"
