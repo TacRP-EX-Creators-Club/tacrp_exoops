@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FN F2000"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "2Operator"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Futuristic bullpup AR with excellent ergonomics. \nEquipped with a 1.6x scope by default."
@@ -76,17 +76,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 10
-SWEP.Range_Min = 1200
-SWEP.Range_Max = 3200
+SWEP.Damage_Max = 24
+SWEP.Damage_Min = 14
+SWEP.Range_Min = 900
+SWEP.Range_Max = 2800
 SWEP.Penetration = 7
 SWEP.ArmorPenetration = 0.8
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3, // Must land at least 2 shots from a burst to get a headshot kill at full health.
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -105,7 +105,7 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 850
 
-SWEP.Spread = 0.002
+SWEP.Spread = 0.003
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -115,9 +115,9 @@ SWEP.RecoilDissipationRate = 21
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 6
-SWEP.RecoilStability = 0.4
-SWEP.RecoilAltMultiplier = 350
+SWEP.RecoilKick = 3.5
+SWEP.RecoilStability = 0.2
+SWEP.RecoilAltMultiplier = 250
 
 SWEP.RecoilSpreadPenalty = 0.0025
 SWEP.HipFireSpreadPenalty = 0.025
@@ -244,13 +244,13 @@ SWEP.ProceduralIronFire = {
 SWEP.AttachmentElements = {
     ["irons"] = {
         BGs_VM = {
-			{1, 1},
+            {1, 1},
             {2, 1}
         },
-		BGs_WM = {
-			{1, 1},
-			{2, 1}
-		},
+        BGs_WM = {
+            {1, 1},
+            {2, 1}
+        },
     },
 }
 
@@ -262,7 +262,7 @@ SWEP.Attachments = {
         Bone = "ValveBiped.AUG_rootbone",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
-		InstalledElements = {"irons"},
+        InstalledElements = {"irons"},
         VMScale = 1,
         Pos_VM = Vector(-6.2, 0, 3),
         Ang_VM = Angle(90, 0, 0),

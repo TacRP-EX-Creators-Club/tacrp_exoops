@@ -75,10 +75,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 15
-SWEP.Range_Min = 1000
-SWEP.Range_Max = 2800
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 12
+SWEP.Range_Min = 500
+SWEP.Range_Max = 2000
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
@@ -115,10 +115,10 @@ SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 1.25
 
-SWEP.RecoilKick = 4.5
-SWEP.RecoilStability = 0.25
+SWEP.RecoilKick = 6
+SWEP.RecoilStability = 0.2
 
 SWEP.RecoilSpreadPenalty = 0.002
 SWEP.HipFireSpreadPenalty = 0.04
@@ -189,12 +189,12 @@ local path = "TacRP/weapons/m4/m4_"
 local path2 = "tacrp_extras/m4a1/m4a1_"
 
 SWEP.Sound_Shoot = {
-	"^tacint_shark/weapons/m733/m4a1_unsil-1.wav",
-	"^tacint_shark/weapons/m733/m4a1_unsil-2.wav",
+    "^tacint_shark/weapons/m733/m4a1_unsil-1.wav",
+    "^tacint_shark/weapons/m733/m4a1_unsil-2.wav",
 }
 SWEP.Sound_Shoot_Silenced = {
-	"^tacint_shark/weapons/m733/m4a1-1.wav",
-	"^tacint_shark/weapons/m733/m4a1-2.wav",
+    "^tacint_shark/weapons/m733/m4a1-1.wav",
+    "^tacint_shark/weapons/m733/m4a1-2.wav",
 }
 
 SWEP.Vol_Shoot = 120
