@@ -267,44 +267,44 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
-    --[3] = {
-       --PrintName = "Tactical",
-        --Category = "tactical",
-        --InstalledElements = {"tactical"},
-        --Bone = "ValveBiped.sg551_rootbone",
-        --WMBone = "ValveBiped.Bip01_R_Hand",
-        --AttachSound = "tacrp/weapons/flashlight_on.wav",
-        --DetachSound = "tacrp/weapons/flashlight_off.wav",
-        --Pos_VM = Vector(-3.9, -0.6, 22),
-        --Pos_WM = Vector(17.5, 2.4, -5),
-        --Ang_VM = Angle(90, 0, -75),
-        --Ang_WM = Angle(0, 0, 90),
-    --},
     [3] = {
+       PrintName = "Tactical",
+        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
+        InstalledElements = {"tactical"},
+        Bone = "ValveBiped.sg551_rootbone",
+        WMBone = "ValveBiped.Bip01_R_Hand",
+        AttachSound = "tacrp/weapons/flashlight_on.wav",
+        DetachSound = "tacrp/weapons/flashlight_off.wav",
+        Pos_VM = Vector(-3.9, -0.6, 22),
+        Pos_WM = Vector(17.5, 2.4, -5),
+        Ang_VM = Angle(90, 0, -75),
+        Ang_WM = Angle(0, 0, 90),
+    },
+    [4] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_extmag_rifle2", "acc_sling", "acc_duffle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [5] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [6] = {
         PrintName = "Trigger",
         Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [7] = {
         PrintName = "Ammo",
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [8] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
