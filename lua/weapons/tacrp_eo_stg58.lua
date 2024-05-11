@@ -9,7 +9,7 @@ SWEP.AbbrevName = "FAL"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "6Battle Rifle"
+SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Vintage battle rifle with great suppressing power but violent recoil."
 SWEP.Description_Quote = "The right arm of the free world."
