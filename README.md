@@ -54,12 +54,12 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - MG42 (done)
 - M249 (or an M60 idk yet)
 
-## Sporter Carbines
+## Carbines
 - Bushmaster ACR (Multicaliber)
 - Winchester M1873 (done)
 - FN FAL (Israeli Pattern) (Done)
 
-## Precision Rifles
+## Battle Rifles
 - SIG Stgw 57 (SG 510) (done)
 - Howa Type 64 (done)
 - FN FAL (StG 58) (done)

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "SG 510"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "6Battle Rifle"
 
 SWEP.Description = "Vintage battle rifle with excellent long range performance. Recoil is harsh but stable."
 
