@@ -8,10 +8,10 @@ SWEP.PrintName = "SIG P210" // P210-2
 SWEP.AbbrevName = "P210"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Sleek pistol with great damage over range but hampered by a single stack magazine."
+SWEP.Description = "Sleek post-war, single-stack, hammer-fired pistol."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
@@ -131,6 +131,8 @@ SWEP.RecoilStability = 0.75
 SWEP.RecoilAltMultiplier = 400
 
 SWEP.CanBlindFire = true
+
+SWEP.JamFactor = 0.1
 
 // handling
 

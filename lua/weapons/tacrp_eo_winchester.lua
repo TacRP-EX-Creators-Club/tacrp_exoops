@@ -8,10 +8,11 @@ SWEP.PrintName = "Winchester M1873"
 SWEP.AbbrevName = "W1873"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Carbine"
 
-SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. Great accuracy and high capacity but attachment options are virtually non-existent."
+SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. A venerable classic - but unsuitable for the demanding battlefields of today."
+SWEP.Description_Quote = "\"The gun that won the West.\""
 
 SWEP.Trivia_Caliber = ".44-40 WCF"
 SWEP.Trivia_Manufacturer = "Winchester Repeating Arms"
