@@ -24,6 +24,15 @@
 ## G2 FAMAS
 - Everything
 
+## G36C
+- Everything
+
+## Big XM8
+- Everything
+
+## StG 44
+- Everything
+
 ## MCX
 - Foley sounds
 - Caliber conversion stats
