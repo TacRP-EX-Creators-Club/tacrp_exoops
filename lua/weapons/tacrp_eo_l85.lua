@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value" -- :trolley:
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "British bullpup rifle with poor performance. At least it sorta looks neat. \nEquipped with a 4x scope by default."
+SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. \nEquipped with a 4x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Royal Ordnance"
