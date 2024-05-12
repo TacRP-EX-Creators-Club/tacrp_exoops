@@ -92,12 +92,9 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 700
 
-SWEP.Spread = 0.004
+SWEP.Spread = 0.0035
 
-SWEP.PostBurstDelay = 0.22
-SWEP.RunawayBurst = true
-
-SWEP.JamFactor = 0.2
+SWEP.JamFactor = 0.03
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -108,8 +105,8 @@ SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 4
-SWEP.RecoilStability = 0.4
-SWEP.RecoilAltMultiplier = 350
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 300
 
 SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.04
