@@ -1,19 +1,19 @@
 SWEP.Base = "tacrp_base"
-SWEP.Spawnable = true
+SWEP.Spawnable = false
 
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG MCX"
+SWEP.PrintName = "SIG MCX Spear"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Light assault rifle with a modular receiver, allowing it to accept a variety of calibers."
+SWEP.Description = "Battle rifle designed for multiple infantry roles."
 SWEP.Description_Quote = "\"Bravo Six, going dark.\""
 
-SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Caliber = ".277 SIG Fury"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "2015"
 
