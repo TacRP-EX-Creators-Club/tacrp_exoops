@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\tacint_shark\weapons\auga1\Lens"
+	"$envmap" "env_cubemap"
+	"$envmaptint" [.7 .7 .7]
+}
