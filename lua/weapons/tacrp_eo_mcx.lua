@@ -145,8 +145,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0.21, -0.05, 0)
-SWEP.SightPos = Vector(-4.11, -7, -5.55)
+SWEP.SightAng = Angle(0.03, 0.4, 0)
+SWEP.SightPos = Vector(-4.51, -7, -5.6)
 
 SWEP.CorrectivePos = Vector(-0.05, 0, 0.05)
 SWEP.CorrectiveAng = Angle(0.03, 0.45, 0)
@@ -226,12 +226,12 @@ SWEP.Attachments = {
         PrintName = "Optic",
         Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         InstalledElements = {"sights"},
-        Bone = "ValveBiped.m4_rootbone",
+        Bone = "ValveBiped._ROOT_HK417",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1.1,
-        Pos_VM = Vector(-6.4, -0.1, 8.5),
+        Pos_VM = Vector(-5.2, 0.6, 7),
         Pos_WM = Vector(0.65, 5, 0.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
@@ -240,13 +240,13 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         Category = "silencer",
         InstalledElements = {"muzzle"},
-        Bone = "ValveBiped.m4_rootbone",
+        Bone = "ValveBiped._ROOT_HK417",
         WMBone = "Box01",
 		VMScale = 0.8,
 		WMScale = 0.85,
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-4.25, -0.1, 24.5),
+        Pos_VM = Vector(-3.15, 0.7, 24.5),
         Pos_WM = Vector(1.5, 22, -1.3),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
@@ -254,13 +254,13 @@ SWEP.Attachments = {
     [3] = {
         PrintName = "Tactical",
         Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
-        Bone = "ValveBiped.m4_rootbone",
+        Bone = "ValveBiped._ROOT_HK417",
         WMBone = "Box01",
 		VMScale = 1.1,
 		WMScale = 1.1,
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-4.26, -1.5, 17),
+        Pos_VM = Vector(-3.2, -0.7, 17),
         Pos_WM = Vector(2.5, 14, -1.3),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-90, -90, 0),
@@ -306,9 +306,8 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_mcx.Remove_Clip", path1 .. "magout.wav")
-addsound("tacint_mcx.Insert_Clip", path1 .. "magin.wav")
-addsound("tacint_mcx.Insert_Clip-mid", path .. "insert_clip-mid.wav")
+addsound("tacint_mcx.Clip_Out", path1 .. "magout.wav")
+addsound("tacint_mcx.Clip_In", path1 .. "magin.wav")
 addsound("tacint_mcx.bolt_action", path .. "bolt_action.wav")
-addsound("tacint_mcx.bolt_slap", path1 .. "boltrelease.wav")
-addsound("tacint_mcx.throw_catch", path .. "throw_catch.wav")
+addsound("tacint_mcx.bolt_latch", path1 .. "boltrelease.wav")
+addsound("tacint_mcx.Fire_Select", "tacrp/weapons/hk417/fire_select.wav")
