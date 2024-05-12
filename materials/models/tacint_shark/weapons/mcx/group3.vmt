@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\tacint_shark\weapons\mcx\spear_03_df"
+	$bumpmap				"models\tacint_shark\weapons\mcx\spear_03_nm"
+	$phongexponenttexture	"models\tacint_shark\weapons\mcx\spear_03_gsma"
+
+	"$color2"	"[.8 .8 .8]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "1"
+	"$phongboost"	"0.3"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.7 2 5]"
+
+
+	"$basemapalphaenvmapmask" 1
+	$envmapfresnel	"1"
+
+	"$ambientocclusion" "1"
+	"$nocull" "1"
+
+}
+

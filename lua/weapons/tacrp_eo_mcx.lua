@@ -1,27 +1,26 @@
 SWEP.Base = "tacrp_base"
-SWEP.Spawnable = false
+SWEP.Spawnable = true
 
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG MCX Spear"
+SWEP.PrintName = "SIG MCX SPEAR"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "4Assault Rifle"
+SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Battle rifle designed for multiple infantry roles."
+SWEP.Description = "Battle rifle designed for multiple infantry roles. Specialized ammo has high armor penetration and maintains damage over range."
 SWEP.Description_Quote = "\"Bravo Six, going dark.\""
 
 SWEP.Trivia_Caliber = ".277 SIG Fury"
-SWEP.Trivia_Manufacturer = "SIG Sauer AG"
-SWEP.Trivia_Year = "2015"
+SWEP.Trivia_Manufacturer = "SIG Sauer Inc."
+SWEP.Trivia_Year = "2019"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Assets: Alliance of Valiant Arms
-Originally ported to CS 1.6 by GR_Lucia
-Sounds: A.V.A., speedonerd
+Model & Textures: Akinaro & Farengar
+Sounds: Infinity Ward, speedonerd, XLongWayHome
 Animation: Tactical Intervention
 ]]
 
@@ -34,10 +33,10 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 8,
+        Damage_Max = 18,
+        Damage_Min = 12,
 
-        Range_Min = 600,
+        Range_Min = 800,
         Range_Max = 2000,
 
         RPM = 650,
@@ -55,35 +54,21 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 5,
-        Range_Min = 600,
-        Range_Max = 2800,
-        RPM = 700,
-
-        RecoilSpreadPenalty = 0.0017,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 25,
-        RecoilPerShot = 2,
-        RecoilDissipationRate = 20
-    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 15
-SWEP.Range_Min = 1200
-SWEP.Range_Max = 2800
+SWEP.Damage_Max = 27
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 1400
+SWEP.Range_Max = 3200
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.7
+SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -105,8 +90,8 @@ SWEP.Firemodes = {
 SWEP.RPM = 700
 
 SWEP.Spread = 0.003
-SWEP.RecoilSpreadPenalty = 0.0017
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.RecoilSpreadPenalty = 0.01
+SWEP.HipFireSpreadPenalty = 0.035
 SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.ShootTimeMult = 0.5
@@ -118,9 +103,9 @@ SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 0.75
-SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.25
+SWEP.RecoilVisualKick = 1
+SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.3
 
 
 
@@ -128,13 +113,13 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.8
+SWEP.MoveSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.77
 SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
+SWEP.AimDownSightsTime = 0.4
 SWEP.SprintToFireTime = 0.38
 
 SWEP.Sway = 1.25
@@ -160,8 +145,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0.15, -0.1, 0)
-SWEP.SightPos = Vector(-4.185, -7, -4.85)
+SWEP.SightAng = Angle(0.21, -0.05, 0)
+SWEP.SightPos = Vector(-4.11, -7, -5.55)
 
 SWEP.CorrectivePos = Vector(-0.05, 0, 0.05)
 SWEP.CorrectiveAng = Angle(0.03, 0.45, 0)
@@ -173,14 +158,14 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 30
-SWEP.Ammo = "smg1"
+SWEP.ClipSize = 20
+SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/masada.mdl"
+SWEP.ReloadTimeMult = 1.1
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mcx277.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
-SWEP.ReloadUpInTime = 1.3
+SWEP.ReloadUpInTime = 1.4
 SWEP.DropMagazineTime = 0.4
 
 // sounds
@@ -189,7 +174,7 @@ local path = "TacRP/weapons/m4/m4_"
 local path1 = "Tacint_shark/weapons/masada/"
 local path2 = "Tacint_shark/weapons/mcx/mcx_"
 
-SWEP.Sound_Shoot = "^" .. path2 .. "556.wav"
+SWEP.Sound_Shoot = "^" .. path2 .. "277.wav"
 SWEP.Sound_Shoot_Silenced = path2 .. "556_supp.wav"
 
 SWEP.Vol_Shoot = 120
@@ -220,27 +205,19 @@ SWEP.AnimationTranslationTable = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["foldstock"] = {
-        BGs_VM = {
-            {1, 1}
-        },
-		BGs_WM = {
-			{1, 1}
-		},
-    },
     ["sights"] = {
         BGs_VM = {
-            {2, 1},
+            {1, 1},
         },
     },
-	["277fury"] = {
-		BGs_VM = {
-			{3, 1}
-		},
+    ["muzzle"] = {
+        BGs_VM = {
+            {2, 2},
+        },
 		BGs_WM = {
-			{3, 1}
+			{1, 2},
 		},
-	},
+    },
 }
 
 
@@ -253,23 +230,24 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
-        VMScale = 1,
-        Pos_VM = Vector(-5.8, -0.05, 8.5),
-        Pos_WM = Vector(0.35, 5, 1.3),
+        VMScale = 1.1,
+        Pos_VM = Vector(-6.4, -0.1, 8.5),
+        Pos_WM = Vector(0.65, 5, 0.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
     },
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
+        InstalledElements = {"muzzle"},
         Bone = "ValveBiped.m4_rootbone",
         WMBone = "Box01",
-		VMScale = 0.75,
-		WMScale = 0.7,
+		VMScale = 0.8,
+		WMScale = 0.85,
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-4.1, 0, 22),
-        Pos_WM = Vector(1.1, 18, -0.4),
+        Pos_VM = Vector(-4.25, -0.1, 24.5),
+        Pos_WM = Vector(1.5, 22, -1.3),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
     },
@@ -282,10 +260,10 @@ SWEP.Attachments = {
 		WMScale = 1.1,
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-2.85, 0, 15),
-        Pos_WM = Vector(0.9, 16, -1.7),
-        Ang_VM = Angle(90, 0, 180),
-        Ang_WM = Angle(180, -90, 0),
+        Pos_VM = Vector(-4.26, -1.5, 17),
+        Pos_WM = Vector(2.5, 14, -1.3),
+        Ang_VM = Angle(90, 0, -90),
+        Ang_WM = Angle(-90, -90, 0),
     },
     [4] = {
         PrintName = "Accessory",
@@ -307,7 +285,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_rifle", "ammo_mcx"},
+        Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

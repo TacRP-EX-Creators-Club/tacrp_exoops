@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\tacint_shark\weapons\mcx\KAC_Material_Diffuse_1"
+	$bumpmap				"models\tacint_shark\weapons\mcx\KAC_Material_Normal"
+	$phongexponenttexture	"models\tacint_shark\weapons\mcx\KAC_Material_exp"
+
+	"$color2"	"[.7 .7 .7]"
+	"$blendtintbybasealpha" "1"
+
+	"$bumpmapalphaphongmask" 1
+
+	"$phong" "0"
+	"$phongboost"	"0.7"
+
+	"$phongalbedotint"	"1"
+
+	"$phongfresnelranges"	"[0.7 2 5]"
+
+
+	"$basemapalphaenvmapmask" 1
+	$envmapfresnel	"1"
+
+	"$ambientocclusion" "1"
+	"$nocull" "0"
+
+}
+
