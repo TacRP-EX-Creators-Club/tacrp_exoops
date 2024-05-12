@@ -9,7 +9,7 @@ SWEP.AbbrevName = "FAL Izzy"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "5Sporter"
+SWEP.SubCatType = "9Sporter"
 
 SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but excellent stopping power and range."
 SWEP.Description_Quote = ""

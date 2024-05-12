@@ -8,7 +8,7 @@ SWEP.PrintName = "Howa Type 64"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Japanese battle rifle with a controllable rate of fire."
 

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "M712"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Antique machine pistol with great accuracy but poor recoil control. Effective in short bursts."
 SWEP.Description_Quote = "The bolt might smack you in the face."

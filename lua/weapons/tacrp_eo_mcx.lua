@@ -8,7 +8,7 @@ SWEP.PrintName = "SIG MCX SPEAR"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Battle rifle designed for multiple infantry roles. Specialized ammo has high armor penetration and maintains damage over range."
 SWEP.Description_Quote = "\"Bravo Six, going dark.\""

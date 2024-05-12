@@ -9,7 +9,7 @@ SWEP.AbbrevName = "PSG-1"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "7Sniper Rifle"
+SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Elegant semi-auto sniper with unmatched precision and recoil control but a lower-than-average range. \nEquipped with an 8x scope by default."
 SWEP.Description_Quote = "\"I was born on a battlefield. Raised on a battlefield.\""

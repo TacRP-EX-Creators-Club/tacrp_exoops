@@ -9,7 +9,7 @@ SWEP.AbbrevName = "P90"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Odd spacegun-looking pistol with a massive helical magazine. Converted to full auto."
 SWEP.Description_Quote = ""

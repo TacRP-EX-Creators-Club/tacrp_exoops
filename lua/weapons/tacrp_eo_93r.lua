@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Raffica"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Premium burst-fire pistol with a non-runaway burst and great hip-fire performance."
 SWEP.Description_Quote = "\"Faith, the train! Take the train!\""

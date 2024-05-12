@@ -9,7 +9,7 @@ SWEP.AbbrevName = ""
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "4Machine Gun"
+SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Antique machine gun with a blazing fast rate of fire. Capable of cutting people in half like a buzzsaw.\nFiring from the shoulder is not recommended."
 
