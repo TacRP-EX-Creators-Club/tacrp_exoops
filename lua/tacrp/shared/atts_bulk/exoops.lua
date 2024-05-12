@@ -36,7 +36,7 @@ ATT.Mult_MuzzleVelocity = 1.2
 ATT.Mult_ShootTimeMult = 1.5
 
 ATT.Override_Sound_Shoot = "^tacint_shark/weapons/masada/65_unsil.wav"
-ATT.Override_Sound_Shoot_Silenced = "tacint_shark/weapons/masada/65_sil.wav"
+ATT.Override_Sound_Shoot_Silenced = "^tacint_shark/weapons/masada/65_sil.wav"
 
 TacRP.LoadAtt(ATT, "ammo_modular_65gren")
 
@@ -156,3 +156,24 @@ if engine.ActiveGamemode() == "terrortown" then
 end
 
 TacRP.LoadAtt(ATT, "optic_howa_scope")
+
+-- L85 refurbished bolt
+-- sorry i secretly like the l85 and want to run it with no jams
+
+ATT = {}
+ATT.PrintName = "Refurbished"
+ATT.FullName = "L85A2 Refurbished Bolt"
+ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
+ATT.Description = "A little armory work should get this junkheap running reasonably well."
+ATT.Pros = {"att.procon.reliability"}
+ATT.Cons = {"stat.spread"}
+
+ATT.Category = "bolt_l85"
+
+ATT.SortOrder = 0
+
+ATT.Add_Spread = 0.002
+
+ATT.Add_JamFactor = -0.03
+
+TacRP.LoadAtt(ATT, "bolt_l85")

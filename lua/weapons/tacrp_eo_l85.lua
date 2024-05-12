@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value" -- :trolley:
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. \nEquipped with a 4x scope by default."
+SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. Don't be surprised if it jams every so often. \nEquipped with a 4x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Royal Ordnance"
@@ -301,7 +301,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Bolt",
-        Category = {"bolt_automatic"},
+        Category = {"bolt_automatic", "bolt_l85"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
