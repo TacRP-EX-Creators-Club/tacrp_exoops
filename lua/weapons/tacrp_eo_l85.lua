@@ -32,10 +32,8 @@ SWEP.BalanceStats = {
         Damage_Max = 23,
         Damage_Min = 12,
 
-        ShootingSpeedMult = 0.8,
-        SightedSpeedMult = 0.85,
-        MeleeSpeedMult = 1,
-        ReloadSpeedMult = 1,
+        ClipSize = 30,
+        JamFactor = 0,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -59,21 +57,13 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
     },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 11,
-        Damage_Min = 7,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 18,
-        RecoilDissipationRate = 12
-    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 10
 SWEP.Range_Min = 1200
 SWEP.Range_Max = 3200
@@ -83,7 +73,7 @@ SWEP.ArmorPenetration = 0.8
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3, // Must land at least 2 shots from a burst to get a headshot kill at full health.
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -91,7 +81,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 24000
+SWEP.MuzzleVelocity = 18000
 
 // misc. shooting
 
@@ -106,6 +96,8 @@ SWEP.Spread = 0.004
 
 SWEP.PostBurstDelay = 0.22
 SWEP.RunawayBurst = true
+
+SWEP.JamFactor = 0.2
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -180,10 +172,10 @@ SWEP.ScopeHideWeapon = true
 
 // reload
 
-SWEP.ClipSize = 30
+SWEP.ClipSize = 25
 SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1.25
+SWEP.ReloadTimeMult = 1.2
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
 SWEP.DropMagazineImpact = "metal"
 
