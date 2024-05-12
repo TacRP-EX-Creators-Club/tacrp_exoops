@@ -166,6 +166,7 @@ SWEP.ScopeOverlay = Material("tacrp/scopes/susat.png", "mips smooth") // Materia
 SWEP.ScopeFOV = 90 / 4
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
+SWEP.ScopeOverlaySize = 0.8
 
 // reload
 
