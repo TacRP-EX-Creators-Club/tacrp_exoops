@@ -18,8 +18,7 @@ SWEP.Trivia_Year = "1985"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Model: SnipaMasta
-Texture: SnipaMasta, Fnuxray
+Model & Texture: Milo, edited by speedonerd
 Animations: Tactical Intervention, edited by speedonerd
 ]]
 
@@ -215,7 +214,7 @@ SWEP.EjectEffect = 2
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "deploy",
+    ["deploy"] = "unholster",
     ["fire_iron"] = "idle",
     ["fire1"] = "fire1_M",
     ["fire2"] = "fire2_M",
@@ -240,7 +239,7 @@ SWEP.ProceduralIronFire = {
     },
 }
 
-SWEP.DeployTimeMult = 1.05
+SWEP.DeployTimeMult = 2.25
 
 // attachments
 
