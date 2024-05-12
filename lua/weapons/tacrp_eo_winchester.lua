@@ -9,7 +9,7 @@ SWEP.AbbrevName = "W1873"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "5Value"
-SWEP.SubCatType = "9Sporter"
+SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. A venerable classic - but unsuitable for the demanding battlefields of today."
 SWEP.Description_Quote = "\"The gun that won the West.\""
