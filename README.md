@@ -34,14 +34,14 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 ## Assault Rifles
 - Magpul Masada (5.56x45mm) (done)
 - Colt Model 733 (done)
-- Enfield L85A2
+- Enfield L85A2 (done)
 - FAMAS G2
 - HK G36C
 - Beretta AR70 (AR70/223) (done)
 - FN F2000 (done)
 - SCAR-L (done)
 - H&K XM8 (full size)
-- SIG MCX (done)
+- SIG MCX SPEAR (done)
 - StG 44
 
 ## Shotguns

@@ -33,10 +33,6 @@
 ## StG 44
 - Everything
 
-## MCX
-- Foley sounds
-- Caliber conversion stats
-
 ## 1897
 - Everything
 
