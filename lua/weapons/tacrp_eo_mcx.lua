@@ -60,11 +60,11 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 27
+SWEP.Damage_Max = 28
 SWEP.Damage_Min = 20
 SWEP.Range_Min = 1400
-SWEP.Range_Max = 3200
-SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.Range_Max = 3500
+SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
@@ -100,13 +100,13 @@ SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 35
+SWEP.RecoilDissipationRate = 30
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 4
-SWEP.RecoilStability = 0.3
-
+SWEP.RecoilKick = 4.5
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 250
 
 
 SWEP.CanBlindFire = true
@@ -214,9 +214,9 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 2},
         },
-		BGs_WM = {
-			{1, 2},
-		},
+        BGs_WM = {
+            {1, 2},
+        },
     },
 }
 
@@ -242,8 +242,8 @@ SWEP.Attachments = {
         InstalledElements = {"muzzle"},
         Bone = "ValveBiped._ROOT_HK417",
         WMBone = "Box01",
-		VMScale = 0.8,
-		WMScale = 0.85,
+        VMScale = 0.8,
+        WMScale = 0.85,
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.15, 0.7, 24.5),
@@ -256,8 +256,8 @@ SWEP.Attachments = {
         Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
         Bone = "ValveBiped._ROOT_HK417",
         WMBone = "Box01",
-		VMScale = 1.1,
-		WMScale = 1.1,
+        VMScale = 1.1,
+        WMScale = 1.1,
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         Pos_VM = Vector(-3.2, -0.7, 17),

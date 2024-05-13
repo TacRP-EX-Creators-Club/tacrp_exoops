@@ -37,7 +37,7 @@ SWEP.BalanceStats = {
         Damage_Max = 40,
         Damage_Min = 28,
         RecoilKick = 12,
-		ClipSize = 75,
+        ClipSize = 75,
     },
     [TacRP.BALANCE_TTT] = {
 
@@ -79,11 +79,11 @@ SWEP.BodyDamageMultipliers = {
 // "ballistics"
 
 SWEP.Damage_Max = 38
-SWEP.Damage_Min = 28
+SWEP.Damage_Min = 26
 SWEP.Range_Min = 1200
-SWEP.Range_Max = 4000
+SWEP.Range_Max = 3000
 SWEP.Penetration = 10
-SWEP.ArmorPenetration = 0.8
+SWEP.ArmorPenetration = 0.75
 
 SWEP.MuzzleVelocity = 17500
 
@@ -98,19 +98,19 @@ SWEP.Spread = 0.009
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.15
-SWEP.RecoilDissipationRate = 20
+SWEP.RecoilMaximum = 18
+SWEP.RecoilResetTime = 0.2
+SWEP.RecoilDissipationRate = 25
 SWEP.RecoilFirstShotMult = 2
 
 SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 10
-SWEP.RecoilAltMultiplier = 500
+SWEP.RecoilKick = 8
+SWEP.RecoilAltMultiplier = 200
 SWEP.RecoilStability = 0.15
 
 SWEP.HipFireSpreadPenalty = 0.025
-SWEP.MoveSpreadPenalty = 0.025
-SWEP.RecoilSpreadPenalty = 0.0015
+SWEP.MoveSpreadPenalty = 0.02
+SWEP.RecoilSpreadPenalty = 0.0008
 SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.CanBlindFire = true
@@ -300,7 +300,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-	[8] = {
+    [8] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
