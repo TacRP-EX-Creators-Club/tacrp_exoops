@@ -234,22 +234,22 @@ SWEP.DeployTimeMult = 2.25
 // attachments
 
 SWEP.AttachmentElements = {
-	["irons"] = {
+    ["irons"] = {
         BGs_VM = {
             {1, 1}
         },
-		BGs_WM = {
-			{1, 1}
-		},
-	},
-	
+        BGs_WM = {
+            {1, 1}
+        },
+    },
+
     ["scope"] = {
         BGs_VM = {
             {1, 2}
         },
-		BGs_WM = {
-			{1, 2}
-		},
+        BGs_WM = {
+            {1, 2}
+        },
     },
 }
 
@@ -307,7 +307,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_burst"},
+        Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

@@ -57,16 +57,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 11,
-        Damage_Min = 7,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilDissipationRate = 15,
-        RecoilMaximum = 15,
-        RecoilSpreadPenalty = 0.005,
-        HipFireSpreadPenalty = 0.007,
     }
 }
 
@@ -82,9 +72,9 @@ SWEP.Penetration = 7
 SWEP.ArmorPenetration = 0.8
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -102,13 +92,7 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 700
-SWEP.RPMMultBurst = 900 / 700
-
-SWEP.Spread = 0.0035
-
-SWEP.PostBurstDelay = 0.12
-
-SWEP.RunawayBurst = true
+SWEP.Spread = 0.005
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -120,10 +104,10 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 SWEP.RecoilVisualKick = 0.75
 
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.25
+SWEP.RecoilStability = 0.2
 
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true
 
@@ -135,8 +119,8 @@ SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.3
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.32
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.125
@@ -280,7 +264,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Trigger",
-        Category = {"trigger_burst"},
+        Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
