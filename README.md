@@ -26,7 +26,6 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 ## Sub-Machine Guns
 - Beretta PM-12S
 - Walther MPL
-- FB PM-63
 - SIG MPX (done)
 - HK MP5SD (done)
 - HK MP5K (done)
@@ -40,19 +39,17 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Beretta AR70 (AR70/223) (done)
 - FN F2000 (done)
 - SCAR-L (done)
-- H&K XM8 (full size)
-- SIG MCX SPEAR (done)
 - StG 44
+- AUG A1 (done)
 
 ## Shotguns
 - Winchester M1897
 - HK CAWS
-- USAS-12
 - SPAS-15 (done)
 
 ## Machine Guns
 - MG42 (done)
-- M249 (or an M60 idk yet)
+- M60 (done)
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
@@ -63,10 +60,10 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SIG Stgw 57 (SG 510) (done)
 - Howa Type 64 (done)
 - FN FAL (StG 58) (done)
+- SIG MCX SPEAR (done)
 
 ## Sniper Rifles
 - Steyr Scout
-- Enfield L42A1
 - HK PSG-1 (done)
 
 ## Anti-Material Rifles

@@ -1,8 +1,5 @@
 ##Everything still needs stats
 
-## PX4
-- Everything
-
 ## Rhino
 - Everything
 
@@ -15,19 +12,10 @@
 ## MPX
 - Suppressed sound
 
-## PM-63
-- Everything
-
-## L85
-- Everything
-
 ## G2 FAMAS
 - Everything
 
 ## G36C
-- Everything
-
-## Big XM8
 - Everything
 
 ## StG 44
@@ -39,16 +27,10 @@
 ## CAWS
 - Everything
 
-## USAS
-- Everything
-
 ## ACR
 - Caliber conversion stats + icon
 
 ## Scout
-- Everything
-
-## L42
 - Everything
 
 ## PSG
