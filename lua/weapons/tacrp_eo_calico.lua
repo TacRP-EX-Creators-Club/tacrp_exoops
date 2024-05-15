@@ -33,18 +33,16 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 12,
-        Damage_Min = 10,
-
-        RecoilKick = 2,
+        Damage_Max = 18,
+        Damage_Min = 8,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 10,
-        Damage_Min = 8,
-        Range_Min = 1000,
-        Range_Max = 2000,
+        Damage_Max = 12,
+        Damage_Min = 6,
+        Range_Min = 400,
+        Range_Max = 1800,
 
-        RPM = 800,
+        RPM = 700,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -56,14 +54,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 7,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilSpreadPenalty = 0.0025,
-        RecoilMaximum = 25
     }
 }
 
@@ -71,18 +61,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 // "ballistics"
 
-SWEP.Damage_Max = 15
-SWEP.Damage_Min = 12
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
-SWEP.Penetration = 10 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.875
-SWEP.ArmorBonus = 2
+SWEP.Damage_Max = 18
+SWEP.Damage_Min = 6
+SWEP.Range_Min = 700 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
+SWEP.Penetration = 2 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.5
+SWEP.ArmorBonus = 1
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -124,8 +114,8 @@ SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.375
+SWEP.AimDownSightsTime = 0.32
+SWEP.SprintToFireTime = 0.28
 
 SWEP.Sway = 0.75
 SWEP.ScopedSway = 0.25
