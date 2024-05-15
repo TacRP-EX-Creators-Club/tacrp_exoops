@@ -283,7 +283,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Ammo",
-        Category = {"ammo_pistol"},
+        Category = {"ammo_pistol_sub"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
