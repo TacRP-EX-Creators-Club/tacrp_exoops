@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Prototype bullpup shotgun with a fixed scope and decent range. \nEquipped with a 1.75x scope by default."
+SWEP.Description = "Prototype bullpup shotgun with decent range and full-auto fire. \nEquipped with a fixed 1.75x scope."
 SWEP.Description_Quote = "\"Ride's over, mutie.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
@@ -24,8 +24,8 @@ Ported from Fallout: New Vegas by speedonerd
 Animations: Tactical Intervention, edited by speedonerd
 ]]
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_f2000.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_f2000.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_hkcaws.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_hkcaws.mdl"
 
 SWEP.Slot = 2
 
@@ -105,7 +105,8 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 275
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.03
+SWEP.ShotgunPelletSpread = 0.02
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -114,8 +115,8 @@ SWEP.RecoilResetTime = 0.01
 SWEP.RecoilDissipationRate = 21
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 3.5
+SWEP.RecoilVisualKick = 3
+SWEP.RecoilKick = 7
 SWEP.RecoilStability = 0.2
 SWEP.RecoilAltMultiplier = 250
 
@@ -149,19 +150,21 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -5.5)
+SWEP.PassivePos = Vector(0, -2, -6)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
 
 SWEP.SprintAng = Angle(30, -15, 0)
-SWEP.SprintPos = Vector(5, 0, -2)
+SWEP.SprintPos = Vector(5, 0, -4)
 
 SWEP.SightAng = Angle(-0.92, 0, 0)
 SWEP.SightPos = Vector(-4.14, -6, -4.45)
 
 SWEP.CorrectivePos = Vector(0.3, 0, -0.2)
 SWEP.CorrectiveAng = Angle(0.8, -0.1, -0.2)
+
+SWEP.CustomizePos = Vector(2, 0, -7)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -172,7 +175,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacrp/scopes/swarovski.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 1.6
+SWEP.ScopeFOV = 90 / 1.75
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
 
@@ -182,18 +185,18 @@ SWEP.ClipSize = 10
 SWEP.Ammo = "buckshot"
 
 SWEP.ReloadTimeMult = 1.5
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/hkcaws.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
 SWEP.ReloadUpInTime = 1.6
-SWEP.DropMagazineTime = 0.5
+SWEP.DropMagazineTime = 0.6
 
 // sounds
 
 local path = "tacint_shark/weapons/f2000/"
 local path1 = "tacrp/weapons/aug/aug_"
 
-SWEP.Sound_Shoot = "^" .. path .. "f2000-1.wav"
+SWEP.Sound_Shoot = "tacint_shark/weapons/hkcaws/m3s90_fire5a.wav"
 SWEP.Sound_Shoot_Silenced = path1 .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 130
@@ -256,19 +259,19 @@ SWEP.AttachmentElements = {
 
 
 SWEP.Attachments = {
-    [1] = {
-        PrintName = "Optic",
-        Category = {"ironsights", "optic_medium", "optic_sniper"},
-        Bone = "ValveBiped.AUG_rootbone",
-        AttachSound = "tacrp/weapons/optic_on.wav",
-        DetachSound = "tacrp/weapons/optic_off.wav",
-        InstalledElements = {"irons"},
-        VMScale = 1,
-        Pos_VM = Vector(-6.2, 0, 3),
-        Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(7.5, 1, -6.8),
-        Ang_WM = Angle(0, 0, 180),
-    },
+    --[1] = {
+        --PrintName = "Optic",
+        --Category = {"ironsights", "optic_medium", "optic_sniper"},
+        --Bone = "ValveBiped.AUG_rootbone",
+        --AttachSound = "tacrp/weapons/optic_on.wav",
+        --DetachSound = "tacrp/weapons/optic_off.wav",
+        --InstalledElements = {"irons"},
+        --VMScale = 1,
+        --Pos_VM = Vector(-6.2, 0, 3),
+        --Ang_VM = Angle(90, 0, 0),
+        --Pos_WM = Vector(7.5, 1, -6.8),
+        --Ang_WM = Angle(0, 0, 180),
+    --},
     --[2] = {
         --PrintName = "Muzzle",
         --Category = "silencer",
@@ -282,43 +285,43 @@ SWEP.Attachments = {
         --Pos_WM = Vector(21, 1, -4.6),
         --Ang_WM = Angle(0, 0, 180),
     --},
-    [2] = {
+    [1] = {
         PrintName = "Tactical",
         Category = {"tactical"},
         Bone = "ValveBiped.AUG_rootbone",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1,
-        Pos_VM = Vector(-4.25, 1.2, 5),
+        Pos_VM = Vector(-4.25, 0.8, 13),
         Ang_VM = Angle(90, 0, 75),
         Pos_WM = Vector(10, -0.1, -5),
         Ang_WM = Angle(0, 0, -90),
     },
-    [3] = {
+    [2] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag", "acc_bipod"},
+        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [3] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [4] = {
         PrintName = "Trigger",
         Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [5] = {
         PrintName = "Ammo",
         Category = {"ammo_shotgun"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [6] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
@@ -335,8 +338,8 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_f2000.insert_clip", path .. "magin.wav")
-addsound("tacint_f2000.remove_clip", path .. "magout.wav")
-addsound("tacint_f2000.Handle_FoldDown", path1 .. "handle_folddown.wav")
-addsound("tacint_f2000.bolt_lockback", path .. "boltback.wav")
-addsound("tacint_f2000.bolt_release", path .. "boltforward.wav")
+addsound("tacint_hkcaws.insert_clip", path .. "magin.wav")
+addsound("tacint_hkcaws.remove_clip", path .. "magout.wav")
+addsound("tacint_hkcaws.Handle_FoldDown", path1 .. "handle_folddown.wav")
+addsound("tacint_hkcaws.bolt_lockback", path .. "boltback.wav")
+addsound("tacint_hkcaws.bolt_release", path .. "boltforward.wav")
