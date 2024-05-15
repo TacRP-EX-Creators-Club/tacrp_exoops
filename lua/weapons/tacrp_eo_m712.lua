@@ -233,6 +233,8 @@ SWEP.ProceduralIronFire = {
 
 // attachments
 
+SWEP.NoTactical = true
+
 SWEP.AttachmentElements = {
     ["foldstock"] = {
         BGs_VM = {
