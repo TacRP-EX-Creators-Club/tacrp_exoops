@@ -92,7 +92,7 @@ SWEP.RPMMultSemi = 0.65
 SWEP.PostBurstDelay = 0.03
 
 SWEP.Spread = 0.005
-SWEP.RecoilSpreadPenalty = 0.006
+SWEP.RecoilSpreadPenalty = 0.012
 SWEP.HipFireSpreadPenalty = 0.02
 
 SWEP.ShootTimeMult = 0.5
@@ -101,11 +101,11 @@ SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.01
-SWEP.RecoilDissipationRate = 40
-SWEP.RecoilFirstShotMult = 1.5
+SWEP.RecoilDissipationRate = 35
+SWEP.RecoilFirstShotMult = 0.8
 
-SWEP.RecoilVisualKick = 0.5
-SWEP.RecoilKick = 6
+SWEP.RecoilVisualKick = 1
+SWEP.RecoilKick = 7
 SWEP.RecoilStability = 0.1
 
 SWEP.CanBlindFire = true
