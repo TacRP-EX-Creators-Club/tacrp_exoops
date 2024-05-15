@@ -79,9 +79,9 @@ SWEP.BodyDamageMultipliers = {
 // "ballistics"
 
 SWEP.Damage_Max = 38
-SWEP.Damage_Min = 26
+SWEP.Damage_Min = 25
 SWEP.Range_Min = 1200
-SWEP.Range_Max = 3000
+SWEP.Range_Max = 5000
 SWEP.Penetration = 10
 SWEP.ArmorPenetration = 0.75
 
@@ -118,10 +118,10 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 0.7
-SWEP.ShootingSpeedMult = 0.25
-SWEP.SightedSpeedMult = 0.4
+SWEP.ShootingSpeedMult = 0.5
+SWEP.SightedSpeedMult = 0.2
 
-SWEP.ReloadSpeedMult = 0.1
+SWEP.ReloadSpeedMult = 0.15
 SWEP.ReloadSpeedMultTime = 1
 
 SWEP.AimDownSightsTime = 0.65
@@ -130,7 +130,7 @@ SWEP.SprintToFireTime = 0.72
 SWEP.Sway = 3
 SWEP.ScopedSway = 0.75
 
-SWEP.FreeAimMaxAngle = 9
+SWEP.FreeAimMaxAngle = 7
 
 SWEP.Bipod = true
 SWEP.BipodRecoil = 0.25

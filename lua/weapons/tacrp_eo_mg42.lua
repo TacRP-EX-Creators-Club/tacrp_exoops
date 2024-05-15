@@ -63,7 +63,7 @@ SWEP.BalanceStats = {
 SWEP.TTTReplace = TacRP.TTTReplacePreset.MachineGun
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
+    [HITGROUP_HEAD] = 1.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
@@ -75,8 +75,8 @@ SWEP.BodyDamageMultipliers = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 38
-SWEP.Damage_Min = 28
+SWEP.Damage_Max = 35
+SWEP.Damage_Min = 25
 SWEP.Range_Min = 1200
 SWEP.Range_Max = 4000
 SWEP.Penetration = 10
@@ -90,20 +90,20 @@ SWEP.Firemode = 2
 
 SWEP.RPM = 1200
 
-SWEP.Spread = 0.009
+SWEP.Spread = 0.0085
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 14
 SWEP.RecoilResetTime = 0.15
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 2
 
 SWEP.RecoilVisualKick = 2
-SWEP.RecoilKick = 15
-SWEP.RecoilAltMultiplier = 500
-SWEP.RecoilStability = 0.15
+SWEP.RecoilKick = 18
+SWEP.RecoilAltMultiplier = 400
+SWEP.RecoilStability = 0.125
 
 SWEP.HipFireSpreadPenalty = 0.025
 SWEP.MoveSpreadPenalty = 0.025

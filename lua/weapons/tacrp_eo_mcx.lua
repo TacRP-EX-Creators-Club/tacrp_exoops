@@ -60,7 +60,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 28
+SWEP.Damage_Max = 30
 SWEP.Damage_Min = 20
 SWEP.Range_Min = 1400
 SWEP.Range_Max = 3500

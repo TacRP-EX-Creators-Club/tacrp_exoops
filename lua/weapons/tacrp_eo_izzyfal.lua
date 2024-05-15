@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter"
 
-SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but excellent stopping power and range."
+SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but boasts excellent stopping power and range."
 SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = ".308 Winchester"
@@ -69,7 +69,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
 // "ballistics"
 
 SWEP.Damage_Max = 35
-SWEP.Damage_Min = 30
+SWEP.Damage_Min = 26
 SWEP.Range_Min = 1400
 SWEP.Range_Max = 3800
 SWEP.Penetration = 15
@@ -93,23 +93,24 @@ SWEP.MuzzleVelocity = 29000
 SWEP.Firemode = 1
 
 SWEP.RPM = 420
-SWEP.RPMMultSemi = 0.55
+SWEP.RPMMultSemi = 0.5
 
 SWEP.Spread = 0.0028
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 5
-SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 20
-SWEP.RecoilFirstShotMult = 0.85
+SWEP.RecoilResetTime = 0.12
+SWEP.RecoilDissipationRate = 8
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.5
 
 SWEP.RecoilKick = 8
-SWEP.RecoilStability = 0.75
+SWEP.RecoilStability = 0.6
+SWEP.RecoilAltMultiplier = 200
 
-SWEP.RecoilSpreadPenalty = 0.004
+SWEP.RecoilSpreadPenalty = 0.006
 SWEP.HipFireSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 
@@ -209,6 +210,9 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"}
 }
 
+SWEP.ShootTimeMult = 0.9
+
+
 // attachments
 
 SWEP.AttachmentElements = {
@@ -226,7 +230,7 @@ SWEP.Attachments = {
         Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         Bone = "ValveBiped.sg551_rootbone",
         WMBone = "Box01",
-		InstalledElements = {"sights"}, 
+        InstalledElements = {"sights"},
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
@@ -240,7 +244,7 @@ SWEP.Attachments = {
         Category = "silencer",
         Bone = "ValveBiped.sg551_rootbone",
         WMBone = "Box01",
-		VMScale = 0.8,
+        VMScale = 0.8,
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.4, 0, 31.5),

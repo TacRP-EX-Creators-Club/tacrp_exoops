@@ -59,17 +59,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 
 // "ballistics"
 
-SWEP.Damage_Max = 38
-SWEP.Damage_Min = 20
-SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
-SWEP.Penetration = 12 // units of metal this weapon can penetrate
+SWEP.Damage_Max = 42
+SWEP.Damage_Min = 18
+SWEP.Range_Min = 900 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
+SWEP.Penetration = 10 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
 SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 1
 
-SWEP.MuzzleVelocity = 15000
+SWEP.MuzzleVelocity = 10000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
@@ -88,7 +88,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Lever-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 75
+SWEP.RPM = 72
 
 SWEP.Spread = 0.0025
 
@@ -97,10 +97,10 @@ SWEP.MidAirSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 2.5
-SWEP.RecoilResetTime = 0 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilMaximum = 3
+SWEP.RecoilResetTime = 0.4
 SWEP.RecoilDissipationRate = 1.25
-SWEP.RecoilFirstShotMult = 1.25
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.25
 SWEP.RecoilKick = 12
@@ -125,7 +125,7 @@ SWEP.SprintToFireTime = 0.38
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.2
 
-SWEP.FreeAimMaxAngle = 5
+SWEP.FreeAimMaxAngle = 6
 
 // hold types
 
@@ -169,7 +169,7 @@ SWEP.ClipSize = 12
 SWEP.Ammo = "ar2"
 SWEP.ShotgunReload = true
 
-SWEP.ReloadTimeMult = 0.9
+SWEP.ReloadTimeMult = 1
 
 // sounds
 
@@ -205,7 +205,7 @@ SWEP.AnimationTranslationTable = {
     ["jam"] = "reload_finish"
 }
 
-SWEP.ShootTimeMult = 1.25
+SWEP.ShootTimeMult = 1.3
 SWEP.DeployTimeMult = 1.15
 
 // attachments
