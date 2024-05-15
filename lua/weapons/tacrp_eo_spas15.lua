@@ -8,7 +8,7 @@ SWEP.PrintName = "Franchi SPAS-15"
 SWEP.AbbrevName = "SPAS-15"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "2Operator"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Magazine-fed successor to the iconic dual-mode shotgun. Heavy weight allows for decent semi-auto control."

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "HK CAWS"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "2Operator"
+SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Prototype bullpup shotgun with decent range and full-auto fire. \nEquipped with a fixed 1.75x scope."
