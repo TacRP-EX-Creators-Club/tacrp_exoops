@@ -117,9 +117,9 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.78
+SWEP.MoveSpeedMult = 0.7
 SWEP.ShootingSpeedMult = 0.25
-SWEP.SightedSpeedMult = 0.25
+SWEP.SightedSpeedMult = 0.4
 
 SWEP.ReloadSpeedMult = 0.1
 SWEP.ReloadSpeedMultTime = 1
@@ -320,8 +320,8 @@ end
 addsound("tacint_m60.Clip_Out", path1 .. "_boxout.wav")
 addsound("tacint_m60.Clip_In", path1 .. "_boxin.wav")
 addsound("tacint_m60.bolt_release", path .. "bolt_release-1.wav")
-addsound("tacint_m60.bolt_back", "Tacint_shark/weapons/mg42/mg42_boltback.wav")
-addsound("tacint_m60.bolt_forward", "Tacint_shark/weapons/mg42/mg42_boltforward.wav")
+addsound("tacint_m60.bolt_back", "Tacint_shark/weapons/m60/m60_boltback.wav")
+addsound("tacint_m60.bolt_forward", "Tacint_shark/weapons/m60/m60_boltforward.wav")
 addsound("tacint_m60.feedcover_close", path1 .. "_coverdown.wav")
 addsound("tacint_m60.feedcover_open", path1 .. "_coverup.wav")
 addsound("tacint_m60.insertbullets", path1 .. "_chain.wav")

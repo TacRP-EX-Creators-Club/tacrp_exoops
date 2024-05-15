@@ -4,8 +4,8 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Beretta SC70/90"
-SWEP.AbbrevName = "SC70"
+SWEP.PrintName = "Beretta AR70/223"
+SWEP.AbbrevName = "AR70"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
@@ -16,11 +16,11 @@ SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
-SWEP.Trivia_Year = "1990"
+SWEP.Trivia_Year = "1972"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Model & Texture: Call To Arms
+Model & Texture: DaveW
 Sounds: Vunsunta, xLongWayHome & speedonerd
 Animation: Tactical Intervention
 ]]
@@ -161,8 +161,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0.05, -0.1, 0)
-SWEP.SightPos = Vector(-4.11, -7, -4.5)
+SWEP.SightAng = Angle(0.05, 0.8, 0)
+SWEP.SightPos = Vector(-4.11, -7.5, -3.9)
 
 SWEP.CorrectivePos = Vector(0, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
@@ -181,7 +181,7 @@ SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/ar70.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.7
@@ -264,8 +264,8 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.9,
-        Pos_VM = Vector(-6.5, -0.05, 5),
-        Pos_WM = Vector(0, 2, 2),
+        Pos_VM = Vector(-5.3, -0.05, 5),
+        Pos_WM = Vector(0, 5, 1.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -276,8 +276,8 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.5, 0, 29),
-        Pos_WM = Vector(0, 28, -1.2),
+        Pos_VM = Vector(-3.4, 0, 24),
+        Pos_WM = Vector(0, 26.5, -0.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
