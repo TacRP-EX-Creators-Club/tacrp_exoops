@@ -269,7 +269,7 @@ SWEP.Attachments = {
     },
     [3] = {
        PrintName = "Tactical",
-        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
+        Category = {"tactical"},
         InstalledElements = {"tactical"},
         Bone = "ValveBiped.sg551_rootbone",
         WMBone = "ValveBiped.Bip01_R_Hand",

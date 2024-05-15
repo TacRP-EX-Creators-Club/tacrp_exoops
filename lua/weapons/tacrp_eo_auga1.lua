@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Classic AUG variant with a larger magazine and full-auto. \nComes with a 1.5x optic that cannot be removed or adjusted."
+SWEP.Description = "Classic AUG variant with a larger magazine and full-auto. \nComes with a fixed 1.5x scope."
 SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -240,7 +240,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Tactical",
-        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
+        Category = {"tactical"},
         Bone = "ValveBiped.AUG_rootbone",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
