@@ -21,12 +21,6 @@
 ## StG 44
 - Everything
 
-## 1897
-- Everything
-
-## CAWS
-- Everything
-
 ## ACR
 - Caliber conversion stats + icon
 

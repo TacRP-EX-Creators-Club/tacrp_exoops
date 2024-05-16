@@ -8,7 +8,6 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - HK P7 (done)
 - Walther P99 (done)
 - SIG P210 (done)
-- Beretta PX4
 - S&W Mk 22 Mod. 0 "Hush Puppy" (done)
 - Star Megastar (done)
 - Browning Hi-Power (done)
@@ -43,8 +42,8 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - AUG A1 (done)
 
 ## Shotguns
-- Winchester M1897
-- HK CAWS
+- Benelli M3 Super 90 (done)
+- HK CAWS (done)
 - SPAS-15 (done)
 
 ## Machine Guns
