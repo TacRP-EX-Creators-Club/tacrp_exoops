@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Prototype bullpup shotgun with decent range and full-auto fire. \nEquipped with a fixed 1.75x scope."
+SWEP.Description = "Prototype bullpup shotgun with decent range and full-auto fire. \nEquipped with a fixed 1.5x scope."
 SWEP.Description_Quote = "\"Ride's over, mutie.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
@@ -175,7 +175,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacrp/scopes/swarovski.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 1.75
+SWEP.ScopeFOV = 90 / 1.5
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
 
