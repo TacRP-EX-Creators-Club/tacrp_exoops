@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value" -- :trolley:
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. Don't be surprised if it jams every so often. \nEquipped with a 4x scope by default."
+SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. Don't be surprised if it jams every so often. \nEquipped with a 3x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Royal Ordnance"
@@ -163,7 +163,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacrp/scopes/susat.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 4
+SWEP.ScopeFOV = 90 / 3 // susat is 4x irl but want to not be identical to acog
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
 SWEP.ScopeOverlaySize = 0.8
