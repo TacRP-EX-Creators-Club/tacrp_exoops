@@ -177,3 +177,25 @@ ATT.Add_Spread = 0.002
 ATT.Add_JamFactor = -0.03
 
 TacRP.LoadAtt(ATT, "bolt_l85")
+
+-- G36C Scope
+
+ATT = {}
+ATT.PrintName = "Scope"
+ATT.FullName = "G36C Integrated Scope"
+ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
+ATT.Description = "Integrated scope and top rail."
+ATT.Pros = {"att.zoom.2"}
+
+ATT.Category = "optic_g36c"
+
+ATT.SortOrder = 2
+
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/g36.png", "mips smooth")
+ATT.Override_ScopeFOV = 90 / 2
+ATT.Override_ScopeHideWeapon = true
+
+ATT.InstalledElements = {"scope"}
+
+
+TacRP.LoadAtt(ATT, "optic_g36c_scope")
