@@ -34,7 +34,6 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-		ClipSize = 30
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -78,10 +77,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 15
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 14
 SWEP.Range_Min = 1200
-SWEP.Range_Max = 2800
+SWEP.Range_Max = 2600
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
@@ -102,7 +101,8 @@ SWEP.MuzzleVelocity = 25000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 500
+SWEP.RPM = 600
+SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.003
 SWEP.RecoilSpreadPenalty = 0.0017
@@ -114,13 +114,13 @@ SWEP.ShootTimeMult = 0.5
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 35
+SWEP.RecoilResetTime = 0.05
+SWEP.RecoilDissipationRate = 28
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.25
+SWEP.RecoilStability = 0.6
 
 
 
@@ -173,7 +173,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
@@ -223,14 +223,14 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
-		BGs_WM = {
-			{1, 1}
-		},
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["sights"] = {
         BGs_VM = {
             {2, 1},
-			{3, 1},
+            {3, 1},
         },
     },
 }

@@ -74,15 +74,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
-SWEP.Damage_Min = 14
-SWEP.Range_Min = 900
+SWEP.Damage_Max = 18
+SWEP.Damage_Min = 12
+SWEP.Range_Min = 700
 SWEP.Range_Max = 2800
 SWEP.Penetration = 7
-SWEP.ArmorPenetration = 0.8
+SWEP.ArmorPenetration = 0.75
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3, // Must land at least 2 shots from a burst to get a headshot kill at full health.
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -103,19 +103,19 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 850
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.0055
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
-SWEP.RecoilResetTime = 0.01
-SWEP.RecoilDissipationRate = 21
+SWEP.RecoilMaximum = 14
+SWEP.RecoilResetTime = 0
+SWEP.RecoilDissipationRate = 30
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 3.5
-SWEP.RecoilStability = 0.2
-SWEP.RecoilAltMultiplier = 250
+SWEP.RecoilStability = 0.1
+SWEP.RecoilAltMultiplier = 200
 
 SWEP.RecoilSpreadPenalty = 0.0025
 SWEP.HipFireSpreadPenalty = 0.025

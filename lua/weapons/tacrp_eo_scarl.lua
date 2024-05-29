@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Lightweight assault rifle."
+SWEP.Description = "Modular, lightweight assault rifle with a moderate rate of fire."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"
@@ -66,15 +66,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 12
+SWEP.Damage_Max = 24
+SWEP.Damage_Min = 15
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
+    [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -84,46 +84,45 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 25000
+SWEP.MuzzleVelocity = 28000
 
 // misc. shooting
 
 SWEP.Firemodes = {2, 1}
-SWEP.PostBurstDelay = 0.16
 
 SWEP.RPM = 650
 
-SWEP.Spread = 0.004
+SWEP.Spread = 0.0045
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.04
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.06
+SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 35
-SWEP.RecoilFirstShotMult = 2
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
-SWEP.RecoilKick = 2.5
-SWEP.RecoilStability = 0.3
+SWEP.RecoilKick = 5
+SWEP.RecoilStability = 0.5
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.94
 SWEP.ShootingSpeedMult = 0.8
-SWEP.SightedSpeedMult = 0.65
+SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.375
+SWEP.SprintToFireTime = 0.36
 
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.15
-SWEP.FreeAimMaxAngle = 3.5
+SWEP.FreeAimMaxAngle = 4
 
 // hold types
 

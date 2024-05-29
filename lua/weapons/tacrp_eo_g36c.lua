@@ -11,17 +11,17 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Compact carbine variant of the G36 that trades some effective range for improved handling."
+SWEP.Description = "Compact carbine variant of the G36 that trades effective range for increased firerate and improved handling."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Year = "1996"
 
 SWEP.Faction = TacRP.FACTION_COALITION
-SWEP.Credits = "Assets: Tactical Intervention"
+SWEP.Credits = "Model: TheLama\nTexture: Thanez, FxDarkLoki\nSound/Animations: Tactical Intervention"
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_g36c.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_g36c.mdl"
 
 SWEP.Slot = 2
 
@@ -32,10 +32,10 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 18,
         Damage_Min = 13,
-        Range_Min = 1200,
-        Range_Max = 2800,
+        Range_Min = 800,
+        Range_Max = 2200,
 
-        RPM = 550,
+        RPM = 580,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
@@ -67,7 +67,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 SWEP.Damage_Max = 20
 SWEP.Damage_Min = 16
 SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
+SWEP.Range_Max = 2400 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
@@ -82,7 +82,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 28000
+SWEP.MuzzleVelocity = 26000
 
 // misc. shooting
 
@@ -105,7 +105,7 @@ SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.8
-SWEP.RecoilKick = 4
+SWEP.RecoilKick = 3.5
 SWEP.RecoilStability = 0.5
 
 SWEP.RecoilSpreadPenalty = 0.0015
@@ -248,8 +248,8 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.45, 0.075, 24.5),
-        Pos_WM = Vector(-0.25, 24, -1),
+        Pos_VM = Vector(-3.4, 0.2, 22.75),
+        Pos_WM = Vector(-0, 20.5, -1.4),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -260,11 +260,10 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        InstalledElements = {"tactical"},
-        Pos_VM = Vector(-3.75, -0.75, 17),
-        Pos_WM = Vector(0.9, 15, -1),
-        Ang_VM = Angle(90, 0, -80),
-        Ang_WM = Angle(-70, -90, 0),
+        Pos_VM = Vector(-3.5, -1, 16),
+        Pos_WM = Vector(1.45, 13, -1.2),
+        Ang_VM = Angle(90, 0, -90),
+        Ang_WM = Angle(-90, -90, 0),
     },
     [4] = {
         PrintName = "Accessory",

@@ -181,10 +181,10 @@ TacRP.LoadAtt(ATT, "bolt_l85")
 -- G36C Scope
 
 ATT = {}
-ATT.PrintName = "Scope"
+ATT.PrintName = "Int. Scope"
 ATT.FullName = "G36C Integrated Scope"
-ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
-ATT.Description = "Integrated scope and top rail."
+ATT.Icon = Material("entities/tacrp_att_optic_g36c_scope.png", "mips smooth")
+ATT.Description = "Low power integrated scope and carry handle for the G36C."
 ATT.Pros = {"att.zoom.2"}
 
 ATT.Category = "optic_g36c"
