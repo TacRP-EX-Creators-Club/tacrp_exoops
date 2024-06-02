@@ -60,7 +60,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 58
+SWEP.Damage_Max = 55
 SWEP.Damage_Min = 40
 SWEP.Range_Min = 1600
 SWEP.Range_Max = 7000
@@ -183,7 +183,7 @@ SWEP.ClipSize = 10
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.1
-SWEP.ShootTimeMult = 0.72
+SWEP.ShootTimeMult = 0.68
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl" // why doesn't it have its own mag model?
 
 SWEP.ReloadUpInTime = 2.1
@@ -302,7 +302,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_sniper"},
+        Category = {"ammo_rifle", "ammo_scout"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

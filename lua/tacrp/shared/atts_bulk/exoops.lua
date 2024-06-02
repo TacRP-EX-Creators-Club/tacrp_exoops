@@ -199,3 +199,34 @@ ATT.InstalledElements = {"scope"}
 
 
 TacRP.LoadAtt(ATT, "optic_g36c_scope")
+
+-- Scout .376 Steyr Ammo
+ATT = {}
+
+ATT.PrintName = ".376 Steyr"
+ATT.FullName = "Scout .376 Steyr Mod Kit"
+ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
+ATT.Description = "Modification to load a unique high-power hunting cartridge."
+ATT.Pros = {"rating.lethality", "stat.range_min", "stat.muzzlevelocity"}
+ATT.Cons = {"stat.clipsize", "stat.rpm", "stat.recoilkick"}
+
+ATT.Category = "ammo_scout"
+ATT.SortOrder = 0.5
+
+ATT.InstalledElements = {"50beo"}
+
+ATT.Add_ClipSize = -4
+
+ATT.Mult_Damage_Max = 1.2
+ATT.Mult_Damage_Min = 1.33
+ATT.Mult_Range_Min = 1.25
+
+ATT.Mult_RPM = 1 / 1.15
+ATT.Mult_ShootTimeMult = 1.15
+
+ATT.Add_RecoilKick = 6
+ATT.Mult_MuzzleVelocity = 1.1
+
+
+
+TacRP.LoadAtt(ATT, "ammo_scout_376")
