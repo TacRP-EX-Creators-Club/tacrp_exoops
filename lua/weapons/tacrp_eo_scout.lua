@@ -8,11 +8,11 @@ SWEP.PrintName = "Steyr Scout"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "7Sniper Rifle"
+SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Lightweight rifle designed for portability and comfort rather than direct firepower. Has a built-in bipod.\nEquipped with a 6x scope by default."
 
-SWEP.Trivia_Caliber = ".308 Winchester"
+SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Steyr Mannlicher"
 SWEP.Trivia_Year = "1997"
 
@@ -31,24 +31,17 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 50,
-        Damage_Min = 70,
+        Damage_Max = 60,
+        Damage_Min = 45,
 
-        Range_Min = 500,
-        Range_Max = 1500,
+        Range_Min = 1800,
+        Range_Max = 7000,
     },
     [TacRP.BALANCE_TTT] = {
-
-        Description = "Well rounded hunting rifle with good damage up close.\nEquipped with a 6x scope by default.",
-
-        Damage_Max = 30,
-        Damage_Min = 50,
-        Range_Min = 300,
-        Range_Max = 1500,
-
-        RPM = 45,
-        ShootTimeMult = 0.9,
-        HipFireSpreadPenalty = 0.025,
+        Damage_Max = 55,
+        Damage_Min = 40,
+        Range_Min = 1000,
+        Range_Max = 3000,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 5,
@@ -67,18 +60,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 70
-SWEP.Damage_Min = 52
-SWEP.Range_Min = 1700
-SWEP.Range_Max = 5000
-SWEP.Penetration = 14 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.75
-SWEP.ArmorBonus = 2
+SWEP.Damage_Max = 55
+SWEP.Damage_Min = 40
+SWEP.Range_Min = 1600
+SWEP.Range_Max = 7000
+SWEP.Penetration = 10 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.7
+SWEP.ArmorBonus = 1.5
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,
@@ -86,7 +79,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.5
 }
 
-SWEP.MuzzleVelocity = 32000
+SWEP.MuzzleVelocity = 33000
 
 // misc. shooting
 
@@ -94,23 +87,23 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 58
+SWEP.RPM = 60
 
 SWEP.Spread = 0
 
-SWEP.HipFireSpreadPenalty = 0.036
-SWEP.PeekPenaltyFraction = 0.25
+SWEP.HipFireSpreadPenalty = 0.025
+SWEP.PeekPenaltyFraction = 0.3
 SWEP.MidAirSpreadPenalty = 0.02
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 1
-SWEP.RecoilResetTime = 0.2
+SWEP.RecoilMaximum = 2
+SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 1
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 5
 
-SWEP.RecoilKick = 10
+SWEP.RecoilKick = 2
 
 SWEP.RecoilSpreadPenalty = 0 // extra spread per one unit of recoil
 
@@ -128,7 +121,7 @@ SWEP.AimDownSightsTime = 0.35
 SWEP.SprintToFireTime = 0.4
 
 SWEP.Sway = 1.5
-SWEP.ScopedSway = 0.075
+SWEP.ScopedSway = 0.1
 
 SWEP.FreeAimMaxAngle = 7
 
@@ -187,11 +180,10 @@ SWEP.ScopeHideWeapon = true
 // reload
 
 SWEP.ClipSize = 10
-SWEP.Ammo = "357"
-SWEP.AmmoTTT = "357"
+SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.1
-SWEP.ShootTimeMult = 0.7
+SWEP.ShootTimeMult = 0.68
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl" // why doesn't it have its own mag model?
 
 SWEP.ReloadUpInTime = 2.1
@@ -310,7 +302,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_sniper"},
+        Category = {"ammo_rifle", "ammo_scout"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
