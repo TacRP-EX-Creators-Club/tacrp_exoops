@@ -34,7 +34,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - Colt Model 733 (done)
 - Enfield L85A2 (done)
 - FAMAS G2
-- HK G36C
+- HK G36C (done)
 - Beretta AR70 (AR70/223) (done)
 - FN F2000 (done)
 - SCAR-L (done)
@@ -62,7 +62,7 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 - SIG MCX SPEAR (done)
 
 ## Sniper Rifles
-- Steyr Scout
+- Steyr Scout (done)
 - HK PSG-1 (done)
 
 ## Anti-Material Rifles
