@@ -34,16 +34,18 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 50,
+        Damage_Min = 34,
+        HipFireSpreadPenalty = 0.015,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 6,
-        Range_Min = 400,
-        Range_Max = 2500,
-        Num = 1,
+        Damage_Max = 38,
+        Damage_Min = 20,
+        Range_Min = 900,
+        Range_Max = 1800,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_HEAD] = 3,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
@@ -59,7 +61,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 
 // "ballistics"
 
-SWEP.Damage_Max = 42
+SWEP.Damage_Max = 44
 SWEP.Damage_Min = 18
 SWEP.Range_Min = 900 // distance for which to maintain maximum damage
 SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
@@ -92,7 +94,7 @@ SWEP.RPM = 72
 
 SWEP.Spread = 0.0025
 
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.HipFireSpreadPenalty = 0.02
 SWEP.MidAirSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 

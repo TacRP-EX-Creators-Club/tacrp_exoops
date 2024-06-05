@@ -24,7 +24,7 @@ Animations: Tactical Interventionw
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_scout.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_scout.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -60,10 +60,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 55
+SWEP.Damage_Max = 50
 SWEP.Damage_Min = 40
-SWEP.Range_Min = 1600
-SWEP.Range_Max = 7000
+SWEP.Range_Min = 1500
+SWEP.Range_Max = 6000
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 SWEP.ArmorBonus = 1.5
@@ -254,7 +254,7 @@ SWEP.Attachments = {
         VMScale = 1,
         Pos_VM = Vector(-3.6, 0.1, 12),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(-3, 1.25, -5.6),
+        Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
     },
     [2] = {
@@ -264,8 +264,10 @@ SWEP.Attachments = {
         Bone = "SPR_root",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-2.65, 0.1, 34),
-        Pos_WM = Vector(22.5, 1.2, -4.9),
+        VMScale = 0.8,
+        WMScale = 0.8,
+        Pos_VM = Vector(-2.65, 0.1, 33),
+        Pos_WM = Vector(21, 1.2, -4.75),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
@@ -277,10 +279,10 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-2, -0.8, 20),
-        Pos_WM = Vector(8, 2, -4),
-        Ang_VM = Angle(90, 0, -90),
-        Ang_WM = Angle(0, 0, 90),
+        Pos_VM = Vector(-1, 0.1, 20),
+        Pos_WM = Vector(8, 1.2, -3),
+        Ang_VM = Angle(90, 0, 180),
+        Ang_WM = Angle(0, 0, 0),
     },
     [4] = {
         PrintName = "Accessory",
