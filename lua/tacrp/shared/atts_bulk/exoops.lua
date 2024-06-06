@@ -87,7 +87,7 @@ ATT.PrintName = "S. Lock"
 ATT.FullName = "Mk 22 Slide Lock"
 ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
 ATT.Description = "Locks the slide in place when firing to further reduce noise."
-ATT.Pros = {"rating.precision", "stat.muzzlevelocity", "stat.range"}
+ATT.Pros = {"stat.damage", "rating.precision", "stat.muzzlevelocity", "stat.range"}
 ATT.Cons = {"stat.rpm"}
 ATT.Ignore = false
 
@@ -95,16 +95,19 @@ ATT.Category = "trigger_mk22"
 
 ATT.SortOrder = 0
 
+ATT.Add_Damage_Max = 4
+ATT.Add_Damage_Min = 5
+
 ATT.Mult_Spread = 0.5
 ATT.Mult_HipFireSpreadPenalty = 0.75
 ATT.Mult_MoveSpreadPenalty = 0.25
 ATT.Mult_RPM = 0.25
 ATT.Mult_ShootTimeMult = 0.85
 
-ATT.Add_Range_Min = 250
+ATT.Add_Range_Min = 500
 ATT.Add_Range_Max = 500
 
-ATT.Mult_MuzzleVelocity = 1.2
+ATT.Mult_MuzzleVelocity = 1.15
 
 ATT.Override_EjectDelay = 0.6
 
