@@ -27,31 +27,30 @@ Animation: Tactical Intervention
 
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_rhino20ds.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_t850.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_rhino20ds.mdl"
 
 SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 55,
-        Damage_Min = 20,
-        ArmorPenetration = 0.65,
+        Damage_Max = 38,
+        Damage_Min = 18,
 
         RPM = 500,
-        RecoilKick = 4,
+        RecoilKick = 3.5,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 37,
-        Damage_Min = 15,
+        Damage_Max = 30,
+        Damage_Min = 18,
 
-        Range_Min = 100,
+        Range_Min = 600,
         Range_Max = 1500,
 
-        RPM = 300,
+        RPM = 330,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
             [HITGROUP_RIGHTARM] = 1,
@@ -59,9 +58,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.75
         },
-
-        RecoilResetTime = 0.3,
-        RecoilDissipationRate = 4,
     }
 }
 
@@ -255,7 +251,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(-3.3, -0.1, 2.2),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, -0.5, -2),
+        Pos_WM = Vector(0.15, -0, -0.7),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -266,7 +262,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
-        Category = {"tactical_zoom", "tactical_ebullet"},
+        Category = {"tactical_ebullet"},
         Bone = "sphinx_ROOT",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
