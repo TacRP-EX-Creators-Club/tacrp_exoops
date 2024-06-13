@@ -11,14 +11,14 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "Customized magnum revolver with a heavy trigger but great recoil control."
+SWEP.Description = "Customized magnum revolver with a heavy trigger but great damage over distance."
 SWEP.Description_Quote = "\"Do ya feel lucky, punk?\""
 
 SWEP.Trivia_Caliber = ".44 Magnum"
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
 SWEP.Trivia_Year = "1955"
 
-SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Model: Soul_Slayer
 Texture: Kimono
@@ -64,13 +64,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
 // "ballistics"
 
 SWEP.Damage_Max = 68 // damage at minimum range
-SWEP.Damage_Min = 42 // damage at maximum range
+SWEP.Damage_Min = 40 // damage at maximum range
 SWEP.Range_Min = 600 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.9
 
-SWEP.MuzzleVelocity = 12500
+SWEP.MuzzleVelocity = 15000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
@@ -97,31 +97,34 @@ SWEP.ShootTimeMult = 1
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 2
-SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 9
-SWEP.RecoilFirstShotMult = 0.9
+SWEP.RecoilMaximum = 2.5
+SWEP.RecoilResetTime = 0.02
+SWEP.RecoilDissipationRate = 6
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 3
 SWEP.RecoilKick = 10
 SWEP.RecoilStability = 0.6
+SWEP.RecoilAltMultiplier = 400
 
-SWEP.RecoilSpreadPenalty = 0.01
+SWEP.RecoilSpreadPenalty = 0.008
+
+SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 0.9
-SWEP.ShootingSpeedMult = 0.75
-SWEP.SightedSpeedMult = 0.8
+SWEP.ShootingSpeedMult = 0.7
+SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.32
+SWEP.AimDownSightsTime = 0.34
 SWEP.SprintToFireTime = 0.3
 
-SWEP.FreeAimMaxAngle = 4.5
+SWEP.FreeAimMaxAngle = 5.5
 
 // hold types
 

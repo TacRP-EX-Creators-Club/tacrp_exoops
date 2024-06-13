@@ -33,21 +33,6 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 75,
-        Damage_Min = 40,
-
-        Spread = 0.03,
-
-        BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3.75,
-            [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1,
-            [HITGROUP_LEFTARM] = 0.9,
-            [HITGROUP_RIGHTARM] = 0.9,
-            [HITGROUP_LEFTLEG] = 0.75,
-            [HITGROUP_RIGHTLEG] = 0.75,
-            [HITGROUP_GEAR] = 0.9
-        },
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 45,
@@ -75,10 +60,10 @@ SWEP.TTTReplace = {["weapon_zm_pistol"] = 0.5, ["weapon_ttt_glock"] = 0.5}
 
 // "ballistics"
 
-SWEP.Damage_Max = 58 // damage at minimum range
-SWEP.Damage_Min = 34 // damage at maximum range
+SWEP.Damage_Max = 68 // damage at minimum range
+SWEP.Damage_Min = 40 // damage at maximum range
 SWEP.Range_Min = 600 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3500 // distance at which we drop to minimum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.9
 
@@ -101,7 +86,7 @@ SWEP.Firemodes = {1, 2}
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 SWEP.Firemode = false
 
-SWEP.RPM = 160
+SWEP.RPM = 150
 SWEP.RPMMultBurst = 1.1
 SWEP.RPMMultSemi = 1.1
 
@@ -111,17 +96,18 @@ SWEP.MoveSpreadPenalty = 0.002
 SWEP.MidAirSpreadPenalty = 0.075
 SWEP.HipFireSpreadPenalty = 0
 
+SWEP.RecoilResetInstant = true
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 3
-SWEP.RecoilResetTime = 0.175
-SWEP.RecoilDissipationRate = 12
+SWEP.RecoilMaximum = 5
+SWEP.RecoilResetTime = 0.33
+SWEP.RecoilDissipationRate = 9
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 4
 SWEP.RecoilKick = 15
 SWEP.RecoilStability = 0.1
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.002
 
 SWEP.Sway = 0.5
 
@@ -176,7 +162,7 @@ SWEP.HolsterAng = Angle(60, 5, 0)
 SWEP.ClipSize = 12
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 1.25
+SWEP.ReloadTimeMult = 1.4
 
 SWEP.DropMagazineModel = nil
 SWEP.DropMagazineImpact = "pistol"
