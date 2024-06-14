@@ -34,12 +34,12 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
-        Damage_Min = 11,
+        Damage_Min = 12,
 
-        Range_Min = 1500,
-        Range_Max = 2400,
+        Range_Min = 900,
+        Range_Max = 3000,
 
-        HipFireSpreadPenalty = 0.025,
+        HipFireSpreadPenalty = 0.028,
 
         RecoilKick = 2,
     },

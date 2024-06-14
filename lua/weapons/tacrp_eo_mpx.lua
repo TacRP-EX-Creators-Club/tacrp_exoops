@@ -31,6 +31,9 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 20,
+
+        ClipSize = 35,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -76,13 +79,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 SWEP.Damage_Max = 22
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 800
-SWEP.Range_Max = 2500
+SWEP.Range_Min = 1400
+SWEP.Range_Max = 2800
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -133,8 +136,8 @@ SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
-SWEP.SprintToFireTime = 0.38
+SWEP.AimDownSightsTime = 0.35
+SWEP.SprintToFireTime = 0.37
 
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.15
@@ -172,7 +175,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 35
+SWEP.ClipSize = 38
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
@@ -228,9 +231,9 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
-		BGs_WM = {
-			{1, 1}
-		},
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["sights"] = {
         BGs_VM = {
@@ -262,7 +265,7 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-		VMScale = 0.85,
+        VMScale = 0.85,
         Pos_VM = Vector(-3.7, -0.1, 17.5),
         Pos_WM = Vector(1.1, 18.5, -0.5),
         Ang_VM = Angle(90, 0, 0),
@@ -275,7 +278,7 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-		VMScale = 0.85,
+        VMScale = 0.85,
         Pos_VM = Vector(-4.5, -0.6, 9),
         Pos_WM = Vector(1.5, 10, 0),
         Ang_VM = Angle(90, 0, -70),
@@ -283,7 +286,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_foldstock2", "acc_sling", "acc_duffle", "perk_extendedmag"},
+        Category = {"acc", "acc_foldstock2", "acc_sling", "acc_duffle", "acc_extmag_smg"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
