@@ -4,66 +4,64 @@ Celebrating InterOps' first anniversary (we might miss the date by a bit lol)
 
 # This list is not final.
 ## Pistols
-- Jericho 941 (done)
-- HK P7 (done)
-- Walther P99 (done)
-- SIG P210 (done)
-- S&W Mk 22 Mod. 0 "Hush Puppy" (done)
-- Star Megastar (done)
-- Browning Hi-Power (done)
-- Chiappa Rhino 20DS (9mm)
+- Jericho 941
+- HK P7
+- Walther P99
+- SIG P210
+- S&W Mk 22 Mod. 0 "Hush Puppy"
+- Star Megastar
+- Browning Hi-Power
+- Chiappa Rhino 20DS
 
 ## Magnum Pistols
-- S&W Model 29 "Satan" (doneish)
-- Dueling Demons (Dual M29 Satan) (doneish)
+- S&W Model 29 "Satan"
+- Dueling Demons (Dual M29 Satan)
 
 ## Machine Pistols
-- Mauser M712 Schnellfeuer (done)
-- Beretta 93R (done)
-- Calico M950A (done)
+- Mauser M712 Schnellfeuer
+- Beretta 93R
+- Calico M950A
 
 ## Sub-Machine Guns
-- Beretta PM-12S
-- Walther MPL
+- ~~Beretta PM-12S~~
+- ~~Walther MPL~~
 - SIG MPX (done)
 - HK MP5SD (done)
 - HK MP5K (done)
 
 ## Assault Rifles
-- Magpul Masada (5.56x45mm) (done)
-- Colt Model 733 (done)
-- Enfield L85A2 (done)
+- Magpul Masada (5.56x45mm)
+- Colt Model 733
+- Enfield L85A2
 - FAMAS G2
-- HK G36C (done)
-- Beretta AR70 (AR70/223) (done)
-- FN F2000 (done)
-- SCAR-L (done)
-- StG 44
-- AUG A1 (done)
+- HK G36C
+- Beretta AR70 (AR70/223)
+- FN F2000
+- SCAR-L
+- AUG A1
+- ~~StG 44~~
 
 ## Shotguns
-- Benelli M3 Super 90 (done)
-- HK CAWS (done)
-- SPAS-15 (done)
+- Benelli M3 Super 90
+- HK CAWS
+- SPAS-15
 
 ## Machine Guns
-- MG42 (done)
-- M60 (done)
+- MG42
+- M60
 
 ## Sporter Carbines
 - Bushmaster ACR (Multicaliber)
-- Winchester M1873 (done)
-- FN FAL (Israeli Pattern) (Done)
+- Winchester M1873
+- FN FAL (Israeli Pattern)
 
 ## Precision Rifles
-- SIG Stgw 57 (SG 510) (done)
-- Howa Type 64 (done)
-- FN FAL (StG 58) (done)
-- SIG MCX SPEAR (done)
+- SIG Stgw 57 (SG 510)
+- Howa Type 64
+- FN FAL (StG 58)
+- SIG MCX SPEAR
 
 ## Sniper Rifles
-- Steyr Scout (done)
-- HK PSG-1 (done)
-
-## Anti-Material Rifles
-- Barrett M82A1
+- Steyr Scout
+- HK PSG-1
+- ~~Barrett M82A1~~
