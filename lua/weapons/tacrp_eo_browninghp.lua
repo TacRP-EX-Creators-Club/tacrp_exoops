@@ -35,21 +35,29 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 25,
         Damage_Min = 15,
-        RPM = 380,
+
+        Range_Min = 1000,
+        Range_Max = 2600,
+
+        RPM = 400,
+
+        ReloadTimeMult = 1.15,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 18,
-        Damage_Min = 12,
-        Range_Min = 500,
-        Range_Max = 2000,
-        RPM = 360,
+        Damage_Max = 24,
+        Damage_Min = 15,
+        Range_Min = 700,
+        Range_Max = 2800,
+        RPM = 220,
         RPMMultSemi = 1,
 
+        RecoilKick = 5,
+
         RecoilResetInstant = true,
-        RecoilMaximum = 8,
+        RecoilMaximum = 5,
         RecoilResetTime = 0.22,
         RecoilDissipationRate = 10,
-        RecoilSpreadPenalty = 0.003,
+        RecoilSpreadPenalty = 0.0025,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
@@ -62,7 +70,7 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
 
-        ReloadTimeMult = 1.2 * 1.25,
+        ReloadTimeMult = 1.4,
     },
 }
 
@@ -119,7 +127,7 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 1
+SWEP.MoveSpeedMult = 0.975
 SWEP.ShootingSpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.8
 

@@ -33,34 +33,25 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 24,
-        Damage_Min = 10,
-        RPM = 450,
+        Damage_Max = 25,
+        Damage_Min = 8,
+        RPM = 500,
 
-        BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2,
-            [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1,
-            [HITGROUP_LEFTARM] = 1,
-            [HITGROUP_RIGHTARM] = 1,
-            [HITGROUP_LEFTLEG] = 0.75,
-            [HITGROUP_RIGHTLEG] = 0.75,
-            [HITGROUP_GEAR] = 0.9
-        },
+        Range_Max = 1800,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 15,
-        Damage_Min = 10,
-        Range_Min = 500,
-        Range_Max = 2000,
-        RPM = 420,
+        Damage_Max = 24,
+        Damage_Min = 5,
+        Range_Min = 200,
+        Range_Max = 1500,
+        RPM = 280,
         RPMMultSemi = 1,
 
         RecoilResetInstant = true,
-        RecoilMaximum = 8,
-        RecoilResetTime = 0.22,
-        RecoilDissipationRate = 10,
-        RecoilSpreadPenalty = 0.003,
+        RecoilMaximum = 4,
+        RecoilResetTime = 0.15,
+        RecoilDissipationRate = 12,
+        RecoilSpreadPenalty = 0.008,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
@@ -82,9 +73,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 // "ballistics"
 
 SWEP.Damage_Max = 24
-SWEP.Damage_Min = 8
+SWEP.Damage_Min = 6
 SWEP.Range_Min = 300
-SWEP.Range_Max = 1600
+SWEP.Range_Max = 1500
 SWEP.Penetration = 3
 SWEP.ArmorPenetration = 0.575
 SWEP.ArmorBonus = 0.5
@@ -106,23 +97,24 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 450
+SWEP.RPM = 500
 SWEP.RPMMultSemi = 0.85
 
-SWEP.Spread = 0.008
+SWEP.Spread = 0.011
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
-SWEP.RecoilResetTime = 0.02
-SWEP.RecoilDissipationRate = 16
+SWEP.RecoilMaximum = 4
+SWEP.RecoilResetTime = 0.015
+SWEP.RecoilDissipationRate = 12
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 4
+SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.25
 
-SWEP.RecoilSpreadPenalty = 0.0035
+SWEP.RecoilSpreadPenalty = 0.003
+SWEP.HipFireSpreadPenalty = 0.01
 
 SWEP.CanBlindFire = true
 

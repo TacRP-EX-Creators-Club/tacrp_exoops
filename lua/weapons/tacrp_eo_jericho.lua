@@ -35,21 +35,19 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 18,
-        Damage_Min = 10,
-        Range_Min = 600,
-        Range_Max = 1800,
-        RPM = 380,
+        Damage_Max = 14,
+        Damage_Min = 8,
+        Range_Min = 500,
+        Range_Max = 1500,
+        RPM = 420,
         RPMMultSemi = 1,
 
-        Spread = 0.007,
-
         RecoilResetInstant = true,
-        RecoilMaximum = 3.5,
-        RecoilResetTime = 0.24,
-        RecoilDissipationRate = 6,
+        RecoilMaximum = 8,
+        RecoilResetTime = 0.2,
+        RecoilDissipationRate = 10,
         RecoilFirstShotMult = 1,
-        RecoilSpreadPenalty = 0.006,
+        RecoilSpreadPenalty = 0.002,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -71,14 +69,14 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 // "ballistics"
 
 SWEP.Damage_Max = 25
-SWEP.Damage_Min = 12
+SWEP.Damage_Min = 10
 SWEP.Range_Min = 300 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.7
-SWEP.ArmorBonus = 0.25
+SWEP.ArmorPenetration = 0.65
+SWEP.ArmorBonus = 0.5
 
-SWEP.MuzzleVelocity = 8400
+SWEP.MuzzleVelocity = 9500
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
@@ -120,7 +118,7 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 1
+SWEP.MoveSpeedMult = 0.975
 SWEP.ShootingSpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.8
 

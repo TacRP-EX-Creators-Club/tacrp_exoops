@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Sleek post-war, single-stack, hammer-fired pistol."
+SWEP.Description = "Sleek post-war, single-stack, hammer-fired pistol.\nSlightly unreliable due to its age."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
@@ -33,11 +33,15 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 24,
-        Damage_Min = 20,
-        RPM = 450,
+        Damage_Min = 18,
+        RPM = 420,
+
+        JamFactor = 0.06,
+        RecoilKick = 3,
+        HipFireSpreadPenalty = 0.01,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 5,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
@@ -50,23 +54,23 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 30,
         Damage_Min = 10,
-        Range_Min = 400,
+        Range_Min = 600,
         Range_Max = 1800,
-        RPM = 200,
+        RPM = 180,
         RPMMultSemi = 1,
 
-        Spread = 0.007,
+        Spread = 0.005,
 
         RecoilResetInstant = true,
         RecoilMaximum = 3.5,
-        RecoilResetTime = 0.24,
+        RecoilResetTime = 0.25,
         RecoilDissipationRate = 6,
         RecoilFirstShotMult = 1,
         RecoilSpreadPenalty = 0.008,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1.15,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -75,7 +79,7 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
 
-        ReloadTimeMult = 1.05 * 1.25,
+        ReloadTimeMult = 1.15,
     },
 }
 
@@ -83,10 +87,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 12
-SWEP.Range_Min = 900 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 14
+SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.8
 SWEP.ArmorBonus = 1
@@ -94,7 +98,7 @@ SWEP.ArmorBonus = 1
 SWEP.MuzzleVelocity = 10200
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -108,12 +112,12 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 450
+SWEP.RPM = 400
 SWEP.RPMMultSemi = 0.75
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.0025
 SWEP.RecoilSpreadPenalty = 0.008
-SWEP.HipFireSpreadPenalty = 0.01
+SWEP.HipFireSpreadPenalty = 0.012
 
 SWEP.ShootTimeMult = 0.5
 
@@ -132,7 +136,7 @@ SWEP.RecoilAltMultiplier = 400
 
 SWEP.CanBlindFire = true
 
-SWEP.JamFactor = 0.1
+SWEP.JamFactor = 0.12
 
 // handling
 
@@ -142,7 +146,7 @@ SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.26
+SWEP.AimDownSightsTime = 0.22
 SWEP.SprintToFireTime = 0.28
 
 // hold types
