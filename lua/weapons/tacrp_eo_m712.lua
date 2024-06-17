@@ -33,7 +33,7 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 18,
-        Damage_Min = 12,
+        Damage_Min = 14,
         RecoilKick = 5,
     },
     [TacRP.BALANCE_TTT] = {
@@ -62,13 +62,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 500
-SWEP.Range_Max = 2000
+SWEP.Range_Min = 800
+SWEP.Range_Max = 2800
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.725
 SWEP.ArmorBonus = 0.75
 
-SWEP.MuzzleVelocity = 12500
+SWEP.MuzzleVelocity = 12000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -281,9 +281,9 @@ SWEP.Attachments = {
         WMBone = "Bone02",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        VMScale = 0.7,
+        VMScale = 0.65,
         WMScale = 0.7,
-        Pos_VM = Vector(3.8, -0.015, 10.5),
+        Pos_VM = Vector(4.05, -0.015, 16),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(-2, 1.25, -4.6),
         Ang_WM = Angle(0, 0, 180),

@@ -83,7 +83,7 @@ TacRP.LoadAtt(ATT, "bolt_spas15_pump")
 --Mk 22 Slide Lock
 ATT = {}
 
-ATT.PrintName = "S. Lock"
+ATT.PrintName = "Slide Lock"
 ATT.FullName = "Mk 22 Slide Lock"
 ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
 ATT.Description = "Locks the slide in place when firing to further reduce noise."
@@ -101,8 +101,8 @@ ATT.Add_Damage_Min = 5
 ATT.Mult_Spread = 0.5
 ATT.Mult_HipFireSpreadPenalty = 0.75
 ATT.Mult_MoveSpreadPenalty = 0.25
-ATT.Mult_RPM = 0.25
-ATT.Mult_ShootTimeMult = 0.85
+ATT.Override_RPM = 70
+ATT.Override_ShootTimeMult = 0.5
 
 ATT.Add_Range_Min = 500
 ATT.Add_Range_Max = 500

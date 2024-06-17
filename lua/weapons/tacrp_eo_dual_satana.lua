@@ -36,16 +36,16 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 45,
-        Damage_Min = 20,
-        Range_Min = 100,
-        Range_Max = 1500,
-        RPM = 240,
+        Damage_Min = 25,
+        Range_Min = 600,
+        Range_Max = 2500,
+        RPM = 150,
 
-        Spread = 0.03,
+        Spread = 0.02,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1,
+            [HITGROUP_CHEST] = 1.15,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -107,7 +107,7 @@ SWEP.RecoilVisualKick = 4
 SWEP.RecoilKick = 15
 SWEP.RecoilStability = 0.1
 
-SWEP.RecoilSpreadPenalty = 0.002
+SWEP.RecoilSpreadPenalty = 0.005
 
 SWEP.Sway = 0.5
 
