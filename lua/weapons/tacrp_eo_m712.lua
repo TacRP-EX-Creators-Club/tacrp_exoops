@@ -94,7 +94,7 @@ SWEP.PostBurstDelay = 0.03
 
 SWEP.Spread = 0.005
 SWEP.RecoilSpreadPenalty = 0.012
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.024
 
 SWEP.ShootTimeMult = 0.5
 
@@ -285,7 +285,7 @@ SWEP.Attachments = {
         WMScale = 0.7,
         Pos_VM = Vector(4.05, -0.015, 16),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(-2, 1.25, -4.6),
+        Pos_WM = Vector(4.6, 1.2, -4.9),
         Ang_WM = Angle(0, 0, 180),
     },
     [3] = {

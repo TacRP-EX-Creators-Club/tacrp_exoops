@@ -95,14 +95,15 @@ ATT.Category = "trigger_mk22"
 
 ATT.SortOrder = 0
 
-ATT.Add_Damage_Max = 4
+ATT.Add_Damage_Max = 5
 ATT.Add_Damage_Min = 5
 
 ATT.Mult_Spread = 0.5
 ATT.Mult_HipFireSpreadPenalty = 0.75
 ATT.Mult_MoveSpreadPenalty = 0.25
-ATT.Override_RPM = 70
-ATT.Override_ShootTimeMult = 0.5
+ATT.Override_RPM = 80
+ATT.Override_RPMMultSemi = 1
+ATT.Override_ShootTimeMult = 0.55
 
 ATT.Add_Range_Min = 500
 ATT.Add_Range_Max = 500
@@ -112,7 +113,7 @@ ATT.Mult_MuzzleVelocity = 1.15
 ATT.Override_EjectDelay = 0.6
 
 ATT.Override_TracerNum = 0
-ATT.Mult_Vol_Shoot = 0.5
+ATT.Mult_Vol_Shoot = 0.75
 
 ATT.Override_ProceduralIronFire = false
 
@@ -235,3 +236,27 @@ ATT.Override_Sound_Shoot = "tacint_extras/scout/scout_fire-1-magnum.wav"
 ATT.Add_Pitch_Shoot = 10
 
 TacRP.LoadAtt(ATT, "ammo_scout_376")
+
+ATT = {}
+
+ATT.PrintName = "att.muzz_pistol_comp.name"
+ATT.Icon = Material("entities/tacrp_att_muzz_pistol_comp.png", "mips smooth")
+ATT.Description = "att.muzz_pistol_comp.desc"
+ATT.Pros = {"stat.recoil", "stat.spread", "stat.range_min"}
+ATT.Cons = {"stat.rpm"}
+
+ATT.Model = "models/weapons/tacint/addons/pistol_comp.mdl"
+ATT.Scale = 2
+ATT.ModelOffset = Vector(-18, 0, -3.8)
+
+ATT.Category = "muzzle_megastar"
+ATT.InvAtt = "muzz_pistol_comp"
+
+ATT.SortOrder = 1
+
+ATT.Mult_RecoilKick = 0.5
+ATT.Mult_RPM = 0.9
+ATT.Mult_Spread = 0.75
+ATT.Mult_Range_Min = 1.5
+
+TacRP.LoadAtt(ATT, "muzz_megastar_comp")

@@ -59,8 +59,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.75
         },
-
-        ReloadTimeMult = 1.2,
     }
 }
 
@@ -265,7 +263,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
-        Category = {"tactical_ebullet"},
+        Category = {"tactical_ebullet", "tactical_zoom"},
         Bone = "sphinx_ROOT",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",

@@ -33,13 +33,13 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 20,
+        Damage_Max = 24,
         Damage_Min = 11,
         ArmorPenetration = 0.575,
         ClipSize = 18,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2,
+            [HITGROUP_HEAD] = 4,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
@@ -50,16 +50,18 @@ SWEP.BalanceStats = {
         },
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 15,
-        Damage_Min = 10,
-        Range_Min = 600,
-        Range_Max = 1100,
-        RPM = 800,
-        RPMMultSemi = 0.45,
-        PostBurstDelay = 0.175,
+        Damage_Max = 18,
+        Damage_Min = 12,
+        Range_Min = 400,
+        Range_Max = 2000,
+        ClipSize = 18,
+        RPM = 600,
+        RPMMultBurst = 1.15,
+        RPMMultSemi = 0.5,
+        PostBurstDelay = 0.15,
 
-        RecoilSpreadPenalty = 0.0025,
-        RecoilFirstShotMult = 0.75,
+        RecoilSpreadPenalty = 0.005,
+        HipFireSpreadPenalty = 0.01,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
@@ -71,8 +73,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-
-        ReloadTimeMult = 1.15 * 1.25,
     }
 }
 
@@ -108,7 +108,7 @@ SWEP.Firemodes = {
 1
 }
 
-SWEP.RPM = 700
+SWEP.RPM = 650
 SWEP.RPMMultBurst = 1.1
 SWEP.RPMMultSemi = 0.6
 SWEP.PostBurstDelay = 0.1
@@ -119,9 +119,9 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 15
+SWEP.RecoilDissipationRate = 14
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
@@ -129,7 +129,7 @@ SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.6
 SWEP.RecoilAltMultiplier = 500
 
-SWEP.RecoilSpreadPenalty = 0.002
+SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.0035
 
 SWEP.CanBlindFire = true
@@ -287,7 +287,7 @@ SWEP.Attachments = {
         WMScale = 0.5,
         Pos_VM = Vector(-0.2, 0, 7),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(14, 1.3, -4.3),
+        Pos_WM = Vector(14.1, 1.3, -4.3),
         Ang_WM = Angle(0, -0, 180),
     },
     [3] = {

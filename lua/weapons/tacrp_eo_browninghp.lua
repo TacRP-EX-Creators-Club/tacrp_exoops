@@ -22,7 +22,7 @@ SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: Silvio Dante
 Texture: WangChung
-Sounds: Vunsunta
+Sounds: Vunsunta, Strelok
 Animations: Tactical Intervention
 ]]
 
@@ -280,7 +280,7 @@ SWEP.Attachments = {
         WMScale = 0.5,
         Pos_VM = Vector(-3.1, -0.04, 9.5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0.1, 9, -1.5),
+        Pos_WM = Vector(0.1, 8.75, -1.6),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
@@ -290,11 +290,11 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
-        VMScale = 1.1,
-        WMScale = 1.1,
-        Pos_VM = Vector(-2, 0, 6),
+        VMScale = 0.9,
+        WMScale = 1,
+        Pos_VM = Vector(-2.2, 0, 6),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0.1, 6, -2.7),
+        Pos_WM = Vector(0.1, 5.25, -2.7),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {

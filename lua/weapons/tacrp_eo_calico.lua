@@ -11,8 +11,8 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Machine Pistol"
 
-SWEP.Description = "Odd spacegun-looking pistol with a massive helical magazine. Converted to full auto."
-SWEP.Description_Quote = ""
+SWEP.Description = "Odd spacegun-looking pistol with a massive helical magazine."
+SWEP.Description_Quote = "\"I've got more hostages than you've had hot dinners.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Calico Light Weapons Systems"
@@ -29,19 +29,21 @@ Animation: Tactical Intervention
 SWEP.ViewModel = "models/weapons/tacint_shark/v_m950a.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_m950a.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 18,
         Damage_Min = 8,
+        Range_Min = 800,
+        HipFireSpreadPenalty = 0.02,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 12,
-        Damage_Min = 6,
-        Range_Min = 400,
-        Range_Max = 1800,
-
+        Damage_Max = 10,
+        Damage_Min = 5,
+        Range_Min = 300,
+        Range_Max = 1500,
+        HipFireSpreadPenalty = 0.015,
         RPM = 700,
 
         BodyDamageMultipliers = {
@@ -63,7 +65,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 6
-SWEP.Range_Min = 700 // distance for which to maintain maximum damage
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
@@ -84,40 +86,42 @@ SWEP.MuzzleVelocity = 25000
 
 // misc. shooting
 
-SWEP.Firemode = 2
+SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 750
+SWEP.RPMMultSemi = 0.85
 
 SWEP.Spread = 0.008
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 20
-SWEP.RecoilResetTime = 0.05
-SWEP.RecoilDissipationRate = 45
+SWEP.RecoilMaximum = 25
+SWEP.RecoilResetTime = 0.08
+SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 2
 
 SWEP.RecoilVisualKick = 0.75
 
-SWEP.RecoilKick = 1.5
-SWEP.RecoilStability = 0.1
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.4
 
-SWEP.RecoilSpreadPenalty = 0.0014
+SWEP.RecoilSpreadPenalty = 0.001
+SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.9
 SWEP.ShootingSpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.32
-SWEP.SprintToFireTime = 0.28
+SWEP.SprintToFireTime = 0.32
 
-SWEP.Sway = 0.75
+SWEP.Sway = 1
 SWEP.ScopedSway = 0.25
 
 SWEP.FreeAimMaxAngle = 3
@@ -158,7 +162,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 50
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1.05
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/m950a.mdl"
 SWEP.DropMagazineImpact = "plastic"
 

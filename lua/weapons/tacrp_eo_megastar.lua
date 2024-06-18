@@ -260,7 +260,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
-        Category = {"silencer", "pistol_muzzle"},
+        Category = {"silencer", "muzzle_megastar"},
         Bone = "ValveBiped.barrel",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
@@ -269,7 +269,7 @@ SWEP.Attachments = {
         WMScale = 0.5,
         Pos_VM = Vector(-0.9, 0.72, 7.1),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0.05, 8.7, -1.5),
+        Pos_WM = Vector(0.05, 8.65, -1.5),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {

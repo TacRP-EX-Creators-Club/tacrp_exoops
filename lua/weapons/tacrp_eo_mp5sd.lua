@@ -34,14 +34,12 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
-        Damage_Min = 12,
+        Damage_Min = 14,
 
         Range_Min = 900,
         Range_Max = 3000,
 
         HipFireSpreadPenalty = 0.028,
-
-        RecoilKick = 2,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
@@ -70,13 +68,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
-SWEP.Range_Min = 500 // distance for which to maintain maximum damage
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
-SWEP.Penetration = 3 // units of metal this weapon can penetrate
+SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 4.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -86,7 +84,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 9000
+SWEP.MuzzleVelocity = 9500
 
 // misc. shooting
 
@@ -99,9 +97,9 @@ SWEP.Firemodes = {
 SWEP.RPM = 725
 SWEP.RPMMultBurst = 1.1
 SWEP.RunawayBurst = true
-SWEP.PostBurstDelay = 0.075
+SWEP.PostBurstDelay = 0.12
 
-SWEP.Spread = 0.001
+SWEP.Spread = 0.0007
 
 SWEP.ShootTimeMult = 0.5
 
@@ -116,7 +114,7 @@ SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 2
 SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.002
+SWEP.RecoilSpreadPenalty = 0.0012
 SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true
@@ -129,11 +127,11 @@ SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.33
-SWEP.SprintToFireTime = 0.33
+SWEP.AimDownSightsTime = 0.34
+SWEP.SprintToFireTime = 0.35
 
-SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.25
+SWEP.Sway = 0.8
+SWEP.ScopedSway = 0.2
 
 SWEP.FreeAimMaxAngle = 3.5
 
@@ -265,8 +263,8 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
         Pos_VM = Vector(-4.75, 0.9, 9.75),
-        Pos_WM = Vector(13.5, 1.2, -5),
-        Ang_VM = Angle(90, 0, 72),
+        Pos_WM = Vector(13, 1, -5),
+        Ang_VM = Angle(90, 0, 90),
         Ang_WM = Angle(0, -3.5, -90),
     },
     [3] = {

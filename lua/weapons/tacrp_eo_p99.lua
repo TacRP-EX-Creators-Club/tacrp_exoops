@@ -66,8 +66,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-
-        ReloadTimeMult = 1.2 * 1.25,
     },
 }
 
@@ -277,7 +275,7 @@ SWEP.Attachments = {
         WMScale = 0.6,
         Pos_VM = Vector(-0.47, 0.43, 5.7),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(13.5, 1.3, -4),
+        Pos_WM = Vector(13.5, 1.3, -4.1),
         Ang_WM = Angle(0, -0, 0),
     },
     [3] = {
@@ -288,10 +286,10 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 0.9,
-        WMScale = 1,
+        WMScale = 0.9,
         Pos_VM = Vector(-2, 0, 5.25),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(9.75, 1.25, -2.75),
+        Pos_WM = Vector(10, 1.25, -2.75),
         Ang_WM = Angle(0, 0, 0),
     },
     [4] = {

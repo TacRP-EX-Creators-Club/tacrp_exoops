@@ -33,22 +33,22 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
-        Damage_Min = 10,
+        Damage_Min = 12,
 
         Range_Min = 500,
         Range_Max = 2000,
 
-        HipFireSpreadPenalty = 0.02,
+        HipFireSpreadPenalty = 0.01,
 
-        RecoilKick = 5,
+        RecoilKick = 4,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
-        Damage_Min = 9,
+        Damage_Min = 8,
 
-        RecoilSpreadPenalty = 0.0015,
-        HipFireSpreadPenalty = 0.03,
-        RecoilMaximum = 12,
+        RecoilSpreadPenalty = 0.0022,
+        HipFireSpreadPenalty = 0.015,
+        RecoilMaximum = 10,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -75,7 +75,7 @@ SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 4.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -96,13 +96,13 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 800
 
-SWEP.Spread = 0.0035
+SWEP.Spread = 0.008
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 1
@@ -111,14 +111,14 @@ SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.25
 
-SWEP.RecoilSpreadPenalty = 0.004
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.0024
+SWEP.HipFireSpreadPenalty = 0.012
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.95
+SWEP.MoveSpeedMult = 0.98
 SWEP.ShootingSpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.85
 
@@ -248,7 +248,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-4.3, -0.25, 17.25),
-        Pos_WM = Vector(21, 2.5, -5),
+        Pos_WM = Vector(21.25, 2.5, -5.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
     },

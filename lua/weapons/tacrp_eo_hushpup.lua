@@ -97,8 +97,8 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 300
-SWEP.RPMMultSemi = 1
+SWEP.RPM = 360
+SWEP.RPMMultSemi = 0.85
 
 SWEP.Spread = 0.005
 SWEP.RecoilSpreadPenalty = 0.003
@@ -261,24 +261,24 @@ SWEP.Attachments = {
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
+        PrintName = "Tactical",
+        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
+        Bone = "ValveBiped.GSR1911_rootbone",
+        WMBone = "Box01",
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+        VMScale = 0.9,
+        WMScale = 0.9,
+        Pos_VM = Vector(-2.1, 0, 6),
+        Ang_VM = Angle(90, 0, 180),
+        Pos_WM = Vector(0, 4.75, -2.7),
+        Ang_WM = Angle(0, -90, 180),
+    },
+    [3] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_extmag_pistol2", "acc_holster", "acc_brace"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-    },
-    [3] = {
-        PrintName = "Tactical",
-        Category = {"tactical_ebullet"},
-        Bone = "sphinx_ROOT",
-        WMBone = "Box01",
-        AttachSound = "TacRP/weapons/flashlight_on.wav",
-        DetachSound = "TacRP/weapons/flashlight_off.wav",
-        VMScale = 1.1,
-        WMScale = 1.3,
-        Pos_VM = Vector(-2, 0.1, 6.5),
-        Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5.5, -2.75),
-        Ang_WM = Angle(0, -90, 180),
     },
     [4] = {
         PrintName = "Bolt",
