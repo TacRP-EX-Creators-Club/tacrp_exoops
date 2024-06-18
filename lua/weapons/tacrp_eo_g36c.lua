@@ -31,8 +31,8 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 18,
-        Damage_Min = 13,
-        Range_Min = 800,
+        Damage_Min = 11,
+        Range_Min = 600,
         Range_Max = 2200,
 
         RPM = 580,
@@ -47,16 +47,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 6,
-
-        RecoilKick = 1.5,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilSpreadPenalty = 0.003,
-        HipFireSpreadPenalty = 0.009
     }
 }
 
@@ -105,7 +95,7 @@ SWEP.RecoilDissipationRate = 40
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.8
-SWEP.RecoilKick = 3.5
+SWEP.RecoilKick = 4
 SWEP.RecoilStability = 0.5
 
 SWEP.RecoilSpreadPenalty = 0.0015
@@ -121,11 +111,11 @@ SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.36
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.37
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.15
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.2
 
 SWEP.FreeAimMaxAngle = 4
 
@@ -243,7 +233,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
         Pos_VM = Vector(-6.65, 0.16, 6),
-        Pos_WM = Vector(0, 0, 2.75),
+        Pos_WM = Vector(0, 4, 2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -255,7 +245,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.4, 0.2, 22.75),
-        Pos_WM = Vector(-0, 20.5, -1.4),
+        Pos_WM = Vector(-0, 20.5, -1.35),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },

@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter"
 
-SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Modular receiver allows for a variety of different calibers to be used."
+SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Well-rounded with good handling characteristics."
 SWEP.Description_Quote = "\"To slay a dragon is the greatest of honors.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -34,17 +34,24 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 24,
+        Damage_Min = 14,
+        RecoilKick = 3.5,
+        RecoilStability = 0.4,
+        HipFireSpreadPenalty = 0.03,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 8,
+        Damage_Max = 20,
+        Damage_Min = 12,
 
-        Range_Min = 600,
-        Range_Max = 2000,
+        Range_Min = 500,
+        Range_Max = 2400,
 
-        RPM = 650,
+        RPM = 450,
+        RPMMultSemi = 0.9,
 
         RecoilSpreadPenalty = 0.002,
+        HipFireSpreadPenalty = 0.022,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
@@ -56,20 +63,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 5,
-        Range_Min = 600,
-        Range_Max = 2800,
-        RPM = 700,
-
-        RecoilSpreadPenalty = 0.0017,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 25,
-        RecoilPerShot = 2,
-        RecoilDissipationRate = 20
     }
 }
 
@@ -79,8 +72,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 SWEP.Damage_Max = 25
 SWEP.Damage_Min = 14
-SWEP.Range_Min = 1200
-SWEP.Range_Max = 2600
+SWEP.Range_Min = 1000
+SWEP.Range_Max = 3000
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
@@ -101,12 +94,12 @@ SWEP.MuzzleVelocity = 25000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 600
-SWEP.RPMMultSemi = 0.75
+SWEP.RPM = 550
+SWEP.RPMMultSemi = 0.8
 
 SWEP.Spread = 0.003
-SWEP.RecoilSpreadPenalty = 0.0017
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.RecoilSpreadPenalty = 0.0018
+SWEP.HipFireSpreadPenalty = 0.028
 SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.ShootTimeMult = 0.5
@@ -120,22 +113,20 @@ SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.6
-
-
+SWEP.RecoilStability = 0.55
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.94
 SWEP.ShootingSpeedMult = 0.8
-SWEP.SightedSpeedMult = 0.65
+SWEP.SightedSpeedMult = 0.72
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
-SWEP.SprintToFireTime = 0.38
+SWEP.AimDownSightsTime = 0.34
+SWEP.SprintToFireTime = 0.35
 
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.15

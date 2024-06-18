@@ -11,14 +11,14 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Sub-carbine-length AR-15 with a fast rate of fire. Fixed carry handle limits optic options."
+SWEP.Description = "Sub-carbine-length AR-15 with a high but hard to control firerate. Fixed carry handle limits optic options."
 SWEP.Description_Quote = "\"I do what I do best; I take scores.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Colt"
 SWEP.Trivia_Year = "1985"
 
-SWEP.Faction = TacRP.FACTION_NEUTRAL // This is older military kit so it's not uncommon to see some captured examples in the hands of bad guys.
+SWEP.Faction = TacRP.FACTION_NEUTRAL // you know... for robbing banks
 SWEP.Credits = [[
 Model: Twinke Masta & The End
 Texture: Acid Snake & JamesM
@@ -33,19 +33,32 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 20,
+        HipFireSpreadPenalty = 0.02,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 5,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1.25,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        },
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
-        Damage_Min = 8,
-        Range_Min = 600,
-        Range_Max = 2000,
-        RPM = 750,
+        Damage_Min = 6,
+        Range_Min = 200,
+        Range_Max = 1800,
+        RPM = 850,
 
-        RecoilSpreadPenalty = 0.0022,
+        RecoilSpreadPenalty = 0.0025,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -53,21 +66,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 5,
-        Range_Min = 600,
-        Range_Max = 2800,
-        RPM = 800,
-
-        RecoilSpreadPenalty = 0.0017,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 15,
-        RecoilPerShot = 1,
-        RecoilDissipationRate = 10,
-        RecoilSpreadPenalty = 0.005,
     }
 }
 
@@ -78,14 +76,14 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 SWEP.Damage_Max = 19
 SWEP.Damage_Min = 10
 SWEP.Range_Min = 500
-SWEP.Range_Max = 2500
+SWEP.Range_Max = 2200
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.1,
+    [HITGROUP_STOMACH] = 1.15,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -104,24 +102,25 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 900
 
-SWEP.Spread = 0.0075
+SWEP.Spread = 0.01
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 14
+SWEP.RecoilMaximum = 12
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1.25
+SWEP.RecoilVisualKick = 1
 
 SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.2
+SWEP.RecoilAltMultiplier = 150
 
-SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.0024
+SWEP.HipFireSpreadPenalty = 0.03
 SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.CanBlindFire = true
@@ -129,18 +128,18 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.8
+SWEP.ShootingSpeedMult = 0.7
 SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
-SWEP.SprintToFireTime = 0.38 // multiplies how long it takes to recover from sprinting
+SWEP.AimDownSightsTime = 0.34
+SWEP.SprintToFireTime = 0.36 // multiplies how long it takes to recover from sprinting
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.15
+SWEP.Sway = 1.1
+SWEP.ScopedSway = 0.2
 
-SWEP.FreeAimMaxAngle = 4.5
+SWEP.FreeAimMaxAngle = 4
 
 // hold types
 

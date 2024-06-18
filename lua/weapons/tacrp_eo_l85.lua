@@ -9,8 +9,7 @@ SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "5Value" -- :trolley:
 SWEP.SubCatType = "4Assault Rifle"
-
-SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. Don't be surprised if it jams every so often. \nEquipped with a 3x scope by default."
+SWEP.Description = "British bullpup rifle with middling performance and questionable reliability. Don't be surprised if it jams every so often.\nEquipped with a 3x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Royal Ordnance"
@@ -33,14 +32,17 @@ SWEP.BalanceStats = {
         Damage_Min = 12,
 
         ClipSize = 30,
-        JamFactor = 0,
+        JamFactor = 0.01,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 14,
         Damage_Min = 10,
         Range_Min = 400,
         Range_Max = 2200,
-        PostBurstDelay = 0.2,
+
+        RPM = 700,
+
+        JamFactor = 0.01,
 
         RecoilResetTime = 0.2,
         RecoilSpreadPenalty = 0.003,
@@ -277,7 +279,7 @@ SWEP.Attachments = {
         WMScale = 0.9,
         Pos_VM = Vector(-3.75, 0.15, 19.5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(24, 1, -4.9),
+        Pos_WM = Vector(23.5, 1, -4.95),
         Ang_WM = Angle(0, 0, 180),
     },
     [3] = {

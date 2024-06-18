@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Advanced rifle with lightweight polymer construction."
+SWEP.Description = "Modern rifle with lightweight polymer construction."
 SWEP.Description_Quote = "\"You could rid the world of iron and I'd sell wooden clubs.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -35,7 +35,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
+        Damage_Max = 15,
         Damage_Min = 8,
 
         Range_Min = 600,
@@ -46,7 +46,7 @@ SWEP.BalanceStats = {
         RecoilSpreadPenalty = 0.002,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 2.5,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
@@ -55,20 +55,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 9,
-        Damage_Min = 5,
-        Range_Min = 600,
-        Range_Max = 2800,
-        RPM = 700,
-
-        RecoilSpreadPenalty = 0.0017,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 25,
-        RecoilPerShot = 2,
-        RecoilDissipationRate = 20
     }
 }
 
@@ -76,10 +62,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 25
-SWEP.Damage_Min = 14
+SWEP.Damage_Max = 23
+SWEP.Damage_Min = 15
 SWEP.Range_Min = 1000
-SWEP.Range_Max = 2200
+SWEP.Range_Max = 2800
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
@@ -105,23 +91,24 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 700
 
-SWEP.Spread = 0.004
-SWEP.RecoilSpreadPenalty = 0.0017
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.Spread = 0.0045
+
+SWEP.RecoilSpreadPenalty = 0.0018
+SWEP.HipFireSpreadPenalty = 0.036
 SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
-SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.65
+SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.55
 
 
 
@@ -129,14 +116,14 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.94
 SWEP.ShootingSpeedMult = 0.8
-SWEP.SightedSpeedMult = 0.65
+SWEP.SightedSpeedMult = 0.72
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
-SWEP.SprintToFireTime = 0.38
+SWEP.AimDownSightsTime = 0.34
+SWEP.SprintToFireTime = 0.35
 
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.15
@@ -230,15 +217,19 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
-		BGs_WM = {
-			{1, 1}
-		},
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["sights"] = {
         BGs_VM = {
             {2, 1},
-			{3, 1},
+            {3, 1},
         },
+        BGs_WM = {
+            {2, 1},
+            {3, 1},
+        }
     },
 }
 
