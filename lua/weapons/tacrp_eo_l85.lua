@@ -29,7 +29,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 23,
+        Damage_Max = 24,
         Damage_Min = 12,
 
         ClipSize = 30,
@@ -71,7 +71,7 @@ SWEP.Penetration = 7
 SWEP.ArmorPenetration = 0.8
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3, // Must land at least 2 shots from a burst to get a headshot kill at full health.
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -90,9 +90,9 @@ SWEP.Firemodes = {
     1
 }
 
-SWEP.RPM = 700
+SWEP.RPM = 750
 
-SWEP.Spread = 0.0035
+SWEP.Spread = 0.004
 
 SWEP.JamFactor = 0.03
 

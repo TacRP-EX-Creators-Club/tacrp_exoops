@@ -164,20 +164,20 @@ TacRP.LoadAtt(ATT, "optic_howa_scope")
 -- sorry i secretly like the l85 and want to run it with no jams
 
 ATT = {}
-ATT.PrintName = "Refurbished"
-ATT.FullName = "L85A2 Refurbished Bolt"
-ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
-ATT.Description = "A little armory work should get this junkheap running reasonably well."
+ATT.PrintName = "att.bolt_refurbished.name"
+ATT.FullName = "att.bolt_refurbished.name.full"
+ATT.Icon = Material("entities/tacrp_att_bolt_refurbished.png", "mips smooth")
+ATT.Description = "att.bolt_refurbished.desc"
 ATT.Pros = {"att.procon.reliability"}
-ATT.Cons = {"stat.spread"}
+ATT.Cons = {"stat.rpm", "stat.spread"}
 
 ATT.Category = "bolt_l85"
 
-ATT.SortOrder = 0
+ATT.SortOrder = 10
 
-ATT.Add_Spread = 0.002
-
-ATT.Add_JamFactor = -0.03
+ATT.Mult_RPM = 700 / 750
+ATT.Add_Spread = 0.004
+ATT.Override_JamFactor = 0
 
 TacRP.LoadAtt(ATT, "bolt_l85")
 
