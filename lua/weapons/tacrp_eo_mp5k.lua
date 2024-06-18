@@ -9,7 +9,7 @@ SWEP.AbbrevName = "MP5K"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "3Submachine Gun"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Compact variant of the iconic SMG. Well-rounded but trades the precision and control of its full-size counterpart for improved handling."
 SWEP.Description_Quote = "\"Guns. Lots of guns.\""
@@ -28,17 +28,17 @@ Animation: Tactical Intervention, edited by speedonerd
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mp5k.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_mp5k.mdl"
 
-SWEP.Slot = 2
+SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
         Damage_Min = 12,
 
-        Range_Min = 500,
-        Range_Max = 2000,
+        Range_Min = 400,
+        Range_Max = 1800,
 
-        HipFireSpreadPenalty = 0.01,
+        HipFireSpreadPenalty = 0.012,
 
         RecoilKick = 4,
     },
@@ -70,7 +70,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
 SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2200 // distance at which we drop to minimum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
@@ -96,7 +96,7 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 800
 
-SWEP.Spread = 0.008
+SWEP.Spread = 0.006
 
 SWEP.ShootTimeMult = 0.5
 
@@ -112,7 +112,7 @@ SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.25
 
 SWEP.RecoilSpreadPenalty = 0.0024
-SWEP.HipFireSpreadPenalty = 0.012
+SWEP.HipFireSpreadPenalty = 0.015
 
 SWEP.CanBlindFire = true
 
