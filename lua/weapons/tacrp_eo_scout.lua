@@ -20,7 +20,7 @@ SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[Model: Twinke Masta
 Texture: Thanez
 Sound: iFlip, Vunsunta, Unbreakable
-Animations: Tactical Interventionw
+Animations: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_scout.mdl"
@@ -184,7 +184,7 @@ SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.1
 SWEP.ShootTimeMult = 0.68
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uratio.mdl" // why doesn't it have its own mag model?
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/scout.mdl"
 
 SWEP.ReloadUpInTime = 2.1
 SWEP.DropMagazineTime = 1.4
