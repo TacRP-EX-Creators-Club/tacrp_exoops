@@ -201,6 +201,7 @@ ATT.Pros = {"att.procon.reliability"}
 ATT.Cons = {"stat.rpm", "stat.spread"}
 
 ATT.Category = "bolt_l85"
+ATT.InvAtt = "bolt_refurbished"
 
 ATT.SortOrder = 10
 
