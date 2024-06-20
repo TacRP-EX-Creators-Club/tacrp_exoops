@@ -50,18 +50,18 @@ SWEP.BalanceStats = {
         }
     },
     [TacRP.BALANCE_TTT] = {
-
-        Description = "Machine gun with high damage but very low mobility.",
-
         Damage_Max = 20,
         Damage_Min = 12,
-        Range_Min = 750,
-        Range_Max = 3000,
-        RPM = 950,
+        Range_Min = 1200,
+        Range_Max = 4000,
+        RPM = 450,
+
         ClipSize = 75,
+        RecoilKick = 5,
+        ShootingSpeedMult = 0.5,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2,
+            [HITGROUP_HEAD] = 2.5,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,

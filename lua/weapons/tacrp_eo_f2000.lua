@@ -7,10 +7,10 @@ AddCSLuaFile()
 SWEP.PrintName = "FN F2000"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Futuristic bullpup AR with excellent ergonomics. \nEquipped with a 1.6x scope by default."
+SWEP.Description = "Bullpup carbine with high fire rate and mobility, but unstable recoil due to its unusual ergonomics.\nEquipped with a 1.6x scope by default."
 SWEP.Description_Quote = "\"Did you just say I have to win one for the Gipper?\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -32,26 +32,21 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 23,
-        Damage_Min = 12,
+        Damage_Max = 20,
+        Damage_Min = 14,
 
         ShootingSpeedMult = 0.8,
         SightedSpeedMult = 0.85,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 10,
-        Range_Min = 400,
-        Range_Max = 2200,
-        PostBurstDelay = 0.2,
-
-        RecoilResetTime = 0.2,
-        RecoilSpreadPenalty = 0.003,
-        RecoilDissipationRate = 18,
+        Damage_Max = 12,
+        Damage_Min = 6,
+        Range_Min = 700,
+        Range_Max = 1800,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -59,14 +54,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 11,
-        Damage_Min = 7,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 18,
-        RecoilDissipationRate = 12
     }
 }
 
@@ -74,17 +61,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 12
-SWEP.Range_Min = 700
-SWEP.Range_Max = 2800
+SWEP.Damage_Max = 16
+SWEP.Damage_Min = 10
+SWEP.Range_Min = 1100
+SWEP.Range_Max = 3300
 SWEP.Penetration = 7
-SWEP.ArmorPenetration = 0.75
+SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.15,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -113,28 +100,30 @@ SWEP.RecoilDissipationRate = 30
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 3.5
+SWEP.RecoilKick = 4
 SWEP.RecoilStability = 0.1
-SWEP.RecoilAltMultiplier = 200
+SWEP.RecoilAltMultiplier = 250
 
-SWEP.RecoilSpreadPenalty = 0.0025
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.0022
+SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.85
-SWEP.ShootingSpeedMult = 0.7
-SWEP.SightedSpeedMult = 0.7
+SWEP.MoveSpeedMult = 0.88
+SWEP.ShootingSpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.75
+
+SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.33
 SWEP.SprintToFireTime = 0.35
 
-SWEP.Sway = 1.15
-SWEP.ScopedSway = 0.125
+SWEP.Sway = 1.25
+SWEP.ScopedSway = 0.25
 
-SWEP.FreeAimMaxAngle = 4
+SWEP.FreeAimMaxAngle = 4.5
 
 
 // hold types

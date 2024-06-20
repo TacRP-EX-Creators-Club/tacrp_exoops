@@ -11,7 +11,6 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Semi-automatic shotgun with good recoil control and accuracy."
-SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Benelli Armi S.p.A."
@@ -35,7 +34,25 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
     },
     [TacRP.BALANCE_TTT] = {
-        // TODO
+        Damage_Max = 9,
+        Damage_Min = 4,
+        Range_Min = 400,
+        Range_Max = 2000,
+        RPM = 140,
+
+        FreeAimMaxAngle = 5,
+        RecoilSpreadPenalty = 0.015,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
     },
 }
 

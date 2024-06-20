@@ -12,7 +12,6 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Bulky assault rifle with a controllable rate of fire."
-SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
@@ -32,35 +31,18 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
+        Damage_Max = 25,
         Damage_Min = 10,
-
-        BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 6,
-            [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1.25,
-            [HITGROUP_LEFTARM] = 1,
-            [HITGROUP_RIGHTARM] = 1,
-            [HITGROUP_LEFTLEG] = 0.9,
-            [HITGROUP_RIGHTLEG] = 0.9,
-            [HITGROUP_GEAR] = 0.9
-        },
-
-        ClipSize = 20,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 16,
-        Damage_Min = 12,
+        Damage_Max = 20,
+        Damage_Min = 14,
         Range_Min = 800,
-        Range_Max = 2000,
-        RPM = 700,
-
-        ClipSize = 20,
-
-        RecoilSpreadPenalty = 0.0025,
+        Range_Max = 3500,
+        RPM = 450,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 2.5,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
@@ -69,14 +51,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 12,
-        Damage_Min = 9,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 20,
-        RecoilDissipationRate = 18
     }
 }
 
@@ -84,15 +58,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 25
-SWEP.Damage_Min = 17
+SWEP.Damage_Max = 22
+SWEP.Damage_Min = 12
 SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4600 // distance at which we drop to minimum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4.5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -102,7 +76,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 38000
+SWEP.MuzzleVelocity = 25000
 
 // misc. shooting
 
@@ -116,17 +90,17 @@ SWEP.Spread = 0.004
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0.02
-SWEP.RecoilDissipationRate = 32
+SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 3.5
 SWEP.RecoilStability = 0.65
 
-SWEP.RecoilSpreadPenalty = 0.0025
-SWEP.HipFireSpreadPenalty = 0.035
+SWEP.RecoilSpreadPenalty = 0.002
+SWEP.HipFireSpreadPenalty = 0.04
 
 SWEP.CanBlindFire = true
 
@@ -139,7 +113,7 @@ SWEP.SightedSpeedMult = 0.65
 SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.38
-SWEP.SprintToFireTime = 0.39
+SWEP.SprintToFireTime = 0.4
 
 SWEP.FreeAimMaxAngle = 5
 
@@ -241,9 +215,9 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
-		BGs_WM = {
-			{1, 1}
-		},
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["sights"] = {
         BGs_VM = {
@@ -264,7 +238,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.9,
         Pos_VM = Vector(-5.3, -0.05, 5),
-        Pos_WM = Vector(0, 5, 1.15),
+        Pos_WM = Vector(0, 3, 1.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -276,7 +250,7 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.4, 0, 24),
-        Pos_WM = Vector(0, 26.5, -0.9),
+        Pos_WM = Vector(0, 27, -0.8),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },

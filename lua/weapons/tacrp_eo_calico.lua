@@ -124,7 +124,7 @@ SWEP.SprintToFireTime = 0.32
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.25
 
-SWEP.FreeAimMaxAngle = 3
+SWEP.FreeAimMaxAngle = 3.5
 
 // hold types
 
@@ -232,8 +232,8 @@ SWEP.Attachments = {
         Bone = "p90_ROOT",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-		VMScale = 0.7,
-		WMScale = 0.65,
+        VMScale = 0.7,
+        WMScale = 0.65,
         Pos_VM = Vector(-2.1, -0.08, 17),
         Pos_WM = Vector(19, 2.2, -3.8),
         Ang_VM = Angle(90, 0, 0),

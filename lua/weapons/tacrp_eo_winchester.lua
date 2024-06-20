@@ -39,10 +39,16 @@ SWEP.BalanceStats = {
         HipFireSpreadPenalty = 0.015,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 38,
-        Damage_Min = 20,
-        Range_Min = 900,
-        Range_Max = 1800,
+        Damage_Max = 35,
+        Damage_Min = 28,
+        Range_Min = 400,
+        Range_Max = 2000,
+
+        RPM = 80,
+        ShootTimeMult = 1.2,
+
+        ShootingSpeedMult = 0.8,
+        HipFireSpreadPenalty = 0.015,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
@@ -92,7 +98,7 @@ SWEP.FiremodeName = "Lever-Action" // only used externally for firemode name dis
 
 SWEP.RPM = 72
 
-SWEP.Spread = 0.0025
+SWEP.Spread = 0.003
 
 SWEP.HipFireSpreadPenalty = 0.02
 SWEP.MidAirSpreadPenalty = 0.05
@@ -101,7 +107,7 @@ SWEP.PeekPenaltyFraction = 0.25
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.4
-SWEP.RecoilDissipationRate = 1.25
+SWEP.RecoilDissipationRate = 1.5
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.25

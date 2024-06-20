@@ -8,7 +8,7 @@ SWEP.PrintName = "SIG SG 510"
 SWEP.AbbrevName = "SG 510"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Vintage battle rifle with excellent long range performance. Recoil is harsh but stable."
@@ -31,17 +31,17 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 35,
-        Damage_Min = 23,
+        Damage_Max = 40,
+        Damage_Min = 34,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
-            [HITGROUP_CHEST] = 1.5,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1.25,
-            [HITGROUP_LEFTARM] = 1,
-            [HITGROUP_RIGHTARM] = 1,
-            [HITGROUP_LEFTLEG] = 1,
-            [HITGROUP_RIGHTLEG] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
     },
@@ -79,10 +79,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 35
-SWEP.Damage_Min = 20
+SWEP.Damage_Max = 30
+SWEP.Damage_Min = 22
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
+SWEP.Range_Max = 4200 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
@@ -111,16 +111,16 @@ SWEP.Spread = 0.003
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 11
 SWEP.RecoilResetTime = 0.02
 SWEP.RecoilDissipationRate = 32
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 1.75
-SWEP.RecoilKick = 12
+SWEP.RecoilVisualKick = 1.5
+SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.8
 
-SWEP.RecoilSpreadPenalty = 0.0025
+SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true

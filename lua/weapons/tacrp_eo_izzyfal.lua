@@ -12,7 +12,6 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but boasts excellent stopping power and range."
-SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = ".308 Winchester"
 SWEP.Trivia_Manufacturer = "DS Arms"
@@ -37,22 +36,20 @@ SWEP.BalanceStats = {
         Damage_Min = 30,
         ClipSize = 20,
         RPM = 450,
+        RecoilKick = 5,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 38,
-        Damage_Min = 22,
+        Damage_Max = 30,
+        Damage_Min = 20,
         Range_Min = 1000,
         Range_Max = 3000,
-        RPM = 300,
 
-        RecoilResetInstant = true,
-        RecoilResetTime = 0.1,
-        RecoilDissipationRate = 3,
-        RecoilMaximum = 3,
-        RecoilSpreadPenalty = 0.02,
+        RPM = 360,
+        RPMMultSemi = 0.8,
+        RecoilKick = 6,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 2.5,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,

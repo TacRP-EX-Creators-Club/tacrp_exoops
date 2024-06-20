@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Prototype bullpup shotgun with decent range and full-auto fire. \nEquipped with a fixed 1.5x scope."
+SWEP.Description = "Prototype automatic bullpup shotgun with high accuracy.\nEquipped with a fixed 1.5x scope."
 SWEP.Description_Quote = "\"Ride's over, mutie.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
@@ -31,26 +31,21 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 23,
-        Damage_Min = 12,
-
-        ShootingSpeedMult = 0.8,
-        SightedSpeedMult = 0.85,
+        HipFireSpreadPenalty = 0.035,
+        RPM = 240,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 10,
-        Range_Min = 400,
-        Range_Max = 2200,
-        PostBurstDelay = 0.2,
+        Damage_Max = 7,
+        Damage_Min = 3,
+        Range_Min = 600,
+        Range_Max = 2800,
+        RPM = 240,
 
-        RecoilResetTime = 0.2,
-        RecoilSpreadPenalty = 0.003,
-        RecoilDissipationRate = 18,
+        HipFireSpreadPenalty = 0.015,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 1.5,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -58,14 +53,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 11,
-        Damage_Min = 7,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 18,
-        RecoilDissipationRate = 12
     }
 }
 
@@ -75,14 +62,14 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 SWEP.Damage_Max = 12
 SWEP.Damage_Min = 6
-SWEP.Num = 5
+SWEP.Num = 6
 SWEP.Range_Min = 900
 SWEP.Range_Max = 2800
-SWEP.Penetration = 3
-SWEP.ArmorPenetration = 0.3
+SWEP.Penetration = 2
+SWEP.ArmorPenetration = 0.5
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3, // Must land at least 2 shots from a burst to get a headshot kill at full health.
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -92,7 +79,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 24000
+SWEP.MuzzleVelocity = 17000
 
 // misc. shooting
 
@@ -103,23 +90,24 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 275
 
-SWEP.Spread = 0.03
-SWEP.ShotgunPelletSpread = 0.02
+SWEP.Spread = 0.012
+SWEP.ShotgunPelletSpread = 0.012
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
+SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.01
 SWEP.RecoilDissipationRate = 21
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 3
 SWEP.RecoilKick = 7
-SWEP.RecoilStability = 0.2
-SWEP.RecoilAltMultiplier = 250
+SWEP.RecoilStability = 0.4
+SWEP.RecoilAltMultiplier = 150
 
-SWEP.RecoilSpreadPenalty = 0.0025
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.002
+SWEP.HipFireSpreadPenalty = 0.012
+SWEP.MidAirSpreadPenalty = 0
 
 SWEP.CanBlindFire = true
 
@@ -129,13 +117,15 @@ SWEP.MoveSpeedMult = 0.85
 SWEP.ShootingSpeedMult = 0.7
 SWEP.SightedSpeedMult = 0.7
 
-SWEP.AimDownSightsTime = 0.33
-SWEP.SprintToFireTime = 0.35
+SWEP.ReloadSpeedMult = 0.5
+
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.4
 
 SWEP.Sway = 1.15
 SWEP.ScopedSway = 0.125
 
-SWEP.FreeAimMaxAngle = 4
+SWEP.FreeAimMaxAngle = 7
 
 
 // hold types
@@ -297,7 +287,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag"},
+        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_shotgun"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
@@ -315,7 +305,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Ammo",
-        Category = {"ammo_shotgun"},
+        Category = {"ammo_shotgun2"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

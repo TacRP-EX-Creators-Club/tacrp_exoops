@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "FN FAL" -- not an actual stg58 :c
+SWEP.PrintName = "FN FAL"
 SWEP.AbbrevName = "FAL"
 SWEP.Category = "Tactical RP"
 
@@ -33,25 +33,32 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 45,
+        Damage_Max = 44,
         Damage_Min = 30,
-    },
-    [TacRP.BALANCE_TTT] = {
-        Damage_Max = 38,
-        Damage_Min = 22,
-        Range_Min = 1000,
-        Range_Max = 3000,
-        RPM = 400,
-
-        RecoilResetInstant = true,
-        RecoilResetTime = 0.1,
-        RecoilDissipationRate = 3,
-        RecoilMaximum = 3,
-        RecoilSpreadPenalty = 0.02,
-
+        Range_Min = 900,
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 3,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1.25,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        },
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 34,
+        Damage_Min = 18,
+        Range_Min = 1000,
+        Range_Max = 2000,
+        RPM = 400,
+
+        RecoilKick = 8,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,
             [HITGROUP_RIGHTARM] = 0.75,
@@ -99,9 +106,9 @@ SWEP.Spread = 0.0035
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
+SWEP.RecoilMaximum = 7
 SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 20
+SWEP.RecoilDissipationRate = 24
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.75
@@ -109,7 +116,7 @@ SWEP.RecoilVisualKick = 1.75
 SWEP.RecoilKick = 10
 SWEP.RecoilStability = 0.6
 
-SWEP.RecoilSpreadPenalty = 0.0075
+SWEP.RecoilSpreadPenalty = 0.005
 SWEP.HipFireSpreadPenalty = 0.05
 SWEP.PeekPenaltyFraction = 0.25
 

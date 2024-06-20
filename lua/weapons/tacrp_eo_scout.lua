@@ -38,14 +38,14 @@ SWEP.BalanceStats = {
         Range_Max = 7000,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 55,
-        Damage_Min = 40,
-        Range_Min = 1000,
-        Range_Max = 3000,
+        Damage_Max = 52,
+        Damage_Min = 35,
+        Range_Min = 500,
+        Range_Max = 2500,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,
             [HITGROUP_RIGHTARM] = 0.75,

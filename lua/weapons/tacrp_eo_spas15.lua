@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Magazine-fed successor to the iconic dual-mode shotgun. Heavy weight allows for decent semi-auto control."
+SWEP.Description = "Heavy, magazine-fed successor to the iconic dual-mode shotgun. Low recoil but isn't very accurate."
 SWEP.Description_Quote = "\"We will wait. We will wait and see what he can discover.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
@@ -33,14 +33,17 @@ SWEP.Slot = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        RPM = 240,
+        Spread = 0.03,
+        ShotgunPelletSpread = 0.02,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 10,
+        Damage_Max = 9,
         Damage_Min = 5,
-        Range_Min = 800,
-        Range_Max = 1500,
+        Range_Min = 200,
+        Range_Max = 1000,
 
-        RPM = 175,
+        RPM = 160,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2,
@@ -85,26 +88,27 @@ SWEP.Num = 8
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 190
+SWEP.RPM = 200
 
-SWEP.Spread = 0.04
-SWEP.ShotgunPelletSpread = 0.02
+SWEP.Spread = 0.035
+SWEP.ShotgunPelletSpread = 0.03
 
 SWEP.ShootTimeMult = 0.55
 
-SWEP.RecoilResetInstant = false
+SWEP.RecoilResetInstant = true
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 40
-SWEP.RecoilFirstShotMult = 1
+SWEP.RecoilMaximum = 4
+SWEP.RecoilResetTime = 0.2
+SWEP.RecoilDissipationRate = 8
+SWEP.RecoilFirstShotMult = 1.5
 
-SWEP.RecoilVisualKick = 2
+SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.RecoilSpreadPenalty = 0.007
+SWEP.HipFireSpreadPenalty = 0.03
+SWEP.MidAirSpreadPenalty = 0
 
 SWEP.CanBlindFire = true
 
@@ -112,17 +116,17 @@ SWEP.CanBlindFire = true
 
 SWEP.MoveSpeedMult = 0.8
 SWEP.ShootingSpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.45
+SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.45
 SWEP.SprintToFireTime = 0.55
 
-SWEP.Sway = 1.5
-SWEP.ScopedSway = 0.4
+SWEP.Sway = 1.2
+SWEP.ScopedSway = 0.3
 
-SWEP.FreeAimMaxAngle = 4.25
+SWEP.FreeAimMaxAngle = 4.5
 
 // hold types
 

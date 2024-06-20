@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Battle Rifle"
 
-SWEP.Description = "Japanese battle rifle with a controllable rate of fire."
+SWEP.Description = "Japanese battle rifle with balanced performance."
 
 SWEP.Trivia_Caliber = "7.62x51mm NATO"
 SWEP.Trivia_Manufacturer = "Howa Machinery"
@@ -30,24 +30,25 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 25,
-        Damage_Min = 15,
+        Damage_Max = 34,
+        Damage_Min = 17,
 
-        RecoilSpreadPenalty = 0.0015,
-        RecoilKick = 2,
+        HipFireSpreadPenalty = 0.03,
+        RecoilSpreadPenalty = 0.002,
+        RecoilKick = 3,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 16,
+        Damage_Max = 20,
         Damage_Min = 12,
-        Range_Min = 400,
-        Range_Max = 1800,
-        RPM = 600,
+        Range_Min = 600,
+        Range_Max = 3000,
+        RPM = 420,
 
-        RecoilSpreadPenalty = 0.0025,
+        RecoilSpreadPenalty = 0.0028,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
-            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
             [HITGROUP_RIGHTARM] = 0.9,
@@ -105,18 +106,18 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
+SWEP.RecoilMaximum = 11
 SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 44
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 2
+SWEP.RecoilVisualKick = 1
 
 SWEP.RecoilKick = 4.5
 SWEP.RecoilStability = 0.5
 
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.03
+SWEP.HipFireSpreadPenalty = 0.04
 
 SWEP.CanBlindFire = true
 

@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Marksman Rifle"
 
-SWEP.Description = "Elegant semi-auto sniper with unmatched precision and recoil control but a lower-than-average range. \nEquipped with an 8x scope by default."
+SWEP.Description = "Elegant semi-automatic sniper with unmatched precision and recoil control. Equipped with an 8x scope by default."
 SWEP.Description_Quote = "\"I was born on a battlefield. Raised on a battlefield.\""
 
 SWEP.Trivia_Caliber = "7.62x51mm"
@@ -32,23 +32,21 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 38,
-        Damage_Min = 30,
+        Damage_Max = 28,
+        Damage_Min = 45,
 
-        Range_Min = 1200,
-        Range_Max = 4200,
+        Range_Min = 1000,
+        Range_Max = 3500,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 18,
-        Damage_Min = 12,
+        Damage_Min = 35,
 
-        Range_Min = 900,
-        Range_Max = 3000,
-
-        RecoilKick = 5,
+        Range_Min = 200,
+        Range_Max = 1500,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 2,
+            [HITGROUP_HEAD] = 3,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
@@ -64,18 +62,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 // "ballistics"
 
-SWEP.Damage_Max = 54
-SWEP.Damage_Min = 32
-SWEP.Range_Min = 1200
+SWEP.Damage_Max = 45
+SWEP.Damage_Min = 28
+SWEP.Range_Min = 900
 SWEP.Range_Max = 4000
 SWEP.Penetration = 15
 SWEP.ArmorPenetration = 0.775
 SWEP.ArmorBonus = 2
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -89,8 +87,8 @@ SWEP.MuzzleVelocity = 24000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 300
-SWEP.RPMMultSemi = 0.7
+SWEP.RPM = 320
+SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.0005
 
@@ -99,8 +97,8 @@ SWEP.ShootTimeMult = 0.5
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
-SWEP.RecoilResetTime = 0.2
-SWEP.RecoilDissipationRate = 15
+SWEP.RecoilResetTime = 0
+SWEP.RecoilDissipationRate = 9
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1
@@ -116,10 +114,10 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 0.85
-SWEP.ShootingSpeedMult = 0.65
+SWEP.ShootingSpeedMult = 0.3
 SWEP.SightedSpeedMult = 0.5
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.4
 
 SWEP.AimDownSightsTime = 0.45
 SWEP.SprintToFireTime = 0.5

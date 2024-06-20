@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Classic AUG variant with a larger magazine and full-auto. \nComes with a fixed 1.5x scope."
+SWEP.Description = "Classic AUG variant with a larger magazine and full-auto.\nEquipped with a fixed 1.5x scope and backup ironsights."
 SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -34,21 +34,28 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
         Damage_Min = 12,
-    },
-    [TacRP.BALANCE_TTT] = {
-        Damage_Max = 14,
-        Damage_Min = 10,
-        Range_Min = 400,
-        Range_Max = 1800,
-        PostBurstDelay = 0.2,
 
-        RecoilResetInstant = true,
-        RecoilResetTime = 0.2,
-        RecoilSpreadPenalty = 0.004,
-        RecoilDissipationRate = 18,
+        Spread = 0.004,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        }
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 12,
+        Damage_Min = 6,
+        Range_Min = 800,
+        Range_Max = 3000,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.9,
@@ -92,12 +99,12 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 700
-SWEP.Spread = 0.005
+SWEP.Spread = 0.006
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.04
+SWEP.RecoilMaximum = 15
+SWEP.RecoilResetTime = 0.02
 SWEP.RecoilDissipationRate = 36
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
@@ -106,8 +113,8 @@ SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 3
 SWEP.RecoilStability = 0.2
 
-SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.035
+SWEP.RecoilSpreadPenalty = 0.0014
+SWEP.HipFireSpreadPenalty = 0.038
 
 SWEP.CanBlindFire = true
 
@@ -117,7 +124,7 @@ SWEP.MoveSpeedMult = 0.9
 SWEP.ShootingSpeedMult = 0.7
 SWEP.SightedSpeedMult = 0.7
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.4
 
 SWEP.AimDownSightsTime = 0.37
 SWEP.SprintToFireTime = 0.33
@@ -169,7 +176,7 @@ SWEP.ScopeHideWeapon = true
 SWEP.ClipSize = 42
 SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1.08
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/auga1.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
