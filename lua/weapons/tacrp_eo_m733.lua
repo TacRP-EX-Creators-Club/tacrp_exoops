@@ -34,7 +34,7 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 20,
-        HipFireSpreadPenalty = 0.02,
+        HipFireSpreadPenalty = 0.03,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 5,

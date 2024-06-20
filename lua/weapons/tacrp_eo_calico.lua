@@ -22,7 +22,7 @@ SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Assets: A.V.A.
 Rail and foregrip from Warface
-Sound: A.V.A. & speedonerd
+Sound: A.V.A., Warface, speedonerd
 Animation: Tactical Intervention
 ]]
 
@@ -174,7 +174,7 @@ SWEP.DropMagazineTime = 0.55
 local path = "tacrp/weapons/p90/"
 local path1 = "tacint_shark/weapons/m950/"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "m950_unsil.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "mac10-1.wav"
 SWEP.Sound_Shoot_Silenced = "^" .. path1 .. "m950_sil.wav"
 
 SWEP.Vol_Shoot = 115
