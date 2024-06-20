@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter"
 
-SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Well-rounded with good handling characteristics."
+SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Well-rounded and can accept various modern ammo types."
 SWEP.Description_Quote = "\"To slay a dragon is the greatest of honors.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
@@ -106,9 +106,9 @@ SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.05
-SWEP.RecoilDissipationRate = 28
+SWEP.RecoilMaximum = 8
+SWEP.RecoilResetTime = 0.01
+SWEP.RecoilDissipationRate = 16
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
