@@ -209,7 +209,7 @@ ATT = {}
 
 ATT.PrintName = ".376 Steyr"
 ATT.FullName = "Scout .376 Steyr Mod Kit"
-ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
+ATT.Icon = Material("entities/tacrp_att_ammo_376steyr.png", "mips smooth")
 ATT.Description = "Modification to load a unique high-power hunting cartridge."
 ATT.Pros = {"rating.lethality", "stat.muzzlevelocity"}
 ATT.Cons = {"stat.clipsize", "stat.rpm", "stat.recoilkick"}
