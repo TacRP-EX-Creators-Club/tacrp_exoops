@@ -28,8 +28,8 @@ Animation: Tactical Intervention & speedonerd
 SWEP.ViewModel = "models/weapons/tacint_shark/v_spas15.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_spas15.mdl"
 
-SWEP.Slot = 3
-
+SWEP.Slot = 2
+SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
