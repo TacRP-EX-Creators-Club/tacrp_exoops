@@ -144,11 +144,11 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(-0.92, 0, 0)
-SWEP.SightPos = Vector(-4.14, -6, -4.45)
+SWEP.SightAng = Angle(-0, 0, 0.1)
+SWEP.SightPos = Vector(-3.915, -6, -4.43)
 
 SWEP.CorrectivePos = Vector(0.3, 0, -0.2)
-SWEP.CorrectiveAng = Angle(0.8, -0.1, -0.2)
+SWEP.CorrectiveAng = Angle(0.8, 0.9, -0.2)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -199,7 +199,7 @@ SWEP.EjectEffect = 2
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "unholster",
+    ["deploy"] = "deploy",
     ["fire_iron"] = "idle",
     ["fire1"] = "fire1_M",
     ["fire2"] = "fire2_M",
@@ -209,7 +209,7 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"}
 }
 
-SWEP.DeployTimeMult = 4
+SWEP.DeployTimeMult = 1.1
 
 SWEP.ProceduralIronFire = {
     vm_pos = Vector(0, -0.2, -0.12),
