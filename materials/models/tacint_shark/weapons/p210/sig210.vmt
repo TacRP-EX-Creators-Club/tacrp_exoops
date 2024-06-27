@@ -2,6 +2,6 @@
 {
 	"$basetexture" "models\tacint_shark\weapons\p210\black"
 	"$bumpmap" "models\tacint_shark\weapons\p210\sig210_normal"
-	"$envmap" "env_cubemap"
+	//"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" 1
 }
