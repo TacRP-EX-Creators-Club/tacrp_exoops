@@ -5,7 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Calico M950A"
-SWEP.AbbrevName = "M950A"
+SWEP.AbbrevName = "Calico"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"

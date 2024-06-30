@@ -5,6 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Enfield L85A2"
+SWEP.AbbrevName = "L85A2"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "5Value" -- :trolley:
