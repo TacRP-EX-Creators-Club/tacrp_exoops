@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"	"models\tacint_extras\scout\map1_h4wk"
-	"$envmap" 		"env_cubemap"
-	"$bumpmap"		"models\tacint_extras\scout\map1_h4wk_normal"
-	"$normalmapalphaenvmapmask" 1
-}
-

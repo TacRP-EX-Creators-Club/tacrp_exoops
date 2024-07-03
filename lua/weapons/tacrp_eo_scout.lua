@@ -25,6 +25,7 @@ Animations: Tactical Intervention
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_scout.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_scout.mdl"
+SWEP.DefaultBodygroups = "00001"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -101,7 +102,7 @@ SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 1
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 5
+SWEP.RecoilVisualKick = 2
 
 SWEP.RecoilKick = 2
 
