@@ -11,7 +11,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Prototype automatic bullpup shotgun with high accuracy.\nEquipped with a fixed 1.5x scope."
-SWEP.Description_Quote = "\"Ride's over, mutie.\""
+SWEP.Description_Quote = "\"Your ride's over, mutie. Time to die.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
