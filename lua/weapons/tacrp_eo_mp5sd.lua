@@ -95,11 +95,11 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 725
-SWEP.RPMMultBurst = 1.1
+SWEP.RPMMultBurst = 823/725
 SWEP.RunawayBurst = true
 SWEP.PostBurstDelay = 0.12
 
-SWEP.Spread = 0.0007
+SWEP.Spread = 0.0032
 
 SWEP.ShootTimeMult = 0.5
 
