@@ -80,7 +80,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 24000
+SWEP.MuzzleVelocity = 15000
 
 SWEP.Num = 8
 
@@ -97,9 +97,9 @@ SWEP.ShootTimeMult = 0.55
 
 SWEP.RecoilResetInstant = true
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 4
+SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.2
-SWEP.RecoilDissipationRate = 8
+SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1.5
 
 SWEP.RecoilVisualKick = 1
@@ -115,7 +115,7 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 0.8
-SWEP.ShootingSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.6
 SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.5

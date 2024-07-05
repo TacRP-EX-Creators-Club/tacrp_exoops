@@ -75,7 +75,7 @@ ATT.PrintName = "Pump"
 ATT.FullName = "Pump-Action"
 ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
 ATT.Description = "Switch to pump-action operation, sacrificing fire-rate for improved control."
-ATT.Pros = {"stat.spread", "stat.muzzlevelocity"}
+ATT.Pros = {"stat.damage_max", "stat.spread", "stat.muzzlevelocity", "stat.shootingspeed"}
 ATT.Cons = {"stat.rpm"}
 ATT.Ignore = false
 
@@ -83,13 +83,17 @@ ATT.Category = "bolt_pump"
 
 ATT.SortOrder = 0
 
+ATT.Add_Damage_Max = 2
+
 ATT.Mult_RPM = 0.35
-ATT.Mult_ShootTimeMult = 1
+ATT.Mult_ShootTimeMult = 0.9
 
-ATT.Mult_MuzzleVelocity = 1.1
-ATT.Mult_Spread = 0.8
+ATT.Mult_MuzzleVelocity = 1.15
+ATT.Mult_Spread = 0.6
 
-ATT.Override_EjectDelay = 0.5
+ATT.Mult_ShootingSpeedMult = 1.15
+
+ATT.Override_EjectDelay = 0.45
 ATT.Override_Sound_Shoot = "^tacint_shark/weapons/spas15/fire_pump.wav"
 
 ATT.Override_LastShot = false
