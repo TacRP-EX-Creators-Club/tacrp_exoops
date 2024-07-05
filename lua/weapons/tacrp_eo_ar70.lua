@@ -8,7 +8,7 @@ SWEP.PrintName = "Beretta AR70/223"
 SWEP.AbbrevName = "AR70"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Bulky assault rifle with a controllable rate of fire."
