@@ -2,7 +2,7 @@
 {
 	"$baseTexture"	"models\tacint_extras\rhino20ds\body"
 	//"$envmap" 		"env_cubemap"
-	"$envmapmask"	"models\tacint_extras\rhino20ds\body_spec"
-	"$color2"	"[ 1.5 1.5 1.5 ]"
+	// "$envmapmask"	"models\tacint_extras\rhino20ds\body_spec"
+	// "$color2"	"[ 1.5 1.5 1.5 ]"
 }
 
