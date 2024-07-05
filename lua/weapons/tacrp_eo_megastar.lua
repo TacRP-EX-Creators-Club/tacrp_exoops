@@ -170,6 +170,7 @@ SWEP.FreeAimMaxAngle = 3.5
 
 SWEP.ClipSize = 14
 SWEP.Ammo = "pistol"
+SWEP.Ammo_Expanded = "ti_pistol_heavy"
 
 SWEP.ReloadTimeMult = 1.05
 

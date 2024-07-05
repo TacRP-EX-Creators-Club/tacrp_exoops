@@ -13,7 +13,7 @@ SWEP.SubCatType = "5Machine Gun"
 SWEP.Description = "Heavy machine gun with intense stopping power but a low rate of fire. Nicknamed \"The Pig\" for its considerable heft."
 SWEP.Description_Quote = "\"Live for nothing, or die for something. Your call.\""
 
-SWEP.Trivia_Caliber = "7.62x51mm NATO"
+SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "General Dynamics"
 SWEP.Trivia_Year = "1957"
 

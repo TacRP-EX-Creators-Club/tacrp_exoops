@@ -260,6 +260,7 @@ ATT.Add_RecoilKick = 15
 ATT.Mult_MuzzleVelocity = 1.1
 
 ATT.Override_Ammo = "357"
+ATT.Override_Ammo_Expanded = "ti_sniper"
 
 ATT.Override_Sound_Shoot = "tacint_extras/scout/scout_fire-1-magnum.wav"
 ATT.Add_Pitch_Shoot = 10

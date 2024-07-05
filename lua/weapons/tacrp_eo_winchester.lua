@@ -175,6 +175,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.ClipSize = 12
 SWEP.Ammo = "ar2"
+SWEP.Ammo_Expanded = "ti_pdw"
+
 SWEP.ShotgunReload = true
 
 SWEP.ReloadTimeMult = 1

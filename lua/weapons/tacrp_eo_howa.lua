@@ -12,7 +12,7 @@ SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Japanese battle rifle with balanced performance."
 
-SWEP.Trivia_Caliber = "7.62x51mm NATO"
+SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "Howa Machinery"
 SWEP.Trivia_Year = "1964"
 

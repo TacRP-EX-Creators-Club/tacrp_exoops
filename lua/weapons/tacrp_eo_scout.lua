@@ -182,6 +182,7 @@ SWEP.ScopeHideWeapon = true
 
 SWEP.ClipSize = 10
 SWEP.Ammo = "smg1"
+SWEP.Ammo_Expanded = "smg1"
 
 SWEP.ReloadTimeMult = 1.1
 SWEP.ShootTimeMult = 0.68

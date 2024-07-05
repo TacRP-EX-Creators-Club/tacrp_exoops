@@ -161,6 +161,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
+SWEP.Ammo_Expanded = "ti_rifle"
 
 SWEP.ReloadTimeMult = 1.2
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mg42.mdl"
