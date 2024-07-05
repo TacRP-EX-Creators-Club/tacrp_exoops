@@ -8,7 +8,7 @@ SWEP.PrintName = "FN FAL"
 SWEP.AbbrevName = "FAL"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Vintage battle rifle with great suppressing power but violent recoil."
@@ -100,7 +100,8 @@ SWEP.Firemodes = {
     1
 }
 
-SWEP.RPM = 600
+SWEP.RPM = 550
+SWEP.RPMMultSemi = 450/550
 
 SWEP.Spread = 0.0035
 
@@ -111,7 +112,7 @@ SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 24
 
 SWEP.RecoilVisualKick = 1.75
-SWEP.RecoilFirstShotMult = 0.1
+SWEP.RecoilFirstShotMult = 0.65
 
 SWEP.RecoilKick = 10
 SWEP.RecoilStability = 0.6
