@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Prototype automatic bullpup shotgun with high accuracy.\nEquipped with a fixed 1.5x scope."
+SWEP.Description = "Prototype automatic bullpup shotgun with high accuracy and high armor penetration.\nEquipped with a fixed 1.5x scope."
 SWEP.Description_Quote = "\"Your ride's over, mutie. Time to die.\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
@@ -31,8 +31,11 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 11,
+        Damage_Min = 6,
+        RecoilKick = 7.5,
         HipFireSpreadPenalty = 0.035,
-        RPM = 240,
+        RPM = 250,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 7,
@@ -56,17 +59,17 @@ SWEP.BalanceStats = {
     }
 }
 
-SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
+SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 
 // "ballistics"
 
-SWEP.Damage_Max = 12
-SWEP.Damage_Min = 6
+SWEP.Damage_Max = 13
+SWEP.Damage_Min = 7
 SWEP.Num = 6
 SWEP.Range_Min = 900
 SWEP.Range_Max = 2800
-SWEP.Penetration = 2
-SWEP.ArmorPenetration = 0.5
+SWEP.Penetration = 6
+SWEP.ArmorPenetration = 0.95
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
@@ -90,22 +93,23 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 300
 
-SWEP.Spread = 0.012
-SWEP.ShotgunPelletSpread = 0.012
+SWEP.Spread = 0.014
+SWEP.ShotgunPelletSpread = 0.014
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 6
+SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0.01
-SWEP.RecoilDissipationRate = 21
-SWEP.RecoilFirstShotMult = 1
+SWEP.RecoilDissipationRate = 15
+SWEP.RecoilFirstShotMult = 1.25
 
-SWEP.RecoilVisualKick = 5
-SWEP.RecoilKick = 7
+SWEP.RecoilVisualKick = 3
+SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.4
-SWEP.RecoilAltMultiplier = 150
+SWEP.RecoilAltMultiplier = 400
+SWEP.NoRecoilPattern = true
 
-SWEP.RecoilSpreadPenalty = 0.002
+SWEP.RecoilSpreadPenalty = 0.0025
 SWEP.HipFireSpreadPenalty = 0.012
 SWEP.MidAirSpreadPenalty = 0
 

@@ -105,6 +105,7 @@ SWEP.RecoilFirstShotMult = 1.5
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 5
 SWEP.RecoilStability = 0.5
+SWEP.NoRecoilPattern = true
 
 SWEP.RecoilSpreadPenalty = 0.007
 SWEP.HipFireSpreadPenalty = 0.03
