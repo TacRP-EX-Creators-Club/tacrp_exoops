@@ -145,11 +145,11 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(-0, 0, 0.1)
-SWEP.SightPos = Vector(-3.915, -6, -4.43)
+SWEP.SightAng = Angle(0, 0, 0)
+SWEP.SightPos = Vector(-3.9, -6, -4.45)
 
-SWEP.CorrectivePos = Vector(0.3, 0, -0.2)
-SWEP.CorrectiveAng = Angle(0.8, 0.9, -0.2)
+SWEP.CorrectivePos = Vector(0, 0, 0.1)
+SWEP.CorrectiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -246,13 +246,13 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"ironsights", "optic_cqb_nookp7", "optic_medium", "optic_sniper"},
+        Category = {"ironsights", "optic_cqb_nookp7", "optic_medium"},
         Bone = "ValveBiped.AUG_rootbone",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         InstalledElements = {"irons"},
         VMScale = 1,
-        Pos_VM = Vector(-6.2, 0, 3),
+        Pos_VM = Vector(-6.2, -0.0575, 3),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(7.5, 1, -6.8),
         Ang_WM = Angle(0, 0, 180),
