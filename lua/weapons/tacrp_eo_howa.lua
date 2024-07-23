@@ -12,7 +12,6 @@ SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Japanese battle rifle firing a special reduced load cartridge. Considerable weight but highly controllable."
 SWEP.Description_Quote = "\"Priest-21, this is Trevor. Clear to fire. Kill Wyvern.\""
-// "\"Do you suppose that I come to bring peace to the world?\""
 
 SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "Howa Machinery"

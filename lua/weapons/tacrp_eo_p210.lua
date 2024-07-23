@@ -12,6 +12,7 @@ SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Sleek post-war, single-stack, hammer-fired pistol.\nSlightly unreliable due to its age."
+SWEP.Description_Quote = "\"Do you suppose that I come to bring peace to the world?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer"
@@ -85,9 +86,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 22
 SWEP.Damage_Min = 14
-SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
 SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.8
@@ -111,7 +112,7 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 400
-SWEP.RPMMultSemi = 0.75
+SWEP.RPMMultSemi = 0.8
 
 SWEP.Spread = 0.0025
 SWEP.RecoilSpreadPenalty = 0.008
@@ -134,7 +135,7 @@ SWEP.RecoilAltMultiplier = 400
 
 SWEP.CanBlindFire = true
 
-SWEP.JamFactor = 0.12
+SWEP.JamFactor = 0.08
 
 // handling
 
