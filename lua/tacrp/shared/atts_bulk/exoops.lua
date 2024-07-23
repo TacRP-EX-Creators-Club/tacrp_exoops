@@ -172,7 +172,8 @@ ATT.PrintName = "Scope"
 ATT.FullName = "Howa 2.2x DMR Scope"
 ATT.Icon = Material("entities/tacrp_att_optic_howa.png", "mips smooth")
 ATT.Description = "Proprietary marksman scope for the Type 64."
-ATT.Pros = {"2.2x Zoom"}
+ATT.Pros = {"att.zoom.2.2"}
+ATT.Cons = {"stat.aimdownsights"}
 
 ATT.Category = "optic_howa"
 
@@ -183,7 +184,7 @@ ATT.Override_ScopeHideWeapon = true
 ATT.Override_ScopeOverlay = Material("tacrp/scopes/shortdot.png", "mips smooth")
 ATT.Override_ScopeFOV = 90 / 2.2
 
-ATT.Add_AimDownSightsTime = 0
+ATT.Add_AimDownSightsTime = 0.03
 
 ATT.InstalledElements = {"scope"}
 

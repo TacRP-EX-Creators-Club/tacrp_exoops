@@ -10,7 +10,9 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Battle Rifle"
 
-SWEP.Description = "Japanese battle rifle with balanced performance."
+SWEP.Description = "Japanese battle rifle firing a special reduced load cartridge. Considerable weight but highly controllable."
+SWEP.Description_Quote = "\"Priest-21, this is Trevor. Clear to fire. Kill Wyvern.\""
+// "\"Do you suppose that I come to bring peace to the world?\""
 
 SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "Howa Machinery"
@@ -71,15 +73,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 25
-SWEP.Damage_Min = 18
-SWEP.Range_Min = 700 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2800 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 32
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 400 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.725
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -89,7 +91,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 18000
+SWEP.MuzzleVelocity = 28000
 
 // misc. shooting
 
@@ -124,12 +126,12 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.65
+SWEP.ShootingSpeedMult = 0.75
 SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.39
+SWEP.AimDownSightsTime = 0.35
 SWEP.SprintToFireTime = 0.42
 
 SWEP.Sway = 1
@@ -137,6 +139,7 @@ SWEP.ScopedSway = 0.175
 
 SWEP.Bipod = true
 SWEP.BipodRecoil = 0.4
+SWEP.BipodKick = 0.25
 
 // hold types
 
