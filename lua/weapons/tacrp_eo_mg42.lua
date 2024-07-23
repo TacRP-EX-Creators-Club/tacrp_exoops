@@ -10,7 +10,9 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Machine Gun"
 
-SWEP.Description = "Antique machine gun with a blazing fast rate of fire. Capable of cutting people in half like a buzzsaw.\nFiring from the shoulder is not recommended."
+SWEP.Description = "Antique machine gun with a blazing fast rate of fire.\nFiring from the shoulder is not recommended."
+SWEP.Description_Quote = "\"獣には獣の物語があるのさ。\""
+// "\"We're not men disguised as mere dogs. We are wolves disguised as men.\"" // too long womp womp
 
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Großfuß AG"
@@ -18,8 +20,8 @@ SWEP.Trivia_Year = "1942"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Assets: Red Orchestra 2
-Sounds: Red Orechesta 2 & rzen1th
+Model/Texture: Red Orchestra 2
+Sound: Red Orechesta 2, rzen1th
 Animation: Tactical Intervention
 ]]
 
