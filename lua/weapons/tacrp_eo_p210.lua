@@ -37,7 +37,7 @@ SWEP.BalanceStats = {
         Damage_Min = 18,
         RPM = 420,
 
-        JamFactor = 0.06,
+        JamFactor = 0.04,
         RecoilKick = 3,
         HipFireSpreadPenalty = 0.01,
 
@@ -88,7 +88,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 SWEP.Damage_Max = 22
 SWEP.Damage_Min = 14
-SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Min = 1100 // distance for which to maintain maximum damage
 SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.8
@@ -97,7 +97,7 @@ SWEP.ArmorBonus = 1
 SWEP.MuzzleVelocity = 10200
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 4.75,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -135,7 +135,7 @@ SWEP.RecoilAltMultiplier = 400
 
 SWEP.CanBlindFire = true
 
-SWEP.JamFactor = 0.08
+SWEP.JamFactor = 0.07
 
 // handling
 
