@@ -228,47 +228,29 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Accessory",
-        Category = {"acc_dual", "acc_extmag_dual2"},
+        Category = {"acc_dual"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [5] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
-    [2] = {
+    [3] = {
         PrintName = "Trigger",
         Category = {"trigger_akimbo"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [3] = {
+    [4] = {
         PrintName = "Ammo",
         Category = {"ammo_pistol"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     }
 }
-
-SWEP.AttachmentCapacity = 30 // amount of "Capacity" this gun can accept
-
-local function addsound(name, spath)
-    sound.Add({
-        name = name,
-        channel = 16,
-        volume = 1.0,
-        sound = spath
-    })
-end
-
---addsound("tacint_dualeagles.clip_in_left", path .. "elite_leftclipin.wav")
---addsound("tacint_dualeagles.clip_in_right", path .. "elite_rightclipin.wav")
---addsound("tacint_dualeagles.clip_out", path .. "elite_clipout.wav")
---addsound("tacint_dualeagles.slide_back", path1 .. "slide_back.wav")
---addsound("tacint_dualeagles.slide_release", path1 .. "slide_release.wav")
---addsound("tacint_dualeagles.slide_shut", path .. "sliderelease.wav")
 
 SWEP.Scope = false
 
