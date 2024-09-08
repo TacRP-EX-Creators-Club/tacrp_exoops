@@ -195,6 +195,7 @@ SWEP.QCA_Muzzle = 1
 SWEP.QCA_Eject = 2
 
 SWEP.MuzzleEffect = "muzzleflash_suppressed"
+SWEP.EjectEffect = 1
 
 SWEP.Silencer = true
 SWEP.TracerNum = 0
