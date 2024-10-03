@@ -106,7 +106,7 @@ SWEP.RecoilResetTime = 0
 SWEP.RecoilDissipationRate = 30
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1
+SWEP.RecoilVisualKick = 1.25
 SWEP.RecoilKick = 4
 SWEP.RecoilStability = 0.6
 SWEP.RecoilAltMultiplier = 200
@@ -149,7 +149,7 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
 SWEP.SightAng = Angle(0.03, 0.4, 0)
-SWEP.SightPos = Vector(-4.51, -7, -5.6)
+SWEP.SightPos = Vector(-4.64, -7, -5.6)
 
 SWEP.CorrectivePos = Vector(-0.05, 0, 0.05)
 SWEP.CorrectiveAng = Angle(-0.2, 0.35, 0)
@@ -164,7 +164,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 20
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.1
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mcx277.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
@@ -201,7 +201,9 @@ SWEP.AnimationTranslationTable = {
     ["fire2"] = "fire2_M",
     ["fire3"] = "fire3_M",
     ["fire4"] = {"fire4_M", "fire4_L", "fire4_R"},
-    ["melee"] = {"melee1", "melee2"}
+    ["melee"] = {"melee1", "melee2"},
+    ["midreload"] = "deploy",
+    ["jam"] = "deploy",
 }
 
 SWEP.ProceduralIronFire = {
@@ -241,7 +243,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1.1,
-        Pos_VM = Vector(-5.3, 0.6, 7),
+        Pos_VM = Vector(-5.4, 0.75, 7),
         Pos_WM = Vector(0.65, 5, 0.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
@@ -256,7 +258,7 @@ SWEP.Attachments = {
         WMScale = 0.85,
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.15, 0.7, 24.5),
+        Pos_VM = Vector(-3.15, 0.75, 24.5),
         Pos_WM = Vector(1.5, 22, -1.3),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -87, 0),
