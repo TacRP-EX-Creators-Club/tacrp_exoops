@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG SG 510"
+SWEP.PrintName = "SIG Stgw. 57"
 SWEP.AbbrevName = "SG 510"
 SWEP.Category = "Tactical RP"
 
@@ -176,10 +176,10 @@ SWEP.BipodKick = 0.25
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 24
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.3
+SWEP.ReloadTimeMult = 1.32
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/sg510.mdl"
 SWEP.DropMagazineImpact = "metal"
 
@@ -245,6 +245,7 @@ SWEP.AttachmentElements = {
     },
 }
 
+SWEP.NoRMR = true
 
 SWEP.Attachments = {
     [1] = {

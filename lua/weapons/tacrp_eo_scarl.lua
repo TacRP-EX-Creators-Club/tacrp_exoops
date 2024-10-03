@@ -209,18 +209,19 @@ SWEP.AttachmentElements = {
     },
 }
 
+SWEP.NoRMR = true
 
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb_nookp7", "optic_okp7", "optic_medium", "optic_sniper"},
+        Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         Bone = "ValveBiped._ROOT_K1a",
         WMBone = "Box01",
         InstalledElements = {"sights"},
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
-        Pos_VM = Vector(-5.9, 0.25, 6),
+        Pos_VM = Vector(-6, 0.2, 6),
         Pos_WM = Vector(0, 5, 1.4),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),

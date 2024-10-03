@@ -152,8 +152,8 @@ SWEP.SprintPos = Vector(5, 0, -2)
 SWEP.SightAng = Angle(-0, 0.3, 0)
 SWEP.SightPos = Vector(-4.04, -6, -4.6)
 
-SWEP.CorrectivePos = Vector(0, 0, -0.2)
-SWEP.CorrectiveAng = Angle(-0.2, 1.3, -0.2)
+SWEP.CorrectivePos = Vector(0, 2, 0.1)
+SWEP.CorrectiveAng = Angle(-0.2, 0, -0.2)
 
 SWEP.CustomizePos = Vector(2, 1, -6)
 
@@ -255,6 +255,7 @@ SWEP.AttachmentElements = {
     },
 }
 
+SWEP.NoRMR = true
 
 SWEP.Attachments = {
     [1] = {
