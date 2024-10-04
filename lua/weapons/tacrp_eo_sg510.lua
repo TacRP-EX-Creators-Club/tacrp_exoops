@@ -4,14 +4,15 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG Stgw. 57"
+SWEP.PrintName = "SIG SG 510-1"
 SWEP.AbbrevName = "SG 510"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Battle Rifle"
 
-SWEP.Description = "Vintage battle rifle with excellent long range performance. Recoil is harsh but stable."
+SWEP.Description = "Vintage battle rifle with excellent range and precision. Recoil is harsh but stable, thanks to the weapon's heft."
+SWEP.Description_Quote = "\"He had a lot of guts.\""
 
 SWEP.Trivia_Caliber = "7.5x55mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
@@ -107,7 +108,7 @@ SWEP.RPM = 460
 
 SWEP.PostBurstDelay = 0.1
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.0022
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -133,8 +134,8 @@ SWEP.SightedSpeedMult = 0.55
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.4
+SWEP.AimDownSightsTime = 0.45
+SWEP.SprintToFireTime = 0.5
 
 SWEP.FreeAimMaxAngle = 5
 
