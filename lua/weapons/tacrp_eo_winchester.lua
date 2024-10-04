@@ -180,7 +180,7 @@ SWEP.Ammo_Expanded = "ti_pdw"
 
 SWEP.ShotgunReload = true
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.1
 
 // sounds
 
