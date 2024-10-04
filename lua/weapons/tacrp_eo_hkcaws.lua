@@ -207,7 +207,7 @@ SWEP.EjectEffect = 3
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "unholster",
+    ["deploy"] = "deploy",
     ["fire_iron"] = "idle",
     ["fire1"] = "fire1_M",
     ["fire2"] = "fire2_M",
@@ -217,7 +217,7 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"}
 }
 
-SWEP.DeployTimeMult = 4
+SWEP.DeployTimeMult = 1
 
 SWEP.ProceduralIronFire = {
     vm_pos = Vector(0, -0.2, -0.12),
