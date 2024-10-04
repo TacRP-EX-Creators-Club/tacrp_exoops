@@ -12,7 +12,7 @@ SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Vintage battle rifle with excellent range and precision. Recoil is harsh but stable, thanks to the weapon's heft."
-SWEP.Description_Quote = "\"He had a lot of guts.\""
+SWEP.Description_Quote = "\"He had a lot of guts.\"" -- On Her Majesty's Secret Service
 
 SWEP.Trivia_Caliber = "7.5x55mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"

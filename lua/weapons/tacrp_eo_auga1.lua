@@ -12,7 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Classic AUG variant with a larger magazine and full-auto.\nEquipped with a fixed 1.5x scope and backup ironsights."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "\"I want blood!\" \"And you'll have it.\"" -- Die Hard
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Steyr Arms"

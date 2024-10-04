@@ -4,14 +4,15 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Beretta AR70/223"
-SWEP.AbbrevName = "AR70"
+SWEP.PrintName = "Beretta SC-70/.223" -- SC70 is the folding stock variant of the AR70
+SWEP.AbbrevName = "SC70"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Bulky assault rifle with a controllable rate of fire."
+SWEP.Description_Quote = "\"Is life always this hard, or is it just when you're a kid?\"" -- Léon: The Professional
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"

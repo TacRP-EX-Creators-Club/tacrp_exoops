@@ -12,7 +12,7 @@ SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. A venerable classic - but unsuitable for the demanding battlefields of today."
-SWEP.Description_Quote = "\"The gun that won the West.\""
+SWEP.Description_Quote = "The gun that won the West."
 
 SWEP.Trivia_Caliber = ".44-40 WCF"
 SWEP.Trivia_Manufacturer = "Winchester Repeating Arms"

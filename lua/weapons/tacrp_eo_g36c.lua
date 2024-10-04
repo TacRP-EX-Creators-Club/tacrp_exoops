@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Compact carbine variant of the G36 that trades effective range for increased firerate and improved handling."
+SWEP.Description_Quote = "\"Right... What the hell kind of name is \"Soap,\" eh?\"" -- Call of Duty 4: Modern Warfare
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"

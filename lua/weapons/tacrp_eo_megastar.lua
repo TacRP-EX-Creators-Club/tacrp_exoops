@@ -12,7 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Large pistol with hefty construction. Great capacity and firepower but has intense recoil."
-SWEP.Description_Quote = "\"You wanna f*ck with me?\""
+SWEP.Description_Quote = "\"You wanna fuck with me?\""
 
 SWEP.Trivia_Caliber = "10mm Auto" -- ignore the .45 markings shhh
 SWEP.Trivia_Manufacturer = "Star Bonifacio Echeverria"
