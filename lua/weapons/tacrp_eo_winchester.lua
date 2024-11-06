@@ -147,22 +147,22 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -1, -5)
+SWEP.PassivePos = Vector(0, -1, 0)
 
-SWEP.BlindFireAng = Angle(5, 5, -35)
-SWEP.BlindFirePos = Vector(6, -2, -1)
+SWEP.BlindFireAng = Angle(5, -5, -35)
+SWEP.BlindFirePos = Vector(2, -2, 6)
 
 SWEP.BlindFireLeftAng = Angle(85, 0, -50)
-SWEP.BlindFireLeftPos = Vector(12, 12, -6)
+SWEP.BlindFireLeftPos = Vector(12, 12, -2)
 
-SWEP.BlindFireRightAng = Angle(-85, 0, -50)
-SWEP.BlindFireRightPos = Vector(-10, 12, -8)
+SWEP.BlindFireRightAng = Angle(-85, 5, -25)
+SWEP.BlindFireRightPos = Vector(-8, 20, -2)
 
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(-0.55, -0.7, 2)
-SWEP.SightPos = Vector(-3.5, -5, -2.7)
+SWEP.SightAng = Angle(-0, 0.15, 0)
+SWEP.SightPos = Vector(-3.35, -5, 1.7)
 
 SWEP.CorrectivePos = Vector(0.275, 0, -0.2)
 SWEP.CorrectiveAng = Angle(1.21, 0.1, 0)
@@ -199,25 +199,25 @@ SWEP.ShootPitchVariance = 0 // amount to vary pitch by each shot
 SWEP.QCA_Muzzle = 1
 SWEP.QCA_Eject = 2
 
-SWEP.MuzzleEffect = "muzzleflash_shotgun"
+SWEP.MuzzleEffect = "muzzleflash_ak47"
 SWEP.EjectEffect = 2
 SWEP.EjectDelay = 0.5
 
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["fire"] = "shoot1",
+    ["fire"] = {"shoot1", "shoot2"},
     ["deploy"] = "deploy",
     ["blind_idle"] = "idle",
     ["blind_fire"] = "shoot1",
     ["blind_dryfire"] = "dryfire",
     ["melee"] = {"melee1", "melee2"},
-    ["reload"] = {"reload", "reload2"},
+    ["reload"] = {"reload"},
     ["jam"] = "reload_finish"
 }
 
-SWEP.ShootTimeMult = 1.3
-SWEP.DeployTimeMult = 1.15
+SWEP.ShootTimeMult = 1
+SWEP.DeployTimeMult = 1.25
 
 // attachments
 
