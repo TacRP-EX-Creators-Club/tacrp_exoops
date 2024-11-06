@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Sporter"
 
-SWEP.Description = "Iconic cowboy rifle with a design that has endured to this day. A venerable classic - but unsuitable for the demanding battlefields of today."
+SWEP.Description = "Iconic rifle synonymous with cowboys and still enjoyed among civilian shooters. Fun as it is to shoot, it's thoroughly outclassed by most modern firearms."
 SWEP.Description_Quote = "The gun that won the West."
 
 SWEP.Trivia_Caliber = ".44-40 WCF"
@@ -23,7 +23,7 @@ SWEP.Credits = [[
 Model: Enron
 Textures: !NC!Furious
 Sounds: Vunsunta
-Animation: Tactical Intervention & speedonerd
+Animation: speedonerd
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_winchester.mdl"
@@ -149,6 +149,9 @@ SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 SWEP.PassiveAng = Angle(0, 0, 0)
 SWEP.PassivePos = Vector(0, -1, 0)
 
+SWEP.CustomizeAng = Angle(30, 15, 0)
+SWEP.CustomizePos = Vector(6, -1, -2)
+
 SWEP.BlindFireAng = Angle(5, -5, -35)
 SWEP.BlindFirePos = Vector(2, -2, 6)
 
@@ -159,7 +162,7 @@ SWEP.BlindFireRightAng = Angle(-85, 5, -25)
 SWEP.BlindFireRightPos = Vector(-8, 20, -2)
 
 SWEP.SprintAng = Angle(30, -15, 0)
-SWEP.SprintPos = Vector(5, 0, -2)
+SWEP.SprintPos = Vector(5, 0, 1.2)
 
 SWEP.SightAng = Angle(-0, 0.15, 0)
 SWEP.SightPos = Vector(-3.35, -5, 1.7)
@@ -175,8 +178,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 // reload
 
 SWEP.ClipSize = 12
-SWEP.Ammo = "ar2"
-SWEP.Ammo_Expanded = "ti_pdw"
+SWEP.Ammo = "357"
+SWEP.Ammo_Expanded = "ti_rifle"
 
 SWEP.ShotgunReload = true
 
