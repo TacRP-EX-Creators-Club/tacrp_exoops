@@ -33,7 +33,10 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 40,
-        Damage_Min = 34,
+        Damage_Min = 32,
+
+        Range_Min = 1000,
+        Range_Max = 4000,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
@@ -47,11 +50,11 @@ SWEP.BalanceStats = {
         },
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 16,
-        Damage_Min = 12,
-        Range_Min = 800,
-        Range_Max = 2000,
-        RPM = 600,
+        Damage_Max = 18,
+        Damage_Min = 14,
+        Range_Min = 1000,
+        Range_Max = 2500,
+        RPM = 450,
 
         RecoilSpreadPenalty = 0.0025,
 
@@ -65,14 +68,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 12,
-        Damage_Min = 9,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 20,
-        RecoilDissipationRate = 18
     }
 }
 
@@ -80,12 +75,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 30
-SWEP.Damage_Min = 22
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4200 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 26
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.775
+SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3.5,
@@ -122,7 +117,7 @@ SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.8
 
 SWEP.RecoilSpreadPenalty = 0.003
-SWEP.HipFireSpreadPenalty = 0.035
+SWEP.HipFireSpreadPenalty = 0.04
 
 SWEP.CanBlindFire = true
 

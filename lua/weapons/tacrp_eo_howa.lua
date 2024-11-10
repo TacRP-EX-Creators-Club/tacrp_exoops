@@ -72,15 +72,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 30
+SWEP.Damage_Max = 28
 SWEP.Damage_Min = 18
-SWEP.Range_Min = 400 // distance for which to maintain maximum damage
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2400 // distance at which we drop to minimum damage
-SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.Penetration = 10 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.725
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -115,7 +115,7 @@ SWEP.RecoilFirstShotMult = 1
 SWEP.RecoilVisualKick = 1
 
 SWEP.RecoilKick = 4.5
-SWEP.RecoilStability = 0.5
+SWEP.RecoilStability = 0.6
 
 SWEP.RecoilSpreadPenalty = 0.002
 SWEP.HipFireSpreadPenalty = 0.04
@@ -124,17 +124,17 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.75
-SWEP.SightedSpeedMult = 0.65
+SWEP.MoveSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.7
+SWEP.SightedSpeedMult = 0.6
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.42
+SWEP.AimDownSightsTime = 0.4
+SWEP.SprintToFireTime = 0.45
 
 SWEP.Sway = 1
-SWEP.ScopedSway = 0.175
+SWEP.ScopedSway = 0.2
 
 SWEP.Bipod = true
 SWEP.BipodRecoil = 0.4
@@ -173,7 +173,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 20
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.2
+SWEP.ReloadTimeMult = 1.25
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/howa.mdl"
 SWEP.DropMagazineImpact = "metal"
 

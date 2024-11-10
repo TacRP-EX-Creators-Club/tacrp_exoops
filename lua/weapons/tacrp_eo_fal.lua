@@ -74,10 +74,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.BattleRifle
 // "ballistics"
 
 SWEP.Damage_Max = 35
-SWEP.Damage_Min = 22
-SWEP.Range_Min = 800
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 600
 SWEP.Range_Max = 3000
-SWEP.Penetration = 14
+SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.9
 
 SWEP.BodyDamageMultipliers = {
@@ -101,7 +101,7 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 550
-SWEP.RPMMultSemi = 450/550
+SWEP.RPMMultSemi = 450 / 550
 
 SWEP.Spread = 0.0035
 
