@@ -59,15 +59,15 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 12
-SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -87,7 +87,7 @@ SWEP.RPM = 600
 
 SWEP.PostBurstDelay = 0.1
 
-SWEP.Spread = 0.004
+SWEP.Spread = 0.0045
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
@@ -97,11 +97,11 @@ SWEP.RecoilDissipationRate = 35
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 3.5
-SWEP.RecoilStability = 0.65
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.6
 
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
 
@@ -155,7 +155,7 @@ SWEP.ScopedSway = 0.15
 SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.1
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/ar70.mdl"
 SWEP.DropMagazineImpact = "metal"
 
