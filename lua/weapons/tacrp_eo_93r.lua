@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "3Machine Pistol"
 
-SWEP.Description = "Premium burst-fire pistol with a non-runaway burst and great hip-fire performance."
+SWEP.Description = "Premium burst-fire pistol with a fast non-runaway burst and great hip-fire performance."
 SWEP.Description_Quote = "\"Faith, the train! Take the train!\""
 
 SWEP.Trivia_Caliber = "9x19mm"
@@ -38,6 +38,8 @@ SWEP.BalanceStats = {
         ArmorPenetration = 0.575,
         ClipSize = 18,
 
+        HipFireSpreadPenalty = 0.005,
+
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
             [HITGROUP_CHEST] = 1,
@@ -55,9 +57,9 @@ SWEP.BalanceStats = {
         Range_Min = 400,
         Range_Max = 2000,
         ClipSize = 18,
-        RPM = 600,
+        RPM = 800,
         RPMMultBurst = 1.15,
-        RPMMultSemi = 0.5,
+        RPMMultSemi = 0.75,
         PostBurstDelay = 0.15,
 
         RecoilSpreadPenalty = 0.005,
@@ -108,10 +110,10 @@ SWEP.Firemodes = {
 1
 }
 
-SWEP.RPM = 650
-SWEP.RPMMultBurst = 1.1
-SWEP.RPMMultSemi = 0.6
-SWEP.PostBurstDelay = 0.1
+SWEP.RPM = 750
+SWEP.RPMMultBurst = 1.3
+SWEP.RPMMultSemi = 0.85
+SWEP.PostBurstDelay = 0.12
 
 SWEP.Spread = 0.007
 
@@ -121,23 +123,23 @@ SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0
-SWEP.RecoilDissipationRate = 14
-SWEP.RecoilFirstShotMult = 1
+SWEP.RecoilDissipationRate = 22
+SWEP.RecoilFirstShotMult = 0.5
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 6
 SWEP.RecoilStability = 0.6
-SWEP.RecoilAltMultiplier = 500
+SWEP.RecoilAltMultiplier = 1000
 
-SWEP.RecoilSpreadPenalty = 0.003
-SWEP.HipFireSpreadPenalty = 0.0035
+SWEP.RecoilSpreadPenalty = 0.006
+SWEP.HipFireSpreadPenalty = 0.003
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 0.975
-SWEP.ShootingSpeedMult = 0.75
+SWEP.ShootingSpeedMult = 0.7
 SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
@@ -145,10 +147,10 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.25
 SWEP.SprintToFireTime = 0.25
 
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.5
+SWEP.Sway = 0.75
+SWEP.ScopedSway = 0.4
 
-SWEP.FreeAimMaxAngle = 3.5
+SWEP.FreeAimMaxAngle = 3
 
 // hold types
 
