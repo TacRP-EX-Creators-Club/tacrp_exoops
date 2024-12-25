@@ -62,10 +62,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AutoShotgun
 
 SWEP.ShootTimeMult = 0.6
 
-SWEP.Damage_Max = 12
-SWEP.Damage_Min = 9
-SWEP.Range_Min = 900 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 10
+SWEP.Damage_Min = 6
+SWEP.Range_Min = 400 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.725
 SWEP.ArmorBonus = 1
