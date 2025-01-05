@@ -72,7 +72,7 @@ TacRP.LoadAtt(ATT, "ammo_modular_450bm")
 ATT = {}
 
 ATT.PrintName = "Pump"
-ATT.FullName = "Pump-Action"
+ATT.FullName = "Franchi SPAS-15 Pump-Action"
 ATT.Icon = Material("entities/tacrp_att_bolt_light.png", "mips smooth")
 ATT.Description = "Switch to pump-action operation, sacrificing fire-rate for improved control."
 ATT.Pros = {"stat.damage_max", "stat.spread", "stat.muzzlevelocity", "stat.shootingspeed"}
