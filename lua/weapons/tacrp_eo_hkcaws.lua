@@ -142,21 +142,28 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -6)
+SWEP.PassivePos = Vector(0, 1, -1)
 
-SWEP.BlindFireAng = Angle(0, 5, 0)
-SWEP.BlindFirePos = Vector(3, -2, -5)
+SWEP.CustomizeAng = Angle(30, 15, 0)
+SWEP.CustomizePos = Vector(4.5, 0, -1.5)
 
-SWEP.SprintAng = Angle(30, -15, 0)
-SWEP.SprintPos = Vector(5, 0, -4)
+SWEP.BlindFireAng = Angle(0, 0, 0)
+SWEP.BlindFirePos = Vector(-1, 1, 1)
 
-SWEP.SightAng = Angle(-0.92, 0, 0)
-SWEP.SightPos = Vector(-4.14, -6, -4.45)
+SWEP.BlindFireLeftAng = Angle(90, 0, 0)
+SWEP.BlindFireLeftPos = Vector(10, 6, -4)
 
-SWEP.CorrectivePos = Vector(0.3, 0, -0.2)
-SWEP.CorrectiveAng = Angle(0.8, -0.1, -0.2)
+SWEP.BlindFireRightAng = Angle(-90, 0, 0)
+SWEP.BlindFireRightPos = Vector(-4, 20, -4)
 
-SWEP.CustomizePos = Vector(2, 0, -7)
+SWEP.SprintAng = Angle(30, -15, -5)
+SWEP.SprintPos = Vector(2, 0, 1.5)
+
+SWEP.SightAng = Angle(0, 1, 0)
+SWEP.SightPos = Vector(-4, -6, 0.4)
+
+SWEP.CorrectivePos = Vector(0, 0, 0.12)
+SWEP.CorrectiveAng = Angle(0, 0, -0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -176,11 +183,11 @@ SWEP.ScopeHideWeapon = true
 SWEP.ClipSize = 10
 SWEP.Ammo = "buckshot"
 
-SWEP.ReloadTimeMult = 1.5
+SWEP.ReloadTimeMult = 1.4
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/hkcaws.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
-SWEP.ReloadUpInTime = 1.6
+SWEP.ReloadUpInTime = 1.4
 SWEP.DropMagazineTime = 0.6
 
 // sounds
@@ -216,6 +223,8 @@ SWEP.AnimationTranslationTable = {
     ["fire5"] = "fire4_M",
     ["melee"] = {"melee1", "melee2"}
 }
+
+SWEP.LastShot = true
 
 SWEP.DeployTimeMult = 1
 
@@ -279,13 +288,13 @@ SWEP.Attachments = {
     --},
     [1] = {
         PrintName = "Tactical",
-        Category = {"tactical_zoom", "tactical_ebullet"},
-        Bone = "ValveBiped.AUG_rootbone",
+        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
+        Bone = "famas_root",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1,
-        Pos_VM = Vector(-4.25, 0.8, 13),
-        Ang_VM = Angle(90, 0, 75),
+        Pos_VM = Vector(-1, -3, 14),
+        Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(10, -0.1, -5),
         Ang_WM = Angle(0, 0, -90),
     },
