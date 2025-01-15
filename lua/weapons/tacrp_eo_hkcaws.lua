@@ -70,6 +70,7 @@ SWEP.Range_Min = 900
 SWEP.Range_Max = 2500
 SWEP.Penetration = 6
 SWEP.ArmorPenetration = 0.95
+SWEP.ArmorBonus = 1
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
