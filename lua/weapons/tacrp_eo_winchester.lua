@@ -67,13 +67,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Shotgun
 
 // "ballistics"
 
-SWEP.Damage_Max = 44
-SWEP.Damage_Min = 18
-SWEP.Range_Min = 900 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3200 // distance at which we drop to minimum damage
-SWEP.Penetration = 10 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.75
-SWEP.ArmorBonus = 1.25
+SWEP.Damage_Max = 46
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 800 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
+SWEP.Penetration = 8 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.8
+SWEP.ArmorBonus = 1
 
 SWEP.Num = 1
 
@@ -178,7 +178,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 // reload
 
 SWEP.ClipSize = 12
-SWEP.Ammo = "357"
+SWEP.Ammo = "ar2"
 SWEP.Ammo_Expanded = "ti_rifle"
 
 SWEP.ShotgunReload = true
