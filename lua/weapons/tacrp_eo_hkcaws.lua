@@ -28,6 +28,7 @@ SWEP.ViewModel = "models/weapons/tacint_shark/v_hkcaws.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_hkcaws.mdl"
 
 SWEP.Slot = 2
+SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
