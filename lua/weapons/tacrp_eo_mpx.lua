@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "Advanced SMG with stable recoil and extended magazine."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "\"How the fuck can you make a shootout awkward?\"" --Bright (2017)
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"

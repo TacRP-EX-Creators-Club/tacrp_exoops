@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Modular, lightweight assault rifle with a moderate rate of fire."
+SWEP.Description_Quote = "\"I've seen things, I've seen the way they are.\"" -- Dawn of the Planet of the Apes (2014)
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"

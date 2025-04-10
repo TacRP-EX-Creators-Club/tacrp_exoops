@@ -11,6 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Semi-automatic shotgun with good recoil control and accuracy."
+SWEP.Description_Quote = "\"Come on, Daywalker!\"" --Blade (1998)
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Benelli Armi S.p.A."
