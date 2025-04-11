@@ -12,6 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Civilian variant of the iconic battle rifle. A bit heavy but boasts excellent stopping power and range."
+SWEP.Description_Quote = "An American copy of a classic weapon."
 
 SWEP.Trivia_Caliber = ".308 Winchester"
 SWEP.Trivia_Manufacturer = "DS Arms"

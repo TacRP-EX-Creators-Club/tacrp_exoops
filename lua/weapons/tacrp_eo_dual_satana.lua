@@ -11,7 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "3Akimbo"
 
 SWEP.Description = "Pair of customized revolvers. Great accuracy for akimbos but slow to fire and reload."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "\"I think your luck ran out, punk.\"" -- Referencing the M29's quote because I couldn't think of anything else
 SWEP.DefaultSkin = 0
 
 SWEP.Trivia_Caliber = ".44 Magnum"
