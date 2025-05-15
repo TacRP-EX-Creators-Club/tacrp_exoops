@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Civilian rifle offered as an advanced alternative to other popular platforms. Well-rounded and can accept various modern ammo types."
-SWEP.Description_Quote = "\"To slay a dragon is the greatest of honors.\""
+SWEP.Description_Quote = "\"Ramirez! Defend the Burger Town!\"" -- Modern Warfare 2 (2009)
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Bushmaster Firearms LLC"

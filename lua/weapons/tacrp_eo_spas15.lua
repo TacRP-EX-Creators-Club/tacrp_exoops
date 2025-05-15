@@ -12,7 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Heavy, magazine-fed successor to the iconic dual-mode shotgun. Low recoil but isn't very accurate."
-SWEP.Description_Quote = "\"We will wait. We will wait and see what he can discover.\""
+SWEP.Description_Quote = "\"We will wait. We will wait and see what he can discover.\"" -- Syphon Filter
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Luigi Franchi S.p.A."

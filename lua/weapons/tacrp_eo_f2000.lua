@@ -212,20 +212,20 @@ SWEP.AnimationTranslationTable = {
 
 SWEP.DeployTimeMult = 1.1
 
-SWEP.ProceduralIronFire = {
-    vm_pos = Vector(0, -0.2, -0.12),
-    vm_ang = Angle(0, 0.25, 0),
-    t = 0.1,
-    tmax = 0.1,
-    bones = {
-        {
-            bone = "ValveBiped.bolt",
-            pos = Vector(0, 0, -3),
-            t0 = 0.01,
-            t1 = 0.08,
-        },
-    },
-}
+-- SWEP.ProceduralIronFire = {
+    -- vm_pos = Vector(0, -0.2, -0.12),
+    -- vm_ang = Angle(0, 0.25, 0),
+    -- t = 0.1,
+    -- tmax = 0.1,
+    -- bones = {
+        -- {
+            -- bone = "ValveBiped.bolt",
+            -- pos = Vector(0, 0, -3),
+            -- t0 = 0.01,
+            -- t1 = 0.08,
+        -- },
+    -- },
+-- }
 
 // attachments
 
