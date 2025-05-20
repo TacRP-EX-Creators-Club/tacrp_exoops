@@ -21,7 +21,7 @@ SWEP.Trivia_Year = "1986"
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Assets: filosoma, ported from Fallout: New Vegas by Kindred Flame
-Sounds: Navaro, SevenZero & Magmacow
+Sounds: DICE, SevenZero & Magmacow
 Animation: Tactical Intervention & speedonerd
 ]]
 
