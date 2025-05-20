@@ -22,7 +22,7 @@ SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Assets: filosoma, ported from Fallout: New Vegas by Kindred Flame
 Sounds: DICE, SevenZero & Magmacow
-Animation: Tactical Intervention & speedonerd
+Animation: Tactical Intervention, edited by speedonerd
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_spas15.mdl"
