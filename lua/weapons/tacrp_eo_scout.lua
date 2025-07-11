@@ -8,7 +8,7 @@ SWEP.PrintName = "Steyr Scout"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "5Sporter"
+SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Lightweight rifle designed for portability and comfort rather than direct firepower. Has a built-in bipod.\nEquipped with a 6x scope by default."
 SWEP.Description_Quote = "\"Headshot!\" \"Humiliation!\" "
