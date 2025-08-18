@@ -86,25 +86,24 @@ ATT.SortOrder = 0
 ATT.Add_Damage_Max = 2
 
 ATT.Mult_RPM = 0.35
-ATT.Mult_ShootTimeMult = 0.9
+ATT.Mult_ShootTimeMult = 1
 
 ATT.Mult_MuzzleVelocity = 1.15
 ATT.Mult_Spread = 0.6
 
 ATT.Mult_ShootingSpeedMult = 1.15
 
-ATT.Override_EjectDelay = 0.45
-ATT.Override_Sound_Shoot = "^tacint_shark/weapons/spas15/fire_pump.wav"
-
-ATT.Override_LastShot = false
+ATT.Override_EjectDelay = 0.2
 
 ATT.Hook_TranslateSequence = function(self, seq)
     if seq == "fire1" then
         return {"fire_pump"}
     elseif seq == "blind_fire1" then
-        return {"fire_pump"}
+        return {"blind_fire_pump"}
     elseif seq == "fire_iron" then
         return {"fire_pump"}
+	elseif seq == "reload" then
+		return {"reload_pump"}
     end
 end
 
