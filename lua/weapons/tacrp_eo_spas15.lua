@@ -142,26 +142,29 @@ SWEP.HoldTypeBlindFire = false
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
-SWEP.PassiveAng = Angle(2, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -5)
+SWEP.PassiveAng = Angle(0, 1, 0)
+SWEP.PassivePos = Vector(0, -2, -0.5)
 
-SWEP.BlindFireAng = Angle(0, 5, -60)
-SWEP.BlindFirePos = Vector(4, -2, -1)
+SWEP.CustomizeAng = Angle(30, 15, 0)
+SWEP.CustomizePos = Vector(8, -1, -3)
 
-SWEP.BlindFireLeftAng = Angle(80, 2, -20)
-SWEP.BlindFireLeftPos = Vector(10, 6, -6)
+SWEP.BlindFireAng = Angle(0, 0, 0)
+SWEP.BlindFirePos = Vector(-2, -4, 1)
 
-SWEP.BlindFireRightAng = Angle(-80, 2, 0)
-SWEP.BlindFireRightPos = Vector(-7, 15, -6)
+SWEP.BlindFireLeftAng = Angle(90, 0, 0)
+SWEP.BlindFireLeftPos = Vector(15, 6, -4)
 
-SWEP.SprintAng = Angle(40, -15, 0)
-SWEP.SprintPos = Vector(5, 0, -4)
+SWEP.BlindFireRightAng = Angle(-90, 0, 0)
+SWEP.BlindFireRightPos = Vector(-20, 20, -4)
 
-SWEP.SightAng = Angle(0, 0, 0)
-SWEP.SightPos = Vector(-4.12, -2.5, -3.62)
+SWEP.SprintAng = Angle(30, -15, -5)
+SWEP.SprintPos = Vector(2, 0, 1.5)
 
-SWEP.CorrectivePos = Vector(0, 0, 0.1)
-SWEP.CorrectiveAng = Angle(0, 0, 0)
+SWEP.SightAng = Angle(0, 0.25, 0)
+SWEP.SightPos = Vector(-4.05, -6, 1)
+
+SWEP.CorrectivePos = Vector(0, 0, 0.12)
+SWEP.CorrectiveAng = Angle(0, 0, -0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -173,12 +176,12 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 6
 SWEP.Ammo = "buckshot"
 
-SWEP.ReloadTimeMult = 1.25
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/spas15.mdl"
 SWEP.DropMagazineImpact = "metal"
 
-SWEP.ReloadUpInTime = 1.4
-SWEP.DropMagazineTime = 0.4
+SWEP.ReloadUpInTime = 1.5
+SWEP.DropMagazineTime = 0.6
 
 // sounds
 
@@ -204,24 +207,22 @@ SWEP.EjectEffect = 3
 // anims
 
 SWEP.AnimationTranslationTable = {
-	["deploy"] = "unholster",
-    ["fire_iron"] = "fire1_M",
-    ["fire1"] = "fire3_M",
-    ["fire2"] = "fire3_M",
+    ["deploy"] = "deploy",
+	["unholster"] = "unholster",
+	["holster"] = "holster",
+    ["fire_iron"] = "fire5_M",
+	["lastshot"] = "fire1_M",
+    ["fire1"] = "fire1_M",
+    ["fire2"] = "fire2_M",
     ["fire3"] = "fire3_M",
-    ["fire4"] = "fire3_M",
-    ["fire5"] = "fire3_M",
-    ["melee"] = "melee2",
-	["dryfire"] = "dryfire_empty",
-	["blind_idle"] = "idle",
-	["blind_fire1"] = "fire3_M",
-	["blind_dryfire"] = "dryfire",
-	["blind_lastshot"] = "fire3_M"
+    ["fire4"] = "fire4_M",
+    ["fire5"] = "fire4_M",
+    ["melee"] = {"melee1", "melee2"}
 }
 
-SWEP.LastShot = true
+SWEP.LastShot = false
 
-SWEP.DeployTimeMult = 2
+SWEP.DeployTimeMult = 1
 
 // attachments
 
@@ -243,28 +244,28 @@ SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
         Category = "optic_cqb",
-        Bone = "ValveBiped.g36k_rootbone",
+        Bone = "famas_root",
         WMBone = "Box01",
         InstalledElements = {"irons"},
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 0.9,
-        Pos_VM = Vector(-6.6, 0.2, 4),
+        Pos_VM = Vector(-0.05, -6, 4),
         Pos_WM = Vector(0, 1, 2.25),
-        Ang_VM = Angle(90, 0, 0),
+        Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
         PrintName = "Tactical",
         Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
-        Bone = "ValveBiped.bolt_handle",
+        Bone = "famas_bolt_handle",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(0.8, -11, 1.25),
+        Pos_VM = Vector(1, 0.25, -1),
         Pos_WM = Vector(1.5, 16, -0.8),
-        Ang_VM = Angle(0, 90, 90),
+        Ang_VM = Angle(90, 0, 180),
         Ang_WM = Angle(-70, -90, 0),
     },
     [3] = {
@@ -310,8 +311,7 @@ end
 
 addsound("tacint_spas15.remove_clip", path1 .. "clipout.wav")
 addsound("tacint_spas15.insert_clip", path1 .. "clipin.wav")
-addsound("tacint_spas15.bolt_action", path1 .. "boltaction.wav")
 addsound("tacint_spas15.bolt_back", path1 .. "boltpull.wav")
 addsound("tacint_spas15.bolt_forward", path1 .. "boltrelease.wav")
-addsound("tacint_spas15.fire_select", path .. "fire_selector.wav")
-addsound("tacint_spas15.Buttstock_Back", path .. "buttstock_back.wav")
+addsound("tacint_spas15.pumpback", path1 .. "pumpback.wav")
+addsound("tacint_spas15.pumpforward", path1 .. "pumpforward.wav")
