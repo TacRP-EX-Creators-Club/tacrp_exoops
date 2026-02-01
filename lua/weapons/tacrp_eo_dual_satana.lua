@@ -82,7 +82,7 @@ SWEP.BodyDamageMultipliers = {
 
 // misc. shooting
 
-SWEP.Firemodes = {1, 2}
+SWEP.Firemodes = {1}
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 SWEP.Firemode = false
 
@@ -159,7 +159,8 @@ SWEP.HolsterAng = Angle(60, 5, 0)
 
 // reload
 
-SWEP.ClipSize = 12
+SWEP.ClipSize = 6
+SWEP.ClipSize2 = 6
 SWEP.Ammo = "357"
 
 SWEP.ReloadTimeMult = 1.4
@@ -207,6 +208,7 @@ SWEP.DeployTimeMult = 1.75
 
 SWEP.LastShot = false
 SWEP.Akimbo = true
+SWEP.DualAkimbo = true  // Proper dual wielding: LMB=left, RMB=right
 SWEP.EffectsAlternate = true
 
 // attachments
