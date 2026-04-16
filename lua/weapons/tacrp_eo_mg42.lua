@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "MG 42"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Antique machine gun with a blazing fast rate of fire.\nFiring from the shoulder is not recommended."
@@ -33,9 +33,8 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 40,
-        Damage_Min = 28,
-        RecoilKick = 12,
+        Damage_Max = 35,
+        Damage_Min = 25,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 18,
@@ -72,8 +71,8 @@ SWEP.BodyDamageMultipliers = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 35
-SWEP.Damage_Min = 25
+SWEP.Damage_Max = 32
+SWEP.Damage_Min = 24
 SWEP.Range_Min = 1200
 SWEP.Range_Max = 4000
 SWEP.Penetration = 10
@@ -92,7 +91,7 @@ SWEP.Spread = 0.0085
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 14
+SWEP.RecoilMaximum = 15
 SWEP.RecoilResetTime = 0.15
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 2
@@ -100,7 +99,7 @@ SWEP.RecoilFirstShotMult = 2
 SWEP.RecoilVisualKick = 2
 SWEP.RecoilKick = 18
 SWEP.RecoilAltMultiplier = 400
-SWEP.RecoilStability = 0.125
+SWEP.RecoilStability = 0.1
 
 SWEP.HipFireSpreadPenalty = 0.025
 SWEP.MoveSpreadPenalty = 0.025
@@ -165,7 +164,7 @@ SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
 SWEP.Ammo_Expanded = "ti_rifle"
 
-SWEP.ReloadTimeMult = 1.2
+SWEP.ReloadTimeMult = 1.25
 SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/mg42.mdl"
 SWEP.DropMagazineImpact = "metal"
 
